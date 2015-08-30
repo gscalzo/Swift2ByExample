@@ -15,6 +15,8 @@
 		EE32A0381B93AA990034B505 /* UIColor+Flat.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32A0371B93AA990034B505 /* UIColor+Flat.swift */; settings = {ASSET_TAGS = (); }; };
 		EE32A03A1B93AC900034B505 /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE32A0391B93AC900034B505 /* MemoryViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		EECD89C21B93B45800BCBF74 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD89C11B93B45800BCBF74 /* Deck.swift */; settings = {ASSET_TAGS = (); }; };
+		EECD89C41B93BAC500BCBF74 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD89C31B93BAC500BCBF74 /* CardCell.swift */; settings = {ASSET_TAGS = (); }; };
+		EECD89C61B93BBAD00BCBF74 /* UIViewController+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD89C51B93BBAD00BCBF74 /* UIViewController+Extra.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EE32A0371B93AA990034B505 /* UIColor+Flat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Flat.swift"; sourceTree = "<group>"; };
 		EE32A0391B93AC900034B505 /* MemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 		EECD89C11B93B45800BCBF74 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		EECD89C31B93BAC500BCBF74 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		EECD89C51B93BBAD00BCBF74 /* UIViewController+Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extra.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 			children = (
 				EE32A0251B93A37E0034B505 /* AppDelegate.swift */,
 				EE32A0271B93A37E0034B505 /* ViewController.swift */,
+				EECD89C51B93BBAD00BCBF74 /* UIViewController+Extra.swift */,
 				EECD89C11B93B45800BCBF74 /* Deck.swift */,
+				EECD89C31B93BAC500BCBF74 /* CardCell.swift */,
 				EE32A0391B93AC900034B505 /* MemoryViewController.swift */,
 				EE32A0371B93AA990034B505 /* UIColor+Flat.swift */,
 				EE32A0291B93A37E0034B505 /* Main.storyboard */,
@@ -148,6 +154,8 @@
 				EECD89C21B93B45800BCBF74 /* Deck.swift in Sources */,
 				EE32A0381B93AA990034B505 /* UIColor+Flat.swift in Sources */,
 				EE32A0261B93A37E0034B505 /* AppDelegate.swift in Sources */,
+				EECD89C41B93BAC500BCBF74 /* CardCell.swift in Sources */,
+				EECD89C61B93BBAD00BCBF74 /* UIViewController+Extra.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
