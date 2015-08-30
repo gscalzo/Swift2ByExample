@@ -10,7 +10,7 @@ import UIKit
 
 class MemoryViewController: UIViewController {
     private var collectionView: UICollectionView!
-    private var deck: Array<Int>!
+    private var deck: Deck!
     private let difficulty: Difficulty
     
     init(difficulty: Difficulty) {
@@ -33,8 +33,17 @@ class MemoryViewController: UIViewController {
     }
     
     private func start() {
-        deck = Array<Int>(count: numCardsNeededDifficulty(difficulty), repeatedValue: 1)
+        deck = createDeck(numCardsNeededDifficulty(difficulty))
+        for i in 0..<deck.count  {
+            print("The card at index [\(i)] is [\(deck[i].description)]")
+        }
         collectionView.reloadData()
+    }
+    
+    private func createDeck(numCards: Int) -> Deck {
+        let fullDeck = Deck.full().shuffled()
+        let halfDeck = fullDeck.deckOfNumberOfCards(numCards/2)
+        return (halfDeck + halfDeck).shuffled()
     }
 }
 
@@ -48,9 +57,9 @@ extension MemoryViewController: UICollectionViewDataSource {
     func collectionView(collectionView: UICollectionView,
         cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cardCell",
-                forIndexPath: indexPath)
+                forIndexPath: indexPath) 
             
-            cell.backgroundColor = UIColor.sunflower()
+            cell.backgroundColor = .sunflower()
             return cell
     }
 }
@@ -84,7 +93,7 @@ private extension MemoryViewController {
 // MARK: Setup
 private extension MemoryViewController {
     func setup() {
-        view.backgroundColor = UIColor.greenSea()
+        view.backgroundColor = .greenSea()
         
         let space: CGFloat = 5
         
@@ -100,7 +109,7 @@ private extension MemoryViewController {
         collectionView.scrollEnabled = false
         collectionView.registerClass(UICollectionViewCell.self,
             forCellWithReuseIdentifier: "cardCell")
-        collectionView.backgroundColor = UIColor.clearColor()
+        collectionView.backgroundColor = .clearColor()
         
         self.view.addSubview(collectionView)
     }
