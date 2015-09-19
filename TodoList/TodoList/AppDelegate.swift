@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        if let navigationController = window?.rootViewController
+            as? UINavigationController,
+            todoTableViewController = navigationController.viewControllers.first
+                as? TodoTableViewController
+        {
+            todoTableViewController.configure(TodosDatastore())
+        }
         return true
     }
 

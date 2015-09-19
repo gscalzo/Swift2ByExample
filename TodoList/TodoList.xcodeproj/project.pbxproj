@@ -14,6 +14,8 @@
 		EE31595C1BAB6A5000B7B167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE31595B1BAB6A5000B7B167 /* Assets.xcassets */; };
 		EE31595F1BAB6A5000B7B167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE31595D1BAB6A5000B7B167 /* LaunchScreen.storyboard */; };
 		EE3159691BAB6CF400B7B167 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3159681BAB6CF400B7B167 /* TodoTableViewController.swift */; };
+		EE316BB21BAE0DAB00D8D571 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE316BB11BAE0DAB00D8D571 /* Entities.swift */; settings = {ASSET_TAGS = (); }; };
+		EE316BB41BAE0E0A00D8D571 /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE316BB31BAE0E0A00D8D571 /* TodosDatastore.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		EE31595E1BAB6A5000B7B167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE3159601BAB6A5000B7B167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3159681BAB6CF400B7B167 /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
+		EE316BB11BAE0DAB00D8D571 /* Entities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
+		EE316BB31BAE0E0A00D8D571 /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				EE3159541BAB6A5000B7B167 /* AppDelegate.swift */,
 				EE3159561BAB6A5000B7B167 /* ViewController.swift */,
 				EE3159681BAB6CF400B7B167 /* TodoTableViewController.swift */,
+				EE316BB11BAE0DAB00D8D571 /* Entities.swift */,
+				EE316BB31BAE0E0A00D8D571 /* TodosDatastore.swift */,
 				EE3159581BAB6A5000B7B167 /* Main.storyboard */,
 				EE31595B1BAB6A5000B7B167 /* Assets.xcassets */,
 				EE31595D1BAB6A5000B7B167 /* LaunchScreen.storyboard */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE316BB41BAE0E0A00D8D571 /* TodosDatastore.swift in Sources */,
 				EE3159571BAB6A5000B7B167 /* ViewController.swift in Sources */,
 				EE3159691BAB6CF400B7B167 /* TodoTableViewController.swift in Sources */,
+				EE316BB21BAE0DAB00D8D571 /* Entities.swift in Sources */,
 				EE3159551BAB6A5000B7B167 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
