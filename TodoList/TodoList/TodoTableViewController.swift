@@ -106,15 +106,21 @@ class TodoTableViewController: UITableViewController {
 
 // MARK: Actions
 extension TodoTableViewController {
+    func addTodoButtonPressed(sender: UIButton!){
+        print("addTodoButtonPressed")
+    }
+    
     func editButtonPressed(todo: Todo){
         print("editButtonPressed")
     }
     
     func deleteButtonPressed(todo: Todo){
-        print("deleteButtonPressed")
+        todosDatastore?.deleteTodo(todo)
+        refresh()
     }
     
     func doneButtonPressed(todo: Todo){
-        print("doneButtonPressed")
+        todosDatastore?.doneTodo(todo)
+        refresh()
     }
 }
