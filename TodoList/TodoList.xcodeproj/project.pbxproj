@@ -16,6 +16,8 @@
 		EE3159691BAB6CF400B7B167 /* TodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3159681BAB6CF400B7B167 /* TodoTableViewController.swift */; };
 		EE316BB21BAE0DAB00D8D571 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE316BB11BAE0DAB00D8D571 /* Entities.swift */; settings = {ASSET_TAGS = (); }; };
 		EE316BB41BAE0E0A00D8D571 /* TodosDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE316BB31BAE0E0A00D8D571 /* TodosDatastore.swift */; settings = {ASSET_TAGS = (); }; };
+		EEF315061BB0A96200D158A5 /* EditTodoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF315051BB0A96200D158A5 /* EditTodoTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		EEF315081BB0BC6D00D158A5 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF315071BB0BC6D00D158A5 /* ListTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		EE3159681BAB6CF400B7B167 /* TodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoTableViewController.swift; sourceTree = "<group>"; };
 		EE316BB11BAE0DAB00D8D571 /* Entities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entities.swift; sourceTree = "<group>"; };
 		EE316BB31BAE0E0A00D8D571 /* TodosDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodosDatastore.swift; sourceTree = "<group>"; };
+		EEF315051BB0A96200D158A5 /* EditTodoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTodoTableViewController.swift; sourceTree = "<group>"; };
+		EEF315071BB0BC6D00D158A5 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				EE3159541BAB6A5000B7B167 /* AppDelegate.swift */,
 				EE3159561BAB6A5000B7B167 /* ViewController.swift */,
 				EE3159681BAB6CF400B7B167 /* TodoTableViewController.swift */,
+				EEF315051BB0A96200D158A5 /* EditTodoTableViewController.swift */,
+				EEF315071BB0BC6D00D158A5 /* ListTableViewController.swift */,
 				EE316BB11BAE0DAB00D8D571 /* Entities.swift */,
 				EE316BB31BAE0E0A00D8D571 /* TodosDatastore.swift */,
 				EE3159581BAB6A5000B7B167 /* Main.storyboard */,
@@ -223,6 +229,8 @@
 				EE3159691BAB6CF400B7B167 /* TodoTableViewController.swift in Sources */,
 				EE316BB21BAE0DAB00D8D571 /* Entities.swift in Sources */,
 				EE3159551BAB6A5000B7B167 /* AppDelegate.swift in Sources */,
+				EEF315061BB0A96200D158A5 /* EditTodoTableViewController.swift in Sources */,
+				EEF315081BB0BC6D00D158A5 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

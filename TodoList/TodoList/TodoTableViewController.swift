@@ -13,7 +13,8 @@ import MGSwipeTableCell
 class TodoTableViewController: UITableViewController {
     private var todosDatastore: TodosDatastore?
     private var todos: [Todo]?
-    
+    private var selectedTodo: Todo?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -106,12 +107,13 @@ class TodoTableViewController: UITableViewController {
 
 // MARK: Actions
 extension TodoTableViewController {
-    func addTodoButtonPressed(sender: UIButton!){
-        print("addTodoButtonPressed")
+    @IBAction func addTodoButtonPressed(sender: AnyObject){
+        performSegueWithIdentifier("addTodo", sender: self)
     }
     
     func editButtonPressed(todo: Todo){
-        print("editButtonPressed")
+        selectedTodo = todo
+        performSegueWithIdentifier("editTodo", sender: self)
     }
     
     func deleteButtonPressed(todo: Todo){
@@ -122,5 +124,29 @@ extension TodoTableViewController {
     func doneButtonPressed(todo: Todo){
         todosDatastore?.doneTodo(todo)
         refresh()
+    }
+}
+
+
+// MARK: Segue
+extension TodoTableViewController {
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        guard let identifier = segue.identifier,
+        destinationViewController = segue.destinationViewController as? EditTodoTableViewController
+        else {
+            return
+        }
+        
+        destinationViewController.todosDatastore = todosDatastore
+        destinationViewController.todoToEdit = selectedTodo
+
+        switch identifier {
+        case "addTodo":
+                destinationViewController.title = "New Todo"
+        case "editTodo":
+                destinationViewController.title = "Edit Todo"
+        default:
+            break
+        }
     }
 }
