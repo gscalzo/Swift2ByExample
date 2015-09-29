@@ -29,6 +29,17 @@ class PrettyWeatherViewController: UIViewController {
         render(UIImage(named: "DefaultImage"))
         renderSubviews()
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        let lat:Double = 48.8567
+        let lon:Double = 2.3508
+        
+        FlickrDatastore().retrieveImageAtLat(lat, lon: lon){ image in
+            self.render(image)
+        }
+    }
 }
 
 // MARK: Setup
