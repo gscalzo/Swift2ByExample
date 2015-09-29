@@ -14,6 +14,9 @@
 		EE8D52761BB4B5FE001E6AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8D52751BB4B5FE001E6AFF /* Assets.xcassets */; };
 		EE8D52791BB4B5FE001E6AFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8D52771BB4B5FE001E6AFF /* LaunchScreen.storyboard */; };
 		EEA6BB2B1BB703DA004C362A /* PrettyWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2A1BB703DA004C362A /* PrettyWeatherViewController.swift */; };
+		EEA6BB2F1BB708E7004C362A /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2C1BB708E7004C362A /* CurrentWeatherView.swift */; };
+		EEA6BB301BB708E7004C362A /* WeatherDaysForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2D1BB708E7004C362A /* WeatherDaysForecastView.swift */; };
+		EEA6BB311BB708E7004C362A /* WeatherHourlyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2E1BB708E7004C362A /* WeatherHourlyForecastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		EE8D52781BB4B5FE001E6AFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8D527A1BB4B5FE001E6AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEA6BB2A1BB703DA004C362A /* PrettyWeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrettyWeatherViewController.swift; sourceTree = "<group>"; };
+		EEA6BB2C1BB708E7004C362A /* CurrentWeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
+		EEA6BB2D1BB708E7004C362A /* WeatherDaysForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDaysForecastView.swift; sourceTree = "<group>"; };
+		EEA6BB2E1BB708E7004C362A /* WeatherHourlyForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHourlyForecastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,9 @@
 		EEA6BB291BB703BF004C362A /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				EEA6BB2C1BB708E7004C362A /* CurrentWeatherView.swift */,
+				EEA6BB2D1BB708E7004C362A /* WeatherDaysForecastView.swift */,
+				EEA6BB2E1BB708E7004C362A /* WeatherHourlyForecastView.swift */,
 				EEA6BB2A1BB703DA004C362A /* PrettyWeatherViewController.swift */,
 			);
 			name = ViewControllers;
@@ -222,8 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE8D52711BB4B5FE001E6AFF /* ViewController.swift in Sources */,
+				EEA6BB2F1BB708E7004C362A /* CurrentWeatherView.swift in Sources */,
+				EEA6BB301BB708E7004C362A /* WeatherDaysForecastView.swift in Sources */,
 				EE8D526F1BB4B5FE001E6AFF /* AppDelegate.swift in Sources */,
 				EEA6BB2B1BB703DA004C362A /* PrettyWeatherViewController.swift in Sources */,
+				EEA6BB311BB708E7004C362A /* WeatherHourlyForecastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
