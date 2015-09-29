@@ -52,22 +52,22 @@ extension PrettyWeatherViewController{
             $0.edges ==  $0.superview!.edges
         }
         
-        constrain(currentWeatherView) { view in
-            view.width == view.superview!.width
-            view.centerX == view.superview!.centerX
+        constrain(currentWeatherView) {
+            $0.width == $0.superview!.width
+            $0.centerX == $0.superview!.centerX
         }
         
-        constrain(hourlyForecastView, currentWeatherView) { view, view2 in
-            view.top == view2.bottom + PrettyWeatherViewController.INSET
-            view.width == view.superview!.width
-            view.centerX == view.superview!.centerX
+        constrain(hourlyForecastView, currentWeatherView) {
+            $0.top == $1.bottom + PrettyWeatherViewController.INSET
+            $0.width == $0.superview!.width
+            $0.centerX == $0.superview!.centerX
         }
         
-        constrain(daysForecastView, hourlyForecastView) { view, view2 in
-            view.top == view2.bottom
-            view.width == view2.width
-            view.bottom == view.superview!.bottom - PrettyWeatherViewController.INSET
-            view.centerX == view.superview!.centerX
+        constrain(daysForecastView, hourlyForecastView) {
+            $0.top == $1.bottom
+            $0.width == $1.width
+            $0.bottom == $0.superview!.bottom - PrettyWeatherViewController.INSET
+            $0.centerX == $0.superview!.centerX
         }
         
         let currentWeatherInsect: CGFloat = view.frame.height - CurrentWeatherView.HEIGHT - PrettyWeatherViewController.INSET
