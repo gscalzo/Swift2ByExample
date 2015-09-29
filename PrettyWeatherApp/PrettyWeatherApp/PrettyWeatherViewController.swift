@@ -20,6 +20,7 @@ class PrettyWeatherViewController: UIViewController {
     private let currentWeatherView = CurrentWeatherView(frame: CGRectZero)
     private let hourlyForecastView = WeatherHourlyForecastView(frame: CGRectZero)
     private let daysForecastView = WeatherDaysForecastView(frame: CGRectZero)
+    private var locationDatastore: LocationDatastore?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,12 +33,10 @@ class PrettyWeatherViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        
-        let lat:Double = 48.8567
-        let lon:Double = 2.3508
-        
-        FlickrDatastore().retrieveImageAtLat(lat, lon: lon){ image in
-            self.render(image)
+        locationDatastore = LocationDatastore() { [weak self] location in
+            FlickrDatastore().retrieveImageAtLat(location.lat, lon: location.lon){ image in
+                self?.render(image)
+            }
         }
     }
 }

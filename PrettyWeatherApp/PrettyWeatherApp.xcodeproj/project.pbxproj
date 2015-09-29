@@ -20,6 +20,7 @@
 		EEFE17E51BB72CB900260ADC /* WeatherHourForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17E41BB72CB900260ADC /* WeatherHourForecastView.swift */; };
 		EEFE17E71BB72CCC00260ADC /* WeatherDayForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17E61BB72CCC00260ADC /* WeatherDayForecastView.swift */; };
 		EEFE17EA1BB893A400260ADC /* FlickrDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17E91BB893A400260ADC /* FlickrDatastore.swift */; };
+		EEFE17EC1BB899D300260ADC /* LocationDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17EB1BB899D300260ADC /* LocationDatastore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		EEFE17E41BB72CB900260ADC /* WeatherHourForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHourForecastView.swift; sourceTree = "<group>"; };
 		EEFE17E61BB72CCC00260ADC /* WeatherDayForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDayForecastView.swift; sourceTree = "<group>"; };
 		EEFE17E91BB893A400260ADC /* FlickrDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrDatastore.swift; sourceTree = "<group>"; };
+		EEFE17EB1BB899D300260ADC /* LocationDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDatastore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		EEFE17E81BB8939800260ADC /* Datastores */ = {
 			isa = PBXGroup;
 			children = (
+				EEFE17EB1BB899D300260ADC /* LocationDatastore.swift */,
 				EEFE17E91BB893A400260ADC /* FlickrDatastore.swift */,
 			);
 			name = Datastores;
@@ -251,6 +254,7 @@
 				EEA6BB2F1BB708E7004C362A /* CurrentWeatherView.swift in Sources */,
 				EEA6BB301BB708E7004C362A /* WeatherDaysForecastView.swift in Sources */,
 				EEFE17EA1BB893A400260ADC /* FlickrDatastore.swift in Sources */,
+				EEFE17EC1BB899D300260ADC /* LocationDatastore.swift in Sources */,
 				EE8D526F1BB4B5FE001E6AFF /* AppDelegate.swift in Sources */,
 				EEA6BB2B1BB703DA004C362A /* PrettyWeatherViewController.swift in Sources */,
 				EEA6BB311BB708E7004C362A /* WeatherHourlyForecastView.swift in Sources */,
