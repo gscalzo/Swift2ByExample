@@ -17,6 +17,10 @@
 		EEA6BB2F1BB708E7004C362A /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2C1BB708E7004C362A /* CurrentWeatherView.swift */; };
 		EEA6BB301BB708E7004C362A /* WeatherDaysForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2D1BB708E7004C362A /* WeatherDaysForecastView.swift */; };
 		EEA6BB311BB708E7004C362A /* WeatherHourlyForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA6BB2E1BB708E7004C362A /* WeatherHourlyForecastView.swift */; };
+		EEC380141BBC977000AD4743 /* WeatherCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC380131BBC977000AD4743 /* WeatherCondition.swift */; };
+		EEC380161BBC983B00AD4743 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC380151BBC983B00AD4743 /* Functions.swift */; };
+		EEC380181BBC984900AD4743 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC380171BBC984900AD4743 /* Double+Extension.swift */; };
+		EEC3801B1BBC9C3000AD4743 /* WeatherDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3801A1BBC9C3000AD4743 /* WeatherDatastore.swift */; };
 		EEFE17E51BB72CB900260ADC /* WeatherHourForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17E41BB72CB900260ADC /* WeatherHourForecastView.swift */; };
 		EEFE17E71BB72CCC00260ADC /* WeatherDayForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17E61BB72CCC00260ADC /* WeatherDayForecastView.swift */; };
 		EEFE17EA1BB893A400260ADC /* FlickrDatastore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEFE17E91BB893A400260ADC /* FlickrDatastore.swift */; };
@@ -38,6 +42,10 @@
 		EEA6BB2C1BB708E7004C362A /* CurrentWeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		EEA6BB2D1BB708E7004C362A /* WeatherDaysForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDaysForecastView.swift; sourceTree = "<group>"; };
 		EEA6BB2E1BB708E7004C362A /* WeatherHourlyForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHourlyForecastView.swift; sourceTree = "<group>"; };
+		EEC380131BBC977000AD4743 /* WeatherCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCondition.swift; sourceTree = "<group>"; };
+		EEC380151BBC983B00AD4743 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		EEC380171BBC984900AD4743 /* Double+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
+		EEC3801A1BBC9C3000AD4743 /* WeatherDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDatastore.swift; sourceTree = "<group>"; };
 		EEFE17E41BB72CB900260ADC /* WeatherHourForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherHourForecastView.swift; sourceTree = "<group>"; };
 		EEFE17E61BB72CCC00260ADC /* WeatherDayForecastView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherDayForecastView.swift; sourceTree = "<group>"; };
 		EEFE17E91BB893A400260ADC /* FlickrDatastore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrDatastore.swift; sourceTree = "<group>"; };
@@ -113,6 +121,10 @@
 		EEFE17E81BB8939800260ADC /* Datastores */ = {
 			isa = PBXGroup;
 			children = (
+				EEC3801A1BBC9C3000AD4743 /* WeatherDatastore.swift */,
+				EEC380171BBC984900AD4743 /* Double+Extension.swift */,
+				EEC380151BBC983B00AD4743 /* Functions.swift */,
+				EEC380131BBC977000AD4743 /* WeatherCondition.swift */,
 				EEFE17EB1BB899D300260ADC /* LocationDatastore.swift */,
 				EEFE17E91BB893A400260ADC /* FlickrDatastore.swift */,
 			);
@@ -252,14 +264,18 @@
 			files = (
 				EE8D52711BB4B5FE001E6AFF /* ViewController.swift in Sources */,
 				EEA6BB2F1BB708E7004C362A /* CurrentWeatherView.swift in Sources */,
+				EEC3801B1BBC9C3000AD4743 /* WeatherDatastore.swift in Sources */,
 				EEA6BB301BB708E7004C362A /* WeatherDaysForecastView.swift in Sources */,
 				EEFE17EA1BB893A400260ADC /* FlickrDatastore.swift in Sources */,
+				EEC380181BBC984900AD4743 /* Double+Extension.swift in Sources */,
 				EEFE17EC1BB899D300260ADC /* LocationDatastore.swift in Sources */,
 				EE8D526F1BB4B5FE001E6AFF /* AppDelegate.swift in Sources */,
 				EEA6BB2B1BB703DA004C362A /* PrettyWeatherViewController.swift in Sources */,
 				EEA6BB311BB708E7004C362A /* WeatherHourlyForecastView.swift in Sources */,
 				EEFE17E51BB72CB900260ADC /* WeatherHourForecastView.swift in Sources */,
 				EEFE17E71BB72CCC00260ADC /* WeatherDayForecastView.swift in Sources */,
+				EEC380141BBC977000AD4743 /* WeatherCondition.swift in Sources */,
+				EEC380161BBC983B00AD4743 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

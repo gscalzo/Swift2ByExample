@@ -28,7 +28,6 @@ class PrettyWeatherViewController: UIViewController {
         layoutView()
         style()
         render(UIImage(named: "DefaultImage"))
-        renderSubviews()
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -37,9 +36,21 @@ class PrettyWeatherViewController: UIViewController {
             FlickrDatastore().retrieveImageAtLat(location.lat, lon: location.lon){ image in
                 self?.render(image)
             }
+            let weatherDatastore = WeatherDatastore()
+            weatherDatastore.retrieveCurrentWeatherAtLat(location.lat, lon: location.lon) {
+                currentWeatherConditions in
+                self?.renderCurrent(currentWeatherConditions)
+            }
+            weatherDatastore.retrieveHourlyForecastAtLat(location.lat, lon: location.lon) {
+                hourlyWeatherConditions in
+                self?.renderHourly(hourlyWeatherConditions)
+            }
+            weatherDatastore.retrieveDailyForecastAtLat(location.lat, lon: location.lon, dayCnt: 7) {
+                hourlyWeatherConditions in
+                self?.renderDaily(hourlyWeatherConditions)
+            }
         }
-    }
-}
+    }}
 
 // MARK: Setup
 private extension PrettyWeatherViewController{
@@ -131,10 +142,16 @@ private extension PrettyWeatherViewController{
         overlayView.alpha = 0
     }
     
-    func renderSubviews() {
-        currentWeatherView.render()
-        hourlyForecastView.render()
-        daysForecastView.render()
+    func renderCurrent(currentWeatherConditions: WeatherCondition){
+        currentWeatherView.render(currentWeatherConditions)
+    }
+    
+    func renderHourly(weatherConditions: Array<WeatherCondition>){
+        hourlyForecastView.render(weatherConditions)
+    }
+    
+    func renderDaily(weatherConditions: Array<WeatherCondition>){
+        daysForecastView.render(weatherConditions)
     }
 }
 
