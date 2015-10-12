@@ -21,10 +21,8 @@
 		EEC8AD471BCC69EA001E4F28 /* Startable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD451BCC69EA001E4F28 /* Startable.swift */; };
 		EEC8AD491BCC6AE4001E4F28 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD481BCC6AE4001E4F28 /* Bird.swift */; };
 		EEC8AD4B1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD4A1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift */; };
-		EEC8AD391BCC60E8001E4F28 /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD381BCC60E8001E4F28 /* Bird.swift */; };
-		EEC8AD3B1BCC610C001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD3A1BCC610C001E4F28 /* SKPhysicsBody+FlappySwift.swift */; };
-		EEC8AD3E1BCC643F001E4F28 /* Pipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD3C1BCC643F001E4F28 /* Pipes.swift */; };
-		EEC8AD3F1BCC643F001E4F28 /* PipesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD3D1BCC643F001E4F28 /* PipesNode.swift */; };
+		EEC8AD4E1BCC6D71001E4F28 /* Pipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD4C1BCC6D71001E4F28 /* Pipes.swift */; };
+		EEC8AD4F1BCC6D71001E4F28 /* PipesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD4D1BCC6D71001E4F28 /* PipesNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,19 +35,17 @@
 		EEC8AD1C1BCC5636001E4F28 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		EEC8AD1E1BCC5636001E4F28 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EEC8AD211BCC5636001E4F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEC8AD231BCC5636001E4F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEC8AD261BCC5636001E4F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEC8AD281BCC5636001E4F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC8AD2E1BCC58ED001E4F28 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EEC8AD421BCC69E1001E4F28 /* ParallaxNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxNode.swift; sourceTree = "<group>"; };
 		EEC8AD441BCC69EA001E4F28 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		EEC8AD451BCC69EA001E4F28 /* Startable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Startable.swift; sourceTree = "<group>"; };
 		EEC8AD481BCC6AE4001E4F28 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
 		EEC8AD4A1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+FlappySwift.swift"; sourceTree = "<group>"; };
-		EEC8AD231BCC5636001E4F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EEC8AD261BCC5636001E4F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EEC8AD281BCC5636001E4F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEC8AD2E1BCC58ED001E4F28 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		EEC8AD381BCC60E8001E4F28 /* Bird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
-		EEC8AD3A1BCC610C001E4F28 /* SKPhysicsBody+FlappySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+FlappySwift.swift"; sourceTree = "<group>"; };
-		EEC8AD3C1BCC643F001E4F28 /* Pipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pipes.swift; sourceTree = "<group>"; };
-		EEC8AD3D1BCC643F001E4F28 /* PipesNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PipesNode.swift; sourceTree = "<group>"; };
+		EEC8AD4C1BCC6D71001E4F28 /* Pipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pipes.swift; sourceTree = "<group>"; };
+		EEC8AD4D1BCC6D71001E4F28 /* PipesNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PipesNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,26 +60,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EEC8AD401BCC69CC001E4F28 /* Actors */ = {
-			isa = PBXGroup;
-			children = (
-				EEC8AD481BCC6AE4001E4F28 /* Bird.swift */,
-				EEC8AD441BCC69EA001E4F28 /* Background.swift */,
-				EEC8AD451BCC69EA001E4F28 /* Startable.swift */,
-				EEC8AD411BCC69D6001E4F28 /* Nodes */,
-			);
-			name = Actors;
-			sourceTree = "<group>";
-		};
-		EEC8AD411BCC69D6001E4F28 /* Nodes */ = {
-			isa = PBXGroup;
-			children = (
-				EEC8AD4A1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift */,
-				EEC8AD421BCC69E1001E4F28 /* ParallaxNode.swift */,
-			);
-			name = Nodes;
-			sourceTree = "<group>";
-		};
 		43AE8A4DD6DFBC77924BF148 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +110,28 @@
 				EEC8AD2E1BCC58ED001E4F28 /* MenuViewController.swift */,
 			);
 			path = FlappySwift;
+			sourceTree = "<group>";
+		};
+		EEC8AD401BCC69CC001E4F28 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8AD4C1BCC6D71001E4F28 /* Pipes.swift */,
+				EEC8AD4D1BCC6D71001E4F28 /* PipesNode.swift */,
+				EEC8AD481BCC6AE4001E4F28 /* Bird.swift */,
+				EEC8AD441BCC69EA001E4F28 /* Background.swift */,
+				EEC8AD451BCC69EA001E4F28 /* Startable.swift */,
+				EEC8AD411BCC69D6001E4F28 /* Nodes */,
+			);
+			name = Actors;
+			sourceTree = "<group>";
+		};
+		EEC8AD411BCC69D6001E4F28 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8AD4A1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift */,
+				EEC8AD421BCC69E1001E4F28 /* ParallaxNode.swift */,
+			);
+			name = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,18 +257,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC8AD431BCC69E1001E4F28 /* ParallaxNode.swift in Sources */,
+				EEC8AD4E1BCC6D71001E4F28 /* Pipes.swift in Sources */,
 				EEC8AD4B1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */,
-				EEC8AD3E1BCC643F001E4F28 /* Pipes.swift in Sources */,
-				EEC8AD3B1BCC610C001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */,
 				EEC8AD1D1BCC5636001E4F28 /* GameScene.swift in Sources */,
 				EEC8AD1F1BCC5636001E4F28 /* GameViewController.swift in Sources */,
 				EEC8AD471BCC69EA001E4F28 /* Startable.swift in Sources */,
 				EEC8AD491BCC6AE4001E4F28 /* Bird.swift in Sources */,
 				EEC8AD461BCC69EA001E4F28 /* Background.swift in Sources */,
+				EEC8AD4F1BCC6D71001E4F28 /* PipesNode.swift in Sources */,
 				EEC8AD191BCC5636001E4F28 /* AppDelegate.swift in Sources */,
 				EEC8AD2F1BCC58ED001E4F28 /* MenuViewController.swift in Sources */,
-				EEC8AD3F1BCC643F001E4F28 /* PipesNode.swift in Sources */,
-				EEC8AD391BCC60E8001E4F28 /* Bird.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
