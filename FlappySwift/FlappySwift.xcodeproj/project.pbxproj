@@ -260,11 +260,11 @@
 				EEC8AD4E1BCC6D71001E4F28 /* Pipes.swift in Sources */,
 				EEC8AD4B1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */,
 				EEC8AD1D1BCC5636001E4F28 /* GameScene.swift in Sources */,
-				EEC8AD1F1BCC5636001E4F28 /* GameViewController.swift in Sources */,
 				EEC8AD471BCC69EA001E4F28 /* Startable.swift in Sources */,
 				EEC8AD491BCC6AE4001E4F28 /* Bird.swift in Sources */,
 				EEC8AD461BCC69EA001E4F28 /* Background.swift in Sources */,
 				EEC8AD4F1BCC6D71001E4F28 /* PipesNode.swift in Sources */,
+				EEC8AD1F1BCC5636001E4F28 /* GameViewController.swift in Sources */,
 				EEC8AD191BCC5636001E4F28 /* AppDelegate.swift in Sources */,
 				EEC8AD2F1BCC58ED001E4F28 /* MenuViewController.swift in Sources */,
 			);
