@@ -14,6 +14,7 @@ class GameScene: SKScene {
     private var actors: [Startable]!
     
     override func didMoveToView(view: SKView) {
+        physicsWorld.gravity = CGVector(dx: 0, dy: -3)
         screenNode = SKSpriteNode(color: UIColor.clearColor(), size: self.size)
         screenNode.anchorPoint = CGPoint(x: 0, y: 0)
         addChild(screenNode)
