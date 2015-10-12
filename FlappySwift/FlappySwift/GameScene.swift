@@ -9,37 +9,20 @@
 import SpriteKit
 
 class GameScene: SKScene {
-    override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 45;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
-        
-        self.addChild(myLabel)
-    }
+    private var screenNode: SKSpriteNode!
+    private var actors: [Startable]!
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-       /* Called when a touch begins */
+    override func didMoveToView(view: SKView) {
+        screenNode = SKSpriteNode(color: UIColor.clearColor(), size: self.size)
+        screenNode.anchorPoint = CGPoint(x: 0, y: 0)
+        addChild(screenNode)
+        let sky = Background(textureNamed: "sky", duration:60.0).addTo(screenNode, zPosition: 0)
+        let city = Background(textureNamed: "city", duration:20.0).addTo(screenNode, zPosition: 1)
+        let ground = Background(textureNamed: "ground", duration:5.0).addTo(screenNode, zPosition: 2)
+        actors = [sky, city, ground]
         
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
+        for actor in actors {
+            actor.start()
         }
-    }
-   
-    override func update(currentTime: CFTimeInterval) {
-        /* Called before each frame is rendered */
     }
 }

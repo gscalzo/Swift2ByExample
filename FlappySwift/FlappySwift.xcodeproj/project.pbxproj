@@ -16,6 +16,9 @@
 		EEC8AD241BCC5636001E4F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC8AD231BCC5636001E4F28 /* Assets.xcassets */; };
 		EEC8AD271BCC5636001E4F28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC8AD251BCC5636001E4F28 /* LaunchScreen.storyboard */; };
 		EEC8AD2F1BCC58ED001E4F28 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD2E1BCC58ED001E4F28 /* MenuViewController.swift */; };
+		EEC8AD351BCC5C21001E4F28 /* ParallaxNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD301BCC5C21001E4F28 /* ParallaxNode.swift */; };
+		EEC8AD361BCC5C21001E4F28 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD321BCC5C21001E4F28 /* Background.swift */; };
+		EEC8AD371BCC5C21001E4F28 /* Startable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD331BCC5C21001E4F28 /* Startable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		EEC8AD261BCC5636001E4F28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC8AD281BCC5636001E4F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEC8AD2E1BCC58ED001E4F28 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EEC8AD301BCC5C21001E4F28 /* ParallaxNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxNode.swift; sourceTree = "<group>"; };
+		EEC8AD321BCC5C21001E4F28 /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		EEC8AD331BCC5C21001E4F28 /* Startable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Startable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		EEC8AD171BCC5636001E4F28 /* FlappySwift */ = {
 			isa = PBXGroup;
 			children = (
+				EEC8AD341BCC5C21001E4F28 /* Actors */,
 				EEC8AD181BCC5636001E4F28 /* AppDelegate.swift */,
 				EEC8AD231BCC5636001E4F28 /* Assets.xcassets */,
 				EEC8AD1A1BCC5636001E4F28 /* GameScene.sks */,
@@ -95,6 +102,25 @@
 				EEC8AD2E1BCC58ED001E4F28 /* MenuViewController.swift */,
 			);
 			path = FlappySwift;
+			sourceTree = "<group>";
+		};
+		EEC8AD311BCC5C21001E4F28 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8AD301BCC5C21001E4F28 /* ParallaxNode.swift */,
+			);
+			name = Nodes;
+			sourceTree = "<group>";
+		};
+		EEC8AD341BCC5C21001E4F28 /* Actors */ = {
+			isa = PBXGroup;
+			children = (
+				EEC8AD311BCC5C21001E4F28 /* Nodes */,
+				EEC8AD321BCC5C21001E4F28 /* Background.swift */,
+				EEC8AD331BCC5C21001E4F28 /* Startable.swift */,
+			);
+			name = Actors;
+			path = ../../../../../SwiftByExample/Apps/SwiftByExample/FlappySwift/FlappySwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,10 +245,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC8AD351BCC5C21001E4F28 /* ParallaxNode.swift in Sources */,
 				EEC8AD1D1BCC5636001E4F28 /* GameScene.swift in Sources */,
 				EEC8AD1F1BCC5636001E4F28 /* GameViewController.swift in Sources */,
 				EEC8AD191BCC5636001E4F28 /* AppDelegate.swift in Sources */,
 				EEC8AD2F1BCC58ED001E4F28 /* MenuViewController.swift in Sources */,
+				EEC8AD371BCC5C21001E4F28 /* Startable.swift in Sources */,
+				EEC8AD361BCC5C21001E4F28 /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

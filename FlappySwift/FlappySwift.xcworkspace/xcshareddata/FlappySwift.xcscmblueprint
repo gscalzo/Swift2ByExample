@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "85F943689AD607BBDACB4807A6C20AAD936E1844",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BBD4635DB98F70F19654ACA835A0B4F8B0F7F75E" : 0,
+    "85F943689AD607BBDACB4807A6C20AAD936E1844" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "05FEFFDD-4C0E-4998-94A9-0FBA9999F60F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BBD4635DB98F70F19654ACA835A0B4F8B0F7F75E" : "..\/..\/SwiftByExample\/Apps\/SwiftByExample\/FlappySwift",
+    "85F943689AD607BBDACB4807A6C20AAD936E1844" : "Swift2ByExample\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FlappySwift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FlappySwift\/FlappySwift.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gscalzo\/Swift2ByExample.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "85F943689AD607BBDACB4807A6C20AAD936E1844"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gscalzo\/FlappySwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BBD4635DB98F70F19654ACA835A0B4F8B0F7F75E"
+    }
+  ]
+}
