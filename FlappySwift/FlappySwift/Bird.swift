@@ -33,10 +33,16 @@ private extension Bird {
     func createNode() -> SKSpriteNode {
         let birdNode = SKSpriteNode(imageNamed: textureNames.first!)
         birdNode.zPosition = 2.0
-        birdNode.physicsBody = SKPhysicsBody.rectSize(birdNode.size) {
-            $0.dynamic = true
+        birdNode.physicsBody = SKPhysicsBody.rectSize(birdNode.size.scale(0.8)) {
+            body in
+            body.dynamic = true
+            body.categoryBitMask    = BodyType.bird.rawValue
+            body.collisionBitMask   = BodyType.bird.rawValue
+            body.contactTestBitMask = BodyType.ground.rawValue |
+                BodyType.pipe.rawValue |
+                BodyType.gap.rawValue
         }
-
+        
         return birdNode
     }
 }
@@ -86,4 +92,11 @@ extension Bird {
     }
 }
 
+
+// CGSize Private
+extension CGSize {
+    func scale(factor: CGFloat) -> CGSize {
+        return CGSize(width: self.width * factor, height: self.height * factor)
+    }
+}
 
