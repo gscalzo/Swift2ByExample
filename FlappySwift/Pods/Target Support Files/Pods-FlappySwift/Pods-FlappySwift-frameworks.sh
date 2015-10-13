@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-FlappySwift/Cartography.framework"
   install_framework "Pods-FlappySwift/HTPressableButton.framework"
+  install_framework "Pods-FlappySwift/SIAlertView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-FlappySwift/Cartography.framework"
   install_framework "Pods-FlappySwift/HTPressableButton.framework"
+  install_framework "Pods-FlappySwift/SIAlertView.framework"
 fi

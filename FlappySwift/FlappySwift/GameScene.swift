@@ -7,6 +7,7 @@
 //
 
 import SpriteKit
+import SIAlertView
 
 enum BodyType : UInt32 {
     case bird   = 0b0001
@@ -19,6 +20,10 @@ class GameScene: SKScene {
     private var screenNode: SKSpriteNode!
     private var bird: Bird!
     private var actors: [Startable]!
+    private var score = Score()
+    
+    var onPlayAgainPressed:(()->Void)!
+    var onCancelPressed:(()->Void)!
     
     override func didMoveToView(view: SKView) {
         physicsWorld.gravity = CGVector(dx: 0, dy: -3)
@@ -31,11 +36,12 @@ class GameScene: SKScene {
         let sky = Background(textureNamed: "sky", duration:60.0).addTo(screenNode, zPosition: 0)
         let city = Background(textureNamed: "city", duration:20.0).addTo(screenNode, zPosition: 1)
         let ground = Background(textureNamed: "ground", duration:5.0).addTo(screenNode, zPosition: 5)
-
+        
         bird = Bird(textureNames: ["bird1.png", "bird2.png"]).addTo(screenNode)
         bird.position = CGPointMake(30.0, 400.0)
         
         let pipes = Pipes(topPipeTexture: "topPipe.png", bottomPipeTexture: "bottomPipe").addTo(screenNode)
+        score.addTo(screenNode)
         
         actors = [sky, city, ground, bird, pipes]
         for actor in actors {
@@ -79,11 +85,13 @@ extension GameScene: SKPhysicsContactDelegate {
         switch (contactMask) {
         case BodyType.pipe.rawValue |  BodyType.bird.rawValue:
             print("Contact with a pipe")
+            bird.pushDown()
         case BodyType.ground.rawValue | BodyType.bird.rawValue:
             print("Contact with ground")
             for actor in actors {
                 actor.stop()
             }
+            askToPlayAgain()
         default:
             return
         }
@@ -96,8 +104,20 @@ extension GameScene: SKPhysicsContactDelegate {
         switch (contactMask) {
         case BodyType.gap.rawValue |  BodyType.bird.rawValue:
             print("Contact with gap")
+            score.increase()
         default:
             return
         }
+    }
+}
+
+// Private
+private extension GameScene {
+    func askToPlayAgain() {
+        let alertView = SIAlertView(title: "Ouch!!", andMessage: "Congratulations! Your score is \(score.currentScore). Play again?")
+        
+        alertView.addButtonWithTitle("OK", type: .Default) { _ in self.onPlayAgainPressed() }
+        alertView.addButtonWithTitle("Cancel", type: .Default) { _ in self.onCancelPressed() }
+        alertView.show()
     }
 }

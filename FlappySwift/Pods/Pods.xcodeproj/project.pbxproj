@@ -7,118 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07A3AD4A2E9B4C79B66F6078A7212678 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB15803BFAA2D84E5565D397F485653B /* Constrain.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0A6741A5C137D40614EC689D16C93F6F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC447E88C9864AA6876F67C49CE758A2 /* Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1458D7AD1A3F93930F89A8F4363CDE4C /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C178F03045F7260960E1EB6A87B1383E /* Edge.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1EFED9DB0F470A72D989FBE9BEC51762 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEF23C636E262B7E55058B60B098D17 /* Constraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		231F524F71AFC5604B0D969A4DF7593E /* UIColor+HTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = FED17A32D25191F397E6F8D501B92E62 /* UIColor+HTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32E0424A22426C26222FD41DC732DC4F /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE0BEFB73BA3761718EDC3B22CCE0B /* Align.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		50C88B95BE9D90657D27CEA4954C829A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A53C05AF964C928B5B4CF1CFA61AC /* Edges.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		568311479197016A4AF5194DB7C11D6D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C010AD9C4300FA7300894415E13E5AC /* Point.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		57FCF2003171B8EFE4AEAE5820ADFBE0 /* HTPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C4814BA671F299CE3166A14FECDEEEA /* HTPressableButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		58231F42F0B2E0BA4E1F47931E459761 /* UIImage+HTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DA13647BC1A24A8D623D207F73E670 /* UIImage+HTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64A2E97430A450C5CAA1B0494C39C307 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		69EC3FDA3F7EF8C8B9CF99EE6AE843F1 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284890CAE5DE9FC781BFF261181D51CA /* Expression.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6B287C44DBA80D295C853EB824C8883D /* Pods-FlappySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8D569A956CC2B5D31FE023BF885CE /* Pods-FlappySwift-dummy.m */; };
-		70DC3A432095C1638864D1A71E0994EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F161F5E732978AC234DD0D3EB98E6FE7 /* View.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		77BA2D35B4E692991642B8A168CE7630 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A41A5ED2B20EFAE5E659F1ACD6638A /* Context.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7965459743D0A795D3F21CFDAB64FA20 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE52E6465D1B95F09187F0FFF3F50F8 /* Compound.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8029B0AAF7180842CEAF557D457CD79C /* UIColor+HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DAB14C28C2391996B30884B90A3680 /* UIColor+HTColor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8867CE63C7E4029D8D6520D2D553CA95 /* UIImage+HTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBB17DF63CF1DBEA3B4E73596BBE49C /* UIImage+HTButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8AC6537A12658A773FB08D4C9C56D42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		916F46BB97C5209C56F4227F6B8D197D /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18E5DF8149AE6EF5ADA43F185CCAEF /* ConstraintGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		94FA81E5AAD99FC80DC4123F16239B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		9BD9D1F1DF91141C9450065FBFBF5F56 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1AD0951833C49DE63D04689A2A0CAA /* Distribute.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A2CD76F30A26D61507DB9A4C81A74D03 /* HTPressableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0FC72B38B1340FB76230693EBD83D4 /* HTPressableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A60E28925C0DA0C0C240E4CEDE40CFE2 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AF941B192FC589226225E6F5AC691A /* LayoutProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AA0E218C1B036D8ED880758323EE36B5 /* HTPressableButtonPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = BFBD5CAD228D2CEE4EF63D9CD92BD7EF /* HTPressableButtonPrefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC0ACFB8904C068966EB1A84D4FFB65D /* HTPressableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 45B40EF6A0AD020AF1E1D3E67FEC5C4C /* HTPressableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4F21278D743ECCD1120AD05B536AB02 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2D0484CBD140F0D9095338AC46F35CA /* Pods-FlappySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B566A95342BC33D97FFBF8F469866088 /* Pods-FlappySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB1C049C6C66544A0C8766A92A429C5F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = A634DC1F4D7198E53A60162CA2C83651 /* Size.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DD4DCD3B3C9B3FCD4A84360344E24D7D /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA7DEE0D78F3BD1F70778F7E8A3A6F7 /* Cartography-dummy.m */; };
-		DD993AF689ABEB3753FD97C58D96147C /* HTPressableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EBD5CE85247CE550DB183476EC0B0DF /* HTPressableButton-dummy.m */; };
-		DEDCF7C856391A971429A7D22A16C141 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9B2E750734BC6B737D48B1D31E0F0 /* Dimension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E2BC5D385B122DCECB6F8F302096706A /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D663E230EF6B36FF9499F1D949589 /* Priority.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E7D2764025C159F0A06FDE51660DDAB0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9FA73F4E8A060BC419CE99AE7C6C1B /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E98C7A1F5AEB818239DABA8B260E1F53 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1780E031EF2CB744D109211AD01BF5E6 /* Coefficients.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EA526FC603C6661538DB9B58EDF76392 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7BD08225E06C17B03A83328F6A7FA7 /* ViewUtils.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FFB3A44779D3AC5F0D415850BBB03F9A /* HTPressableButtonPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CBC3CF77A6D87D67BA3EB007BD4C60 /* HTPressableButtonPrefs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		07A3AD4A2E9B4C79B66F6078A7212678 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8270CE91B2E813D497BD3439A31723A2 /* Constrain.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0A6741A5C137D40614EC689D16C93F6F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD42337BA4F45508619BDF34BEC2049 /* Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1458D7AD1A3F93930F89A8F4363CDE4C /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226D82409A1451BBAD66E6D505ABD84B /* Edge.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		16DA3DA987387908773F798A528DFDA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		1EFED9DB0F470A72D989FBE9BEC51762 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6637BB2F8BFBA04E36FBA4F189F74A /* Constraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		231F524F71AFC5604B0D969A4DF7593E /* UIColor+HTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 415EE5C18D8C88971F869DAB8AAFB31A /* UIColor+HTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32E0424A22426C26222FD41DC732DC4F /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC605515BF7987A467F397AF1BE28E1B /* Align.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3DE6CE2B99150A8ECD7D3C02231B7005 /* SIAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F6FF057E14948B46FC6763A91CE667 /* SIAlertView-dummy.m */; };
+		50C88B95BE9D90657D27CEA4954C829A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8E99F854FF1FED862A82BAB3932FF /* Edges.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		568311479197016A4AF5194DB7C11D6D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21D02DBFC40CE8E366BCD40398D68E9 /* Point.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		57FCF2003171B8EFE4AEAE5820ADFBE0 /* HTPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558CD7D58C5A27670EBBDED31E90796 /* HTPressableButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58231F42F0B2E0BA4E1F47931E459761 /* UIImage+HTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 31CF847C70AD1FD8B89A08E3B6D0F7A5 /* UIImage+HTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69EC3FDA3F7EF8C8B9CF99EE6AE843F1 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5630D9F65D3219FD531A3532AE025296 /* Expression.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		70DC3A432095C1638864D1A71E0994EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE337BAF61C2897607D6477D78201 /* View.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		77BA2D35B4E692991642B8A168CE7630 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FBE9D900C53E8A03B38429A29041F1 /* Context.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		78288D33D170E7F59C6AD01B92BE9E9F /* SIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A8E58B41D1C1605D2DC689076D4242 /* SIAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7965459743D0A795D3F21CFDAB64FA20 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F04B2083CCB46613D40E24F6969F6A /* Compound.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8029B0AAF7180842CEAF557D457CD79C /* UIColor+HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D58BE8D030DCB21A03D0FA0F5E880191 /* UIColor+HTColor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8867CE63C7E4029D8D6520D2D553CA95 /* UIImage+HTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7028157BDE8CD0B7FA8838A83B7172 /* UIImage+HTButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8AC6537A12658A773FB08D4C9C56D42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		916F46BB97C5209C56F4227F6B8D197D /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79829669B6A925B7067CF07E10B46872 /* ConstraintGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		91AA39282C048B596BCA485EA634764E /* SIAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7895C6CFE47E35F49EA9AC8FAA4CB069 /* SIAlertView.bundle */; };
+		94FA81E5AAD99FC80DC4123F16239B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		97809F717174EA921900F4B941A24234 /* SIAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40469ACF6BF21714842FD06F3C8FAB71 /* SIAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BD9D1F1DF91141C9450065FBFBF5F56 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776BDC6C79D32E1DF521DD82FC6A4A6B /* Distribute.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F13C4F4D16C24DB483DBAA56D7F90B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */; };
+		A2CD76F30A26D61507DB9A4C81A74D03 /* HTPressableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 322F5AB03DC234ADB1AE6ED4C2CDDA2B /* HTPressableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60E28925C0DA0C0C240E4CEDE40CFE2 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186F75473E0356E241E8C32B831DD25 /* LayoutProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AA0E218C1B036D8ED880758323EE36B5 /* HTPressableButtonPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F7544CD324A798F6F5C60E072DDF523 /* HTPressableButtonPrefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC0ACFB8904C068966EB1A84D4FFB65D /* HTPressableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA92E56B42276FE66D7DCDC93623E61 /* HTPressableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B190147348362E86EB2A9584F5353AA5 /* Pods-FlappySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF8D569A956CC2B5D31FE023BF885CE /* Pods-FlappySwift-dummy.m */; };
+		B26E4B8B03C7A1DE6477BE827C5185A6 /* Pods-FlappySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B566A95342BC33D97FFBF8F469866088 /* Pods-FlappySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B382411484DD86DEC93D430FCD6D5104 /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCFBEF25840113CDB02C263AC8C30587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */; };
+		DB1C049C6C66544A0C8766A92A429C5F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699A7F27929A64E2A4E1CDB174276D2D /* Size.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD4DCD3B3C9B3FCD4A84360344E24D7D /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D70B7B3DBC1BA0A9190070CB12A484 /* Cartography-dummy.m */; };
+		DD993AF689ABEB3753FD97C58D96147C /* HTPressableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D5636F89810F1F76CD85345919CA10 /* HTPressableButton-dummy.m */; };
+		DEDCF7C856391A971429A7D22A16C141 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90735BCDEE570BE3638DD9B9B90F707 /* Dimension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E2BC5D385B122DCECB6F8F302096706A /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C572F7FB8511886C57891516A3E77 /* Priority.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7D2764025C159F0A06FDE51660DDAB0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DE0F7062448EB21753485DEE16D239 /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E98C7A1F5AEB818239DABA8B260E1F53 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423B6AF83B9D85A1D2B0413ABCA1BB23 /* Coefficients.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EA526FC603C6661538DB9B58EDF76392 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEDCB971F208BE0B6AACB2CA1EB842F /* ViewUtils.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F57193C87B472E421C01C9DA73C7297B /* SIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = C20F646A60B1281FE9F0345551D9F346 /* SIAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFB3A44779D3AC5F0D415850BBB03F9A /* HTPressableButtonPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0DC9C5D05CF07A9DAB0BC40B3874C /* HTPressableButtonPrefs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10FF5EF73E9DCEFFF1912A63444ACA17 /* PBXContainerItemProxy */ = {
+		02C2281F0D23B2071D417356AA766EFA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C3A04698AAE4D6124C20602D622956E5;
-			remoteInfo = Cartography;
+			remoteGlobalIDString = 9F367A592562F02847B0CA664E3A0889;
+			remoteInfo = SIAlertView;
 		};
-		DAADAD60D3C2BBF50C421023FBB2779E /* PBXContainerItemProxy */ = {
+		66D11514A47DD1F48CCEB4CEB93E6547 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7FEF77C304F58B4306F448A2D383D419;
 			remoteInfo = HTPressableButton;
 		};
+		C824A31179C610748C167EC0E8032658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3A04698AAE4D6124C20602D622956E5;
+			remoteInfo = Cartography;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		050A53C05AF964C928B5B4CF1CFA61AC /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
 		0DC90C1ED45DDEA337AD505EB5893915 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EBD5CE85247CE550DB183476EC0B0DF /* HTPressableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTPressableButton-dummy.m"; sourceTree = "<group>"; };
-		0FD056AD1B3E1445F398612DA2BFB1EA /* HTPressableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTPressableButton.xcconfig; sourceTree = "<group>"; };
-		13255452D73238487337548D722998DB /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1780E031EF2CB744D109211AD01BF5E6 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
-		20CE0BEFB73BA3761718EDC3B22CCE0B /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
-		284890CAE5DE9FC781BFF261181D51CA /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
-		2BD9B2E750734BC6B737D48B1D31E0F0 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		109AE798D6BA06DB7F0DE05EC834E259 /* HTPressableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-prefix.pch"; sourceTree = "<group>"; };
+		1186F75473E0356E241E8C32B831DD25 /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		13F04B2083CCB46613D40E24F6969F6A /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		18E0DC9C5D05CF07A9DAB0BC40B3874C /* HTPressableButtonPrefs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButtonPrefs.m; path = Classes/HTPressableButtonPrefs.m; sourceTree = "<group>"; };
+		1A6637BB2F8BFBA04E36FBA4F189F74A /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		20F6FF057E14948B46FC6763A91CE667 /* SIAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SIAlertView-dummy.m"; sourceTree = "<group>"; };
+		226D82409A1451BBAD66E6D505ABD84B /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		31CF847C70AD1FD8B89A08E3B6D0F7A5 /* UIImage+HTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTButton.h"; path = "Classes/UIImage+HTButton.h"; sourceTree = "<group>"; };
+		322F5AB03DC234ADB1AE6ED4C2CDDA2B /* HTPressableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-umbrella.h"; sourceTree = "<group>"; };
 		328A969CDA0B566C19742A7C39D42A60 /* Pods-FlappySwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlappySwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		36CBC3CF77A6D87D67BA3EB007BD4C60 /* HTPressableButtonPrefs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButtonPrefs.m; path = Classes/HTPressableButtonPrefs.m; sourceTree = "<group>"; };
-		3B21ED76592D042FC23225BB00AC4CE6 /* HTPressableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTPressableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D9FA73F4E8A060BC419CE99AE7C6C1B /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		45B40EF6A0AD020AF1E1D3E67FEC5C4C /* HTPressableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButton.h; path = Classes/HTPressableButton.h; sourceTree = "<group>"; };
-		4FBB17DF63CF1DBEA3B4E73596BBE49C /* UIImage+HTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTButton.m"; path = "Classes/UIImage+HTButton.m"; sourceTree = "<group>"; };
-		542ECA6DED246A2B44133F6C7455F5B1 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
-		57DA13647BC1A24A8D623D207F73E670 /* UIImage+HTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTButton.h"; path = "Classes/UIImage+HTButton.h"; sourceTree = "<group>"; };
-		58AF941B192FC589226225E6F5AC691A /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		352081833D953DF83D565B13461D541E /* SIAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SIAlertView.modulemap; sourceTree = "<group>"; };
+		36446125E75B39B37F613D331A384682 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA92E56B42276FE66D7DCDC93623E61 /* HTPressableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButton.h; path = Classes/HTPressableButton.h; sourceTree = "<group>"; };
+		40469ACF6BF21714842FD06F3C8FAB71 /* SIAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIAlertView-umbrella.h"; sourceTree = "<group>"; };
+		415EE5C18D8C88971F869DAB8AAFB31A /* UIColor+HTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTColor.h"; path = "Classes/UIColor+HTColor.h"; sourceTree = "<group>"; };
+		423B6AF83B9D85A1D2B0413ABCA1BB23 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		5151D4616EAC94729E5F40950C5D19CD /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5630D9F65D3219FD531A3532AE025296 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		5A6E9D88A45C72B5A478C0E0E5DE0601 /* SIAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SIAlertView-prefix.pch"; sourceTree = "<group>"; };
+		5CEDDC72AB80E82B2592C3BF0A97910E /* HTPressableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTPressableButton.modulemap; sourceTree = "<group>"; };
 		5DE5A2F68D409F160E19AEDFF88BDC59 /* Pods-FlappySwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlappySwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60D5636F89810F1F76CD85345919CA10 /* HTPressableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTPressableButton-dummy.m"; sourceTree = "<group>"; };
+		637EEF546F8B17B4CD2AEF8896F9910F /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
 		66AAC28925EBC127B897E761233BCF13 /* Pods-FlappySwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlappySwift-frameworks.sh"; sourceTree = "<group>"; };
-		68E58B307A0897911CA5F14DBA407D8A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A0FC72B38B1340FB76230693EBD83D4 /* HTPressableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-umbrella.h"; sourceTree = "<group>"; };
+		699A7F27929A64E2A4E1CDB174276D2D /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
 		6AFBFA9375A54B439B08EEB44ECA5812 /* Pods-FlappySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlappySwift.release.xcconfig"; sourceTree = "<group>"; };
+		7558CD7D58C5A27670EBBDED31E90796 /* HTPressableButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButton.m; path = Classes/HTPressableButton.m; sourceTree = "<group>"; };
 		75A1A820042112BCD42B7F28B6D53EF7 /* Pods-FlappySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlappySwift.debug.xcconfig"; sourceTree = "<group>"; };
-		7A18E5DF8149AE6EF5ADA43F185CCAEF /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
-		7C4814BA671F299CE3166A14FECDEEEA /* HTPressableButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButton.m; path = Classes/HTPressableButton.m; sourceTree = "<group>"; };
-		8C010AD9C4300FA7300894415E13E5AC /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
-		91A41A5ED2B20EFAE5E659F1ACD6638A /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
-		95DAB14C28C2391996B30884B90A3680 /* UIColor+HTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTColor.m"; path = "Classes/UIColor+HTColor.m"; sourceTree = "<group>"; };
-		966D663E230EF6B36FF9499F1D949589 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
-		A36772CC5E9D24DF772D3F04D3F75E9E /* HTPressableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTPressableButton.modulemap; sourceTree = "<group>"; };
-		A634DC1F4D7198E53A60162CA2C83651 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
-		ABCDF95F53214024D36949E0BB5B3DE7 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		76FCB5664EFDDBB6FB3A207E74BCC7BC /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
+		776BDC6C79D32E1DF521DD82FC6A4A6B /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		7895C6CFE47E35F49EA9AC8FAA4CB069 /* SIAlertView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SIAlertView.bundle; path = SIAlertView/SIAlertView.bundle; sourceTree = "<group>"; };
+		79829669B6A925B7067CF07E10B46872 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		81FBE9D900C53E8A03B38429A29041F1 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		8270CE91B2E813D497BD3439A31723A2 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		8F2AE337BAF61C2897607D6477D78201 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		99A8E99F854FF1FED862A82BAB3932FF /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		9D7493328F58C4B814BEC688F9F159A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F7544CD324A798F6F5C60E072DDF523 /* HTPressableButtonPrefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButtonPrefs.h; path = Classes/HTPressableButtonPrefs.h; sourceTree = "<group>"; };
+		A0A8E58B41D1C1605D2DC689076D4242 /* SIAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAlertView.m; path = SIAlertView/SIAlertView.m; sourceTree = "<group>"; };
+		A90735BCDEE570BE3638DD9B9B90F707 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		A9D70B7B3DBC1BA0A9190070CB12A484 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		ABC3B58B3141C26554DB01E8894330BD /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
 		ADF8D569A956CC2B5D31FE023BF885CE /* Pods-FlappySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlappySwift-dummy.m"; sourceTree = "<group>"; };
 		B154654767254FCCA771AE3AC8B826E6 /* Pods-FlappySwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FlappySwift-resources.sh"; sourceTree = "<group>"; };
+		B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		B382411484DD86DEC93D430FCD6D5104 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		B39C572F7FB8511886C57891516A3E77 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
 		B566A95342BC33D97FFBF8F469866088 /* Pods-FlappySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FlappySwift-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC447E88C9864AA6876F67C49CE758A2 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
-		BFBD5CAD228D2CEE4EF63D9CD92BD7EF /* HTPressableButtonPrefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButtonPrefs.h; path = Classes/HTPressableButtonPrefs.h; sourceTree = "<group>"; };
-		C178F03045F7260960E1EB6A87B1383E /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		CAA7DEE0D78F3BD1F70778F7E8A3A6F7 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
-		DCE52E6465D1B95F09187F0FFF3F50F8 /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
-		DD6527C783ADB2129F43CEE3502C903C /* HTPressableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-prefix.pch"; sourceTree = "<group>"; };
+		BAD42337BA4F45508619BDF34BEC2049 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		C1F8410223062D939347DC9FC7054636 /* SIAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SIAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20F646A60B1281FE9F0345551D9F346 /* SIAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAlertView.h; path = SIAlertView/SIAlertView.h; sourceTree = "<group>"; };
+		C38A3EE1D3C85B9358ED480E06FEC624 /* HTPressableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTPressableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C524BBFC557A4B1FC384F55EA4190A36 /* Pods_FlappySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlappySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB2A756E2AE6DB2C19025E3A6CCF293 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEEDCB971F208BE0B6AACB2CA1EB842F /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		D58BE8D030DCB21A03D0FA0F5E880191 /* UIColor+HTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTColor.m"; path = "Classes/UIColor+HTColor.m"; sourceTree = "<group>"; };
+		E21D02DBFC40CE8E366BCD40398D68E9 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
 		E226E24FFCCE4661AFBCEE49131503CE /* Pods-FlappySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FlappySwift.modulemap"; sourceTree = "<group>"; };
-		E65C8472134595ABDA3A2DBC64F53FAD /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
-		EB15803BFAA2D84E5565D397F485653B /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
-		EEEF23C636E262B7E55058B60B098D17 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
-		F161F5E732978AC234DD0D3EB98E6FE7 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		F305B2BA0220C277F528DC584ED2E719 /* Pods_FlappySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlappySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4F21278D743ECCD1120AD05B536AB02 /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
-		FC1AD0951833C49DE63D04689A2A0CAA /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
-		FD7BD08225E06C17B03A83328F6A7FA7 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
-		FDE35C56211BD72A5726E9F8B9BD1AE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FED17A32D25191F397E6F8D501B92E62 /* UIColor+HTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTColor.h"; path = "Classes/UIColor+HTColor.h"; sourceTree = "<group>"; };
+		E6DE0F7062448EB21753485DEE16D239 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		ED7028157BDE8CD0B7FA8838A83B7172 /* UIImage+HTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTButton.m"; path = "Classes/UIImage+HTButton.m"; sourceTree = "<group>"; };
+		F1EC375B3A211AF52B6B4928ED32E85B /* HTPressableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTPressableButton.xcconfig; sourceTree = "<group>"; };
+		FC605515BF7987A467F397AF1BE28E1B /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		FE3F32AA82034BAFA499E80406701D49 /* SIAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SIAlertView.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,56 +163,84 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78FC7F00B08F9BD89D457F90872486AE /* Frameworks */ = {
+		83A4D505208312493031A78D928DE839 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A2E97430A450C5CAA1B0494C39C307 /* Foundation.framework in Frameworks */,
+				16DA3DA987387908773F798A528DFDA3 /* Foundation.framework in Frameworks */,
+				9F13C4F4D16C24DB483DBAA56D7F90B5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3F8324C7A765AC15E84B7A00813AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFBEF25840113CDB02C263AC8C30587 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		043F6CDBC1DFEDE9EC899FA20EB58C92 /* Support Files */ = {
+		0CC8FBE504BAFDCE4CAD29425190CA8A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A36772CC5E9D24DF772D3F04D3F75E9E /* HTPressableButton.modulemap */,
-				0FD056AD1B3E1445F398612DA2BFB1EA /* HTPressableButton.xcconfig */,
-				0EBD5CE85247CE550DB183476EC0B0DF /* HTPressableButton-dummy.m */,
-				DD6527C783ADB2129F43CEE3502C903C /* HTPressableButton-prefix.pch */,
-				6A0FC72B38B1340FB76230693EBD83D4 /* HTPressableButton-umbrella.h */,
-				68E58B307A0897911CA5F14DBA407D8A /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/HTPressableButton";
-			sourceTree = "<group>";
-		};
-		2C6CE24BD7916E1CFF2DB6AFEF529DFD /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				92CA4488574B4752096A9CC3075764E1 /* Cartography */,
-				3985BD27962E7E3419E3AA60F211112F /* HTPressableButton */,
+				A5CB7406124E6C2BCE932C1B94B9A940 /* Cartography */,
+				4E1925ADF772F90596D67A1704BFA96F /* HTPressableButton */,
+				B3099627A026E685DF76467189F532D6 /* SIAlertView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3985BD27962E7E3419E3AA60F211112F /* HTPressableButton */ = {
+		3926C638AD0708942C88C2BC89261735 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B73971CCA1812C00EF08D46C5BBD66B4 /* All */,
-				043F6CDBC1DFEDE9EC899FA20EB58C92 /* Support Files */,
+				258B0C8029B3982F03A30ED9FB271283 /* Foundation.framework */,
+				B18F24645AA4D651DFC7B69A3A0833DB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3926C638AD0708942C88C2BC89261735 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1925ADF772F90596D67A1704BFA96F /* HTPressableButton */ = {
+			isa = PBXGroup;
+			children = (
+				59E7398A58856964A91BA81404F328B8 /* All */,
+				BFD77D306503050855B39A318DBB9FE2 /* Support Files */,
 			);
 			path = HTPressableButton;
+			sourceTree = "<group>";
+		};
+		59E7398A58856964A91BA81404F328B8 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				3EA92E56B42276FE66D7DCDC93623E61 /* HTPressableButton.h */,
+				7558CD7D58C5A27670EBBDED31E90796 /* HTPressableButton.m */,
+				9F7544CD324A798F6F5C60E072DDF523 /* HTPressableButtonPrefs.h */,
+				18E0DC9C5D05CF07A9DAB0BC40B3874C /* HTPressableButtonPrefs.m */,
+				415EE5C18D8C88971F869DAB8AAFB31A /* UIColor+HTColor.h */,
+				D58BE8D030DCB21A03D0FA0F5E880191 /* UIColor+HTColor.m */,
+				31CF847C70AD1FD8B89A08E3B6D0F7A5 /* UIImage+HTButton.h */,
+				ED7028157BDE8CD0B7FA8838A83B7172 /* UIImage+HTButton.m */,
+			);
+			name = All;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2C6CE24BD7916E1CFF2DB6AFEF529DFD /* Pods */,
-				A29C4B6ED017754583307424BCD821E0 /* Products */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0CC8FBE504BAFDCE4CAD29425190CA8A /* Pods */,
+				9A526B03D7AC81415585CACBA6294262 /* Products */,
 				7DC52C4B9F132EADF07E7B72943C1165 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -200,87 +253,82 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		92CA4488574B4752096A9CC3075764E1 /* Cartography */ = {
+		8149E9B2908DDFF16CA2C840982553D6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				20CE0BEFB73BA3761718EDC3B22CCE0B /* Align.swift */,
-				1780E031EF2CB744D109211AD01BF5E6 /* Coefficients.swift */,
-				DCE52E6465D1B95F09187F0FFF3F50F8 /* Compound.swift */,
-				EB15803BFAA2D84E5565D397F485653B /* Constrain.swift */,
-				EEEF23C636E262B7E55058B60B098D17 /* Constraint.swift */,
-				7A18E5DF8149AE6EF5ADA43F185CCAEF /* ConstraintGroup.swift */,
-				91A41A5ED2B20EFAE5E659F1ACD6638A /* Context.swift */,
-				2BD9B2E750734BC6B737D48B1D31E0F0 /* Dimension.swift */,
-				FC1AD0951833C49DE63D04689A2A0CAA /* Distribute.swift */,
-				C178F03045F7260960E1EB6A87B1383E /* Edge.swift */,
-				050A53C05AF964C928B5B4CF1CFA61AC /* Edges.swift */,
-				284890CAE5DE9FC781BFF261181D51CA /* Expression.swift */,
-				BC447E88C9864AA6876F67C49CE758A2 /* Extensions.swift */,
-				58AF941B192FC589226225E6F5AC691A /* LayoutProxy.swift */,
-				8C010AD9C4300FA7300894415E13E5AC /* Point.swift */,
-				966D663E230EF6B36FF9499F1D949589 /* Priority.swift */,
-				3D9FA73F4E8A060BC419CE99AE7C6C1B /* Property.swift */,
-				A634DC1F4D7198E53A60162CA2C83651 /* Size.swift */,
-				F161F5E732978AC234DD0D3EB98E6FE7 /* View.swift */,
-				FD7BD08225E06C17B03A83328F6A7FA7 /* ViewUtils.swift */,
-				B0D37C4E03C436566ED9B9CBBFE799AC /* Support Files */,
+				CDB2A756E2AE6DB2C19025E3A6CCF293 /* Info.plist */,
+				352081833D953DF83D565B13461D541E /* SIAlertView.modulemap */,
+				FE3F32AA82034BAFA499E80406701D49 /* SIAlertView.xcconfig */,
+				20F6FF057E14948B46FC6763A91CE667 /* SIAlertView-dummy.m */,
+				5A6E9D88A45C72B5A478C0E0E5DE0601 /* SIAlertView-prefix.pch */,
+				40469ACF6BF21714842FD06F3C8FAB71 /* SIAlertView-umbrella.h */,
 			);
-			path = Cartography;
+			name = "Support Files";
+			path = "../Target Support Files/SIAlertView";
 			sourceTree = "<group>";
 		};
-		A29C4B6ED017754583307424BCD821E0 /* Products */ = {
+		9A526B03D7AC81415585CACBA6294262 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13255452D73238487337548D722998DB /* Cartography.framework */,
-				3B21ED76592D042FC23225BB00AC4CE6 /* HTPressableButton.framework */,
-				F305B2BA0220C277F528DC584ED2E719 /* Pods_FlappySwift.framework */,
+				5151D4616EAC94729E5F40950C5D19CD /* Cartography.framework */,
+				C38A3EE1D3C85B9358ED480E06FEC624 /* HTPressableButton.framework */,
+				C524BBFC557A4B1FC384F55EA4190A36 /* Pods_FlappySwift.framework */,
+				C1F8410223062D939347DC9FC7054636 /* SIAlertView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0D37C4E03C436566ED9B9CBBFE799AC /* Support Files */ = {
+		A5CB7406124E6C2BCE932C1B94B9A940 /* Cartography */ = {
 			isa = PBXGroup;
 			children = (
-				542ECA6DED246A2B44133F6C7455F5B1 /* Cartography.modulemap */,
-				ABCDF95F53214024D36949E0BB5B3DE7 /* Cartography.xcconfig */,
-				CAA7DEE0D78F3BD1F70778F7E8A3A6F7 /* Cartography-dummy.m */,
-				E65C8472134595ABDA3A2DBC64F53FAD /* Cartography-prefix.pch */,
-				F4F21278D743ECCD1120AD05B536AB02 /* Cartography-umbrella.h */,
-				FDE35C56211BD72A5726E9F8B9BD1AE3 /* Info.plist */,
+				FC605515BF7987A467F397AF1BE28E1B /* Align.swift */,
+				423B6AF83B9D85A1D2B0413ABCA1BB23 /* Coefficients.swift */,
+				13F04B2083CCB46613D40E24F6969F6A /* Compound.swift */,
+				8270CE91B2E813D497BD3439A31723A2 /* Constrain.swift */,
+				1A6637BB2F8BFBA04E36FBA4F189F74A /* Constraint.swift */,
+				79829669B6A925B7067CF07E10B46872 /* ConstraintGroup.swift */,
+				81FBE9D900C53E8A03B38429A29041F1 /* Context.swift */,
+				A90735BCDEE570BE3638DD9B9B90F707 /* Dimension.swift */,
+				776BDC6C79D32E1DF521DD82FC6A4A6B /* Distribute.swift */,
+				226D82409A1451BBAD66E6D505ABD84B /* Edge.swift */,
+				99A8E99F854FF1FED862A82BAB3932FF /* Edges.swift */,
+				5630D9F65D3219FD531A3532AE025296 /* Expression.swift */,
+				BAD42337BA4F45508619BDF34BEC2049 /* Extensions.swift */,
+				1186F75473E0356E241E8C32B831DD25 /* LayoutProxy.swift */,
+				E21D02DBFC40CE8E366BCD40398D68E9 /* Point.swift */,
+				B39C572F7FB8511886C57891516A3E77 /* Priority.swift */,
+				E6DE0F7062448EB21753485DEE16D239 /* Property.swift */,
+				699A7F27929A64E2A4E1CDB174276D2D /* Size.swift */,
+				8F2AE337BAF61C2897607D6477D78201 /* View.swift */,
+				CEEDCB971F208BE0B6AACB2CA1EB842F /* ViewUtils.swift */,
+				F8C19EE21991794CBA150B3BE0A4D4EB /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		B3099627A026E685DF76467189F532D6 /* SIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C20F646A60B1281FE9F0345551D9F346 /* SIAlertView.h */,
+				A0A8E58B41D1C1605D2DC689076D4242 /* SIAlertView.m */,
+				E112CC92CD775DC6ED4A73B2B1DBEB6F /* Resources */,
+				8149E9B2908DDFF16CA2C840982553D6 /* Support Files */,
+			);
+			path = SIAlertView;
+			sourceTree = "<group>";
+		};
+		BFD77D306503050855B39A318DBB9FE2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CEDDC72AB80E82B2592C3BF0A97910E /* HTPressableButton.modulemap */,
+				F1EC375B3A211AF52B6B4928ED32E85B /* HTPressableButton.xcconfig */,
+				60D5636F89810F1F76CD85345919CA10 /* HTPressableButton-dummy.m */,
+				109AE798D6BA06DB7F0DE05EC834E259 /* HTPressableButton-prefix.pch */,
+				322F5AB03DC234ADB1AE6ED4C2CDDA2B /* HTPressableButton-umbrella.h */,
+				9D7493328F58C4B814BEC688F9F159A5 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Cartography";
-			sourceTree = "<group>";
-		};
-		B73971CCA1812C00EF08D46C5BBD66B4 /* All */ = {
-			isa = PBXGroup;
-			children = (
-				45B40EF6A0AD020AF1E1D3E67FEC5C4C /* HTPressableButton.h */,
-				7C4814BA671F299CE3166A14FECDEEEA /* HTPressableButton.m */,
-				BFBD5CAD228D2CEE4EF63D9CD92BD7EF /* HTPressableButtonPrefs.h */,
-				36CBC3CF77A6D87D67BA3EB007BD4C60 /* HTPressableButtonPrefs.m */,
-				FED17A32D25191F397E6F8D501B92E62 /* UIColor+HTColor.h */,
-				95DAB14C28C2391996B30884B90A3680 /* UIColor+HTColor.m */,
-				57DA13647BC1A24A8D623D207F73E670 /* UIImage+HTButton.h */,
-				4FBB17DF63CF1DBEA3B4E73596BBE49C /* UIImage+HTButton.m */,
-			);
-			name = All;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
-			);
-			name = iOS;
+			path = "../Target Support Files/HTPressableButton";
 			sourceTree = "<group>";
 		};
 		C449B56175F501396139A1CA89ACA632 /* Pods-FlappySwift */ = {
@@ -301,17 +349,31 @@
 			path = "Target Support Files/Pods-FlappySwift";
 			sourceTree = "<group>";
 		};
+		E112CC92CD775DC6ED4A73B2B1DBEB6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7895C6CFE47E35F49EA9AC8FAA4CB069 /* SIAlertView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8C19EE21991794CBA150B3BE0A4D4EB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC3B58B3141C26554DB01E8894330BD /* Cartography.modulemap */,
+				637EEF546F8B17B4CD2AEF8896F9910F /* Cartography.xcconfig */,
+				A9D70B7B3DBC1BA0A9190070CB12A484 /* Cartography-dummy.m */,
+				76FCB5664EFDDBB6FB3A207E74BCC7BC /* Cartography-prefix.pch */,
+				B382411484DD86DEC93D430FCD6D5104 /* Cartography-umbrella.h */,
+				36446125E75B39B37F613D331A384682 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Cartography";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		193A53152E497233993627A098F7E3E3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C2D0484CBD140F0D9095338AC46F35CA /* Pods-FlappySwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		26986A816D2A666EB6F823828ACF19EC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +386,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		31D3B40E4A95B4DC66C03301FDE55F74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26E4B8B03C7A1DE6477BE827C5185A6 /* Pods-FlappySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		514705BF944036B79FA99816C564643C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,9 +402,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F1B0F8E232EDFF274CD30CDDD2FD2FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97809F717174EA921900F4B941A24234 /* SIAlertView-umbrella.h in Headers */,
+				F57193C87B472E421C01C9DA73C7297B /* SIAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0C5D4C3AAA85B4642002599ED970AF89 /* Pods-FlappySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786FE32763B62B4DF4E89AA7C7750D53 /* Build configuration list for PBXNativeTarget "Pods-FlappySwift" */;
+			buildPhases = (
+				77491AE0C7E3E91D772C51CE51FF3451 /* Sources */,
+				F5C3F8324C7A765AC15E84B7A00813AE /* Frameworks */,
+				31D3B40E4A95B4DC66C03301FDE55F74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4FA3174B83DD2362AC0CD5899E15C78 /* PBXTargetDependency */,
+				9053DB77B61E1AD66CFD231FFDD67539 /* PBXTargetDependency */,
+				740D810F854F9ABA7C351E1E8A9BC72F /* PBXTargetDependency */,
+			);
+			name = "Pods-FlappySwift";
+			productName = "Pods-FlappySwift";
+			productReference = C524BBFC557A4B1FC384F55EA4190A36 /* Pods_FlappySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		7FEF77C304F58B4306F448A2D383D419 /* HTPressableButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F52FFE4A22FFB2452BC661326BCCB950 /* Build configuration list for PBXNativeTarget "HTPressableButton" */;
@@ -349,7 +448,25 @@
 			);
 			name = HTPressableButton;
 			productName = HTPressableButton;
-			productReference = 3B21ED76592D042FC23225BB00AC4CE6 /* HTPressableButton.framework */;
+			productReference = C38A3EE1D3C85B9358ED480E06FEC624 /* HTPressableButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F367A592562F02847B0CA664E3A0889 /* SIAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6057697254C1E297717F614F2070C38 /* Build configuration list for PBXNativeTarget "SIAlertView" */;
+			buildPhases = (
+				CD562D64B061869368B6987785F7959F /* Sources */,
+				83A4D505208312493031A78D928DE839 /* Frameworks */,
+				7F1B0F8E232EDFF274CD30CDDD2FD2FE /* Headers */,
+				D0F8861F77B5FB99B0EEAF6AB4CC85BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIAlertView;
+			productName = SIAlertView;
+			productReference = C1F8410223062D939347DC9FC7054636 /* SIAlertView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C3A04698AAE4D6124C20602D622956E5 /* Cartography */ = {
@@ -366,26 +483,7 @@
 			);
 			name = Cartography;
 			productName = Cartography;
-			productReference = 13255452D73238487337548D722998DB /* Cartography.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D04B9336B3C2BD93B7B4A6E240327C86 /* Pods-FlappySwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CAC5B69B7CB364F50F112FDC97490622 /* Build configuration list for PBXNativeTarget "Pods-FlappySwift" */;
-			buildPhases = (
-				B950795195D94646054FB20B7A9A5C7B /* Sources */,
-				78FC7F00B08F9BD89D457F90872486AE /* Frameworks */,
-				193A53152E497233993627A098F7E3E3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B55A9673B5560FA81126EF9D1A079A3C /* PBXTargetDependency */,
-				BD28677CB93A0BDCD0CD44C1168793F2 /* PBXTargetDependency */,
-			);
-			name = "Pods-FlappySwift";
-			productName = "Pods-FlappySwift";
-			productReference = F305B2BA0220C277F528DC584ED2E719 /* Pods_FlappySwift.framework */;
+			productReference = 5151D4616EAC94729E5F40950C5D19CD /* Cartography.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -405,23 +503,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A29C4B6ED017754583307424BCD821E0 /* Products */;
+			productRefGroup = 9A526B03D7AC81415585CACBA6294262 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C3A04698AAE4D6124C20602D622956E5 /* Cartography */,
 				7FEF77C304F58B4306F448A2D383D419 /* HTPressableButton */,
-				D04B9336B3C2BD93B7B4A6E240327C86 /* Pods-FlappySwift */,
+				0C5D4C3AAA85B4642002599ED970AF89 /* Pods-FlappySwift */,
+				9F367A592562F02847B0CA664E3A0889 /* SIAlertView */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		D0F8861F77B5FB99B0EEAF6AB4CC85BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AA39282C048B596BCA485EA634764E /* SIAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		B950795195D94646054FB20B7A9A5C7B /* Sources */ = {
+		77491AE0C7E3E91D772C51CE51FF3451 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B287C44DBA80D295C853EB824C8883D /* Pods-FlappySwift-dummy.m in Sources */,
+				B190147348362E86EB2A9584F5353AA5 /* Pods-FlappySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +544,15 @@
 				FFB3A44779D3AC5F0D415850BBB03F9A /* HTPressableButtonPrefs.m in Sources */,
 				8029B0AAF7180842CEAF557D457CD79C /* UIColor+HTColor.m in Sources */,
 				8867CE63C7E4029D8D6520D2D553CA95 /* UIImage+HTButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD562D64B061869368B6987785F7959F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE6CE2B99150A8ECD7D3C02231B7005 /* SIAlertView-dummy.m in Sources */,
+				78288D33D170E7F59C6AD01B92BE9E9F /* SIAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,24 +587,57 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B55A9673B5560FA81126EF9D1A079A3C /* PBXTargetDependency */ = {
+		740D810F854F9ABA7C351E1E8A9BC72F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Cartography;
-			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
-			targetProxy = 10FF5EF73E9DCEFFF1912A63444ACA17 /* PBXContainerItemProxy */;
+			name = SIAlertView;
+			target = 9F367A592562F02847B0CA664E3A0889 /* SIAlertView */;
+			targetProxy = 02C2281F0D23B2071D417356AA766EFA /* PBXContainerItemProxy */;
 		};
-		BD28677CB93A0BDCD0CD44C1168793F2 /* PBXTargetDependency */ = {
+		9053DB77B61E1AD66CFD231FFDD67539 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTPressableButton;
 			target = 7FEF77C304F58B4306F448A2D383D419 /* HTPressableButton */;
-			targetProxy = DAADAD60D3C2BBF50C421023FBB2779E /* PBXContainerItemProxy */;
+			targetProxy = 66D11514A47DD1F48CCEB4CEB93E6547 /* PBXContainerItemProxy */;
+		};
+		B4FA3174B83DD2362AC0CD5899E15C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
+			targetProxy = C824A31179C610748C167EC0E8032658 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0A7BA80FB3C490D01AF6FDFD8C199E21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3F32AA82034BAFA499E80406701D49 /* SIAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SIAlertView/SIAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIAlertView/SIAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SIAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1EF406F4C2CCFBE0300108C2C287B4A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD056AD1B3E1445F398612DA2BFB1EA /* HTPressableButton.xcconfig */;
+			baseConfigurationReference = F1EC375B3A211AF52B6B4928ED32E85B /* HTPressableButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -510,9 +662,36 @@
 			};
 			name = Release;
 		};
+		24A462010F7161C5BC5017DF939760A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE3F32AA82034BAFA499E80406701D49 /* SIAlertView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SIAlertView/SIAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SIAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SIAlertView/SIAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SIAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		2A4875CCC15711F355328D4D36BB210F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABCDF95F53214024D36949E0BB5B3DE7 /* Cartography.xcconfig */;
+			baseConfigurationReference = 637EEF546F8B17B4CD2AEF8896F9910F /* Cartography.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -538,7 +717,34 @@
 			};
 			name = Debug;
 		};
-		44EEF9184105EC35B367A4984F4E78C7 /* Debug */ = {
+		4CE2C5CC0BDD3ABC3FB46BB5B89777CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EC375B3A211AF52B6B4928ED32E85B /* HTPressableButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTPressableButton/HTPressableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTPressableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTPressableButton/HTPressableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HTPressableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54743D52EDEFEC9AE1ADACA930469542 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75A1A820042112BCD42B7F28B6D53EF7 /* Pods-FlappySwift.debug.xcconfig */;
 			buildSettings = {
@@ -569,34 +775,7 @@
 			};
 			name = Debug;
 		};
-		4CE2C5CC0BDD3ABC3FB46BB5B89777CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD056AD1B3E1445F398612DA2BFB1EA /* HTPressableButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HTPressableButton/HTPressableButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTPressableButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HTPressableButton/HTPressableButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HTPressableButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9493DC31956D1D70F573B2EBE63BBD79 /* Release */ = {
+		71642BC0589C91A0BDA0EFD3DB792C54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6AFBFA9375A54B439B08EEB44ECA5812 /* Pods-FlappySwift.release.xcconfig */;
 			buildSettings = {
@@ -628,7 +807,7 @@
 		};
 		9768FD27A4E2D1352ED646F0C41F0C60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABCDF95F53214024D36949E0BB5B3DE7 /* Cartography.xcconfig */;
+			baseConfigurationReference = 637EEF546F8B17B4CD2AEF8896F9910F /* Cartography.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -738,6 +917,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		786FE32763B62B4DF4E89AA7C7750D53 /* Build configuration list for PBXNativeTarget "Pods-FlappySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54743D52EDEFEC9AE1ADACA930469542 /* Debug */,
+				71642BC0589C91A0BDA0EFD3DB792C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B22DC939D187391042315573DBEE7623 /* Build configuration list for PBXNativeTarget "Cartography" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -747,11 +935,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAC5B69B7CB364F50F112FDC97490622 /* Build configuration list for PBXNativeTarget "Pods-FlappySwift" */ = {
+		D6057697254C1E297717F614F2070C38 /* Build configuration list for PBXNativeTarget "SIAlertView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44EEF9184105EC35B367A4984F4E78C7 /* Debug */,
-				9493DC31956D1D70F573B2EBE63BBD79 /* Release */,
+				24A462010F7161C5BC5017DF939760A6 /* Debug */,
+				0A7BA80FB3C490D01AF6FDFD8C199E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
