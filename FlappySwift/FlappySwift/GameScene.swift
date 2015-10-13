@@ -49,7 +49,6 @@ class GameScene: SKScene {
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         bird.flap()
-        print("falp")
     }
 }
 
