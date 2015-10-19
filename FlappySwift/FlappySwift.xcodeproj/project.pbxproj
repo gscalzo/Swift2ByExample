@@ -31,6 +31,7 @@
 		EECE428E1BD59C6900D7EE35 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE428D1BD59C6900D7EE35 /* MusicPlayer.swift */; };
 		EECE42901BD59E3700D7EE35 /* SKAction+FlappySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE428F1BD59E3700D7EE35 /* SKAction+FlappySwift.swift */; };
 		EECE42921BD59EA000D7EE35 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE42911BD59EA000D7EE35 /* utilities.swift */; };
+		EECE42941BD5A26D00D7EE35 /* GameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE42931BD5A26D00D7EE35 /* GameCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		EECE428D1BD59C6900D7EE35 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
 		EECE428F1BD59E3700D7EE35 /* SKAction+FlappySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+FlappySwift.swift"; sourceTree = "<group>"; };
 		EECE42911BD59EA000D7EE35 /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		EECE42931BD5A26D00D7EE35 /* GameCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		EEC8AD171BCC5636001E4F28 /* FlappySwift */ = {
 			isa = PBXGroup;
 			children = (
+				EECE42931BD5A26D00D7EE35 /* GameCenter.swift */,
 				EECE42911BD59EA000D7EE35 /* utilities.swift */,
 				EECE428F1BD59E3700D7EE35 /* SKAction+FlappySwift.swift */,
 				EECE428D1BD59C6900D7EE35 /* MusicPlayer.swift */,
@@ -307,6 +310,7 @@
 				EECE42901BD59E3700D7EE35 /* SKAction+FlappySwift.swift in Sources */,
 				EEC8AD4B1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */,
 				EEC8AD471BCC69EA001E4F28 /* Startable.swift in Sources */,
+				EECE42941BD5A26D00D7EE35 /* GameCenter.swift in Sources */,
 				EECE42921BD59EA000D7EE35 /* utilities.swift in Sources */,
 				EEC8AD491BCC6AE4001E4F28 /* Bird.swift in Sources */,
 				EEC8AD461BCC69EA001E4F28 /* Background.swift in Sources */,
