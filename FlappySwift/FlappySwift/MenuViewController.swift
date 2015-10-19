@@ -13,9 +13,18 @@ import Cartography
 class MenuViewController: UIViewController {
     private let playButton = HTPressableButton(frame: CGRectMake(0, 0, 260, 50), buttonStyle: .Rect)
     private let gameCenterButton = HTPressableButton(frame: CGRectMake(0, 0, 260, 50), buttonStyle: .Rect)
-
+    private var player: MusicPlayer?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        do {
+            player = try MusicPlayer(filename: "Pamgaea", type: "mp3")
+            player!.play()
+        } catch {
+            print("Error playing soundtrack")
+        }
+        
         setup()
         layoutView()
         style()

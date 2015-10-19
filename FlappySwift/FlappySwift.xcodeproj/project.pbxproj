@@ -24,6 +24,13 @@
 		EEC8AD4B1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD4A1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift */; };
 		EEC8AD4E1BCC6D71001E4F28 /* Pipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD4C1BCC6D71001E4F28 /* Pipes.swift */; };
 		EEC8AD4F1BCC6D71001E4F28 /* PipesNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8AD4D1BCC6D71001E4F28 /* PipesNode.swift */; };
+		EECE42891BD59BCB00D7EE35 /* flap.wav in Resources */ = {isa = PBXBuildFile; fileRef = EECE42851BD59BCB00D7EE35 /* flap.wav */; };
+		EECE428A1BD59BCB00D7EE35 /* Pamgaea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EECE42861BD59BCB00D7EE35 /* Pamgaea.mp3 */; };
+		EECE428B1BD59BCB00D7EE35 /* punch.wav in Resources */ = {isa = PBXBuildFile; fileRef = EECE42871BD59BCB00D7EE35 /* punch.wav */; };
+		EECE428C1BD59BCB00D7EE35 /* yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EECE42881BD59BCB00D7EE35 /* yeah.mp3 */; };
+		EECE428E1BD59C6900D7EE35 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE428D1BD59C6900D7EE35 /* MusicPlayer.swift */; };
+		EECE42901BD59E3700D7EE35 /* SKAction+FlappySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE428F1BD59E3700D7EE35 /* SKAction+FlappySwift.swift */; };
+		EECE42921BD59EA000D7EE35 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECE42911BD59EA000D7EE35 /* utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,13 @@
 		EEC8AD4A1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+FlappySwift.swift"; sourceTree = "<group>"; };
 		EEC8AD4C1BCC6D71001E4F28 /* Pipes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pipes.swift; sourceTree = "<group>"; };
 		EEC8AD4D1BCC6D71001E4F28 /* PipesNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PipesNode.swift; sourceTree = "<group>"; };
+		EECE42851BD59BCB00D7EE35 /* flap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flap.wav; sourceTree = "<group>"; };
+		EECE42861BD59BCB00D7EE35 /* Pamgaea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pamgaea.mp3; sourceTree = "<group>"; };
+		EECE42871BD59BCB00D7EE35 /* punch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = punch.wav; sourceTree = "<group>"; };
+		EECE42881BD59BCB00D7EE35 /* yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yeah.mp3; sourceTree = "<group>"; };
+		EECE428D1BD59C6900D7EE35 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		EECE428F1BD59E3700D7EE35 /* SKAction+FlappySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+FlappySwift.swift"; sourceTree = "<group>"; };
+		EECE42911BD59EA000D7EE35 /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				EEC8AD171BCC5636001E4F28 /* FlappySwift */,
-				EEC8AD161BCC5636001E4F28 /* Products */,
-				63BD4AD69A3CBE42E7B7169B /* Pods */,
 				43AE8A4DD6DFBC77924BF148 /* Frameworks */,
+				63BD4AD69A3CBE42E7B7169B /* Pods */,
+				EEC8AD161BCC5636001E4F28 /* Products */,
+				EECE42831BD59B9900D7EE35 /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +115,9 @@
 		EEC8AD171BCC5636001E4F28 /* FlappySwift */ = {
 			isa = PBXGroup;
 			children = (
+				EECE42911BD59EA000D7EE35 /* utilities.swift */,
+				EECE428F1BD59E3700D7EE35 /* SKAction+FlappySwift.swift */,
+				EECE428D1BD59C6900D7EE35 /* MusicPlayer.swift */,
 				EEC8AD401BCC69CC001E4F28 /* Actors */,
 				EEC8AD181BCC5636001E4F28 /* AppDelegate.swift */,
 				EEC8AD231BCC5636001E4F28 /* Assets.xcassets */,
@@ -135,6 +153,25 @@
 				EEC8AD421BCC69E1001E4F28 /* ParallaxNode.swift */,
 			);
 			name = Nodes;
+			sourceTree = "<group>";
+		};
+		EECE42831BD59B9900D7EE35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECE42841BD59BAA00D7EE35 /* sounds */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECE42841BD59BAA00D7EE35 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EECE42851BD59BCB00D7EE35 /* flap.wav */,
+				EECE42861BD59BCB00D7EE35 /* Pamgaea.mp3 */,
+				EECE42871BD59BCB00D7EE35 /* punch.wav */,
+				EECE42881BD59BCB00D7EE35 /* yeah.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +235,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECE42891BD59BCB00D7EE35 /* flap.wav in Resources */,
 				EEC8AD1B1BCC5636001E4F28 /* GameScene.sks in Resources */,
 				EEC8AD271BCC5636001E4F28 /* LaunchScreen.storyboard in Resources */,
 				EEC8AD241BCC5636001E4F28 /* Assets.xcassets in Resources */,
 				EEC8AD221BCC5636001E4F28 /* Main.storyboard in Resources */,
+				EECE428C1BD59BCB00D7EE35 /* yeah.mp3 in Resources */,
+				EECE428B1BD59BCB00D7EE35 /* punch.wav in Resources */,
+				EECE428A1BD59BCB00D7EE35 /* Pamgaea.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +301,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECE428E1BD59C6900D7EE35 /* MusicPlayer.swift in Sources */,
 				EEC8AD431BCC69E1001E4F28 /* ParallaxNode.swift in Sources */,
 				EEC8AD4E1BCC6D71001E4F28 /* Pipes.swift in Sources */,
+				EECE42901BD59E3700D7EE35 /* SKAction+FlappySwift.swift in Sources */,
 				EEC8AD4B1BCC6AFA001E4F28 /* SKPhysicsBody+FlappySwift.swift in Sources */,
 				EEC8AD471BCC69EA001E4F28 /* Startable.swift in Sources */,
+				EECE42921BD59EA000D7EE35 /* utilities.swift in Sources */,
 				EEC8AD491BCC6AE4001E4F28 /* Bird.swift in Sources */,
 				EEC8AD461BCC69EA001E4F28 /* Background.swift in Sources */,
 				EEC8AD4F1BCC6D71001E4F28 /* PipesNode.swift in Sources */,
