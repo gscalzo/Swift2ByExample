@@ -10,6 +10,8 @@
 		9FED02319A61D65D369D02FB /* Pods_CubeRunner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */; };
 		EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */; };
 		EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600C1BE02F26005E1D67 /* GameViewController.swift */; };
+		EEBE600F1BE03576005E1D67 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */; };
+		EEBE60111BE035C3005E1D67 /* Space 1990-B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEBE60101BE035C3005E1D67 /* Space 1990-B.mp3 */; };
 		EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */; };
 		EED53ED21BDEF78300C7B471 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED11BDEF78300C7B471 /* art.scnassets */; };
 		EED53ED71BDEF78300C7B471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED51BDEF78300C7B471 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		D9823A3CAC571023FCC0D6D6 /* Pods-CubeRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeRunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner.debug.xcconfig"; sourceTree = "<group>"; };
 		EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EEBE600C1BE02F26005E1D67 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		EEBE60101BE035C3005E1D67 /* Space 1990-B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Space 1990-B.mp3"; sourceTree = "<group>"; };
 		EED53ECC1BDEF78300C7B471 /* CubeRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED53ED11BDEF78300C7B471 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -73,8 +77,10 @@
 		EED53ECE1BDEF78300C7B471 /* CubeRunner */ = {
 			isa = PBXGroup;
 			children = (
+				EEBE60101BE035C3005E1D67 /* Space 1990-B.mp3 */,
 				EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */,
 				EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */,
+				EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */,
 				EEBE600C1BE02F26005E1D67 /* GameViewController.swift */,
 				EED53ED11BDEF78300C7B471 /* art.scnassets */,
 				EED53ED51BDEF78300C7B471 /* Main.storyboard */,
@@ -156,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED53ED21BDEF78300C7B471 /* art.scnassets in Resources */,
+				EEBE60111BE035C3005E1D67 /* Space 1990-B.mp3 in Resources */,
 				EED53EDC1BDEF78300C7B471 /* LaunchScreen.storyboard in Resources */,
 				EED53ED91BDEF78300C7B471 /* Assets.xcassets in Resources */,
 				EED53ED71BDEF78300C7B471 /* Main.storyboard in Resources */,
@@ -219,6 +226,7 @@
 			files = (
 				EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */,
 				EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */,
+				EEBE600F1BE03576005E1D67 /* MusicPlayer.swift in Sources */,
 				EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

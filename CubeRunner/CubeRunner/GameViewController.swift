@@ -18,6 +18,10 @@ class GameViewController: UIViewController {
     private var cameraNode: SCNNode!
     //...
     private var laneTimer: NSTimer!
+    private let scoreLbl = UILabel()
+    private var scoreTimer: NSTimer!
+    private var score = 0
+    private var musicPlayer: MusicPlayer?
     //...
     private var motionManager : CMMotionManager?
     private let spline = CubicSpline(points: [
@@ -33,11 +37,28 @@ class GameViewController: UIViewController {
     //...
     override func viewDidLoad() {
         super.viewDidLoad()
+        do {
+            musicPlayer = try MusicPlayer(filename: "Space 1990-B", type: "mp3")
+            musicPlayer!.play()
+        } catch {
+            print("Error playing soundtrack")
+        }
+        //...
         scnView.frame = view.bounds
         view.addSubview(scnView)
         
         createContents()
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        musicPlayer?.play()
+    }
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        musicPlayer?.stop()
+    }
+    
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
@@ -68,7 +89,7 @@ private extension GameViewController {
             CMAttitudeReferenceFrame.XArbitraryZVertical,
             toQueue: NSOperationQueue.mainQueue(),
             withHandler: { (motion: CMDeviceMotion?, error: NSError?) -> Void in
-                guard let motion = motion else { return }
+                guard let motion = motion else {return}
                 let roll = CGFloat(motion.attitude.roll)
                 
                 let rotateCamera =
@@ -92,8 +113,9 @@ private extension GameViewController {
             selector: "laneTimerFired", userInfo: nil, repeats: true)
         scene!.fogStartDistance = 30
         scene!.fogEndDistance = 90
+        //...
         scene!.fogColor = UIColor.blackColor()
-        
+        setupScore()
         //...
         
         scnView.scene = scene
@@ -122,6 +144,19 @@ private extension GameViewController {
         floor.firstMaterial!.diffuse.contentsTransform = SCNMatrix4MakeScale(2, 2, 1)
         floor.reflectivity = 0
         return SCNNode(geometry: floor)
+    }
+    
+    func setupScore(){
+        scnView.addSubview(scoreLbl)
+        scoreLbl.frame.origin.x = 0
+        scoreLbl.frame.origin.y = 0
+        scoreLbl.frame.size.height = 50
+        scoreLbl.frame.size.width = 200
+        scoreLbl.font = UIFont.bitwiseFontOfSize(30)
+        scoreLbl.textColor = UIColor.whiteColor()
+        score = 0
+        scoreLbl.text = "\(score)"
+        scoreTimer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "scoreTimerFired", userInfo: nil, repeats: true)
     }
     
     func buildTheLane() {
@@ -175,5 +210,9 @@ private extension GameViewController {
     
     @objc func laneTimerFired(){
         buildCubesAtPosition(cameraNode.position.z-200)
+    }
+    @objc func scoreTimerFired(){
+        score++
+        scoreLbl.text = "\(score)"
     }
 }
