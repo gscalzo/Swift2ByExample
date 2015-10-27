@@ -1,0 +1,6 @@
+framework module BitwiseFont {
+  umbrella header "BitwiseFont-umbrella.h"
+
+  export *
+  module * { export * }
+}

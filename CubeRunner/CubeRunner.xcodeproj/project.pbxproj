@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FED02319A61D65D369D02FB /* Pods_CubeRunner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */; };
+		EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */; };
+		EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */; };
+		EED53ED21BDEF78300C7B471 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED11BDEF78300C7B471 /* art.scnassets */; };
+		EED53ED41BDEF78300C7B471 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED53ED31BDEF78300C7B471 /* GameViewController.swift */; };
+		EED53ED71BDEF78300C7B471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED51BDEF78300C7B471 /* Main.storyboard */; };
+		EED53ED91BDEF78300C7B471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED81BDEF78300C7B471 /* Assets.xcassets */; };
+		EED53EDC1BDEF78300C7B471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED53EDA1BDEF78300C7B471 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8E8B89D6A11FCD1616EDFB4D /* Pods-CubeRunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeRunner.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner.release.xcconfig"; sourceTree = "<group>"; };
+		AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9823A3CAC571023FCC0D6D6 /* Pods-CubeRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeRunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner.debug.xcconfig"; sourceTree = "<group>"; };
+		EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EED53ECC1BDEF78300C7B471 /* CubeRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EED53ED11BDEF78300C7B471 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		EED53ED31BDEF78300C7B471 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EED53ED61BDEF78300C7B471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED53ED81BDEF78300C7B471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED53EDB1BDEF78300C7B471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED53EDD1BDEF78300C7B471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED53EC91BDEF78300C7B471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FED02319A61D65D369D02FB /* Pods_CubeRunner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92292785D3540A10AD7246E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED53EC31BDEF78300C7B471 = {
+			isa = PBXGroup;
+			children = (
+				EED53ECE1BDEF78300C7B471 /* CubeRunner */,
+				EED53ECD1BDEF78300C7B471 /* Products */,
+				FB6EBCFAFC94A550163D4C93 /* Pods */,
+				92292785D3540A10AD7246E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EED53ECD1BDEF78300C7B471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED53ECC1BDEF78300C7B471 /* CubeRunner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED53ECE1BDEF78300C7B471 /* CubeRunner */ = {
+			isa = PBXGroup;
+			children = (
+				EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */,
+				EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */,
+				EED53ED11BDEF78300C7B471 /* art.scnassets */,
+				EED53ED31BDEF78300C7B471 /* GameViewController.swift */,
+				EED53ED51BDEF78300C7B471 /* Main.storyboard */,
+				EED53ED81BDEF78300C7B471 /* Assets.xcassets */,
+				EED53EDA1BDEF78300C7B471 /* LaunchScreen.storyboard */,
+				EED53EDD1BDEF78300C7B471 /* Info.plist */,
+			);
+			path = CubeRunner;
+			sourceTree = "<group>";
+		};
+		FB6EBCFAFC94A550163D4C93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9823A3CAC571023FCC0D6D6 /* Pods-CubeRunner.debug.xcconfig */,
+				8E8B89D6A11FCD1616EDFB4D /* Pods-CubeRunner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED53ECB1BDEF78300C7B471 /* CubeRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED53EE01BDEF78300C7B471 /* Build configuration list for PBXNativeTarget "CubeRunner" */;
+			buildPhases = (
+				ADBC78E3102212BCFA3A902E /* Check Pods Manifest.lock */,
+				EED53EC81BDEF78300C7B471 /* Sources */,
+				EED53EC91BDEF78300C7B471 /* Frameworks */,
+				EED53ECA1BDEF78300C7B471 /* Resources */,
+				9EF6D979E4EAE4687D3FC7BA /* Embed Pods Frameworks */,
+				D112A3A839834F231B2645E0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CubeRunner;
+			productName = CubeRunner;
+			productReference = EED53ECC1BDEF78300C7B471 /* CubeRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED53EC41BDEF78300C7B471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Giordano Scalzo";
+				TargetAttributes = {
+					EED53ECB1BDEF78300C7B471 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = EED53EC71BDEF78300C7B471 /* Build configuration list for PBXProject "CubeRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED53EC31BDEF78300C7B471;
+			productRefGroup = EED53ECD1BDEF78300C7B471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED53ECB1BDEF78300C7B471 /* CubeRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED53ECA1BDEF78300C7B471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED53ED21BDEF78300C7B471 /* art.scnassets in Resources */,
+				EED53EDC1BDEF78300C7B471 /* LaunchScreen.storyboard in Resources */,
+				EED53ED91BDEF78300C7B471 /* Assets.xcassets in Resources */,
+				EED53ED71BDEF78300C7B471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9EF6D979E4EAE4687D3FC7BA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBC78E3102212BCFA3A902E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D112A3A839834F231B2645E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED53EC81BDEF78300C7B471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED53ED41BDEF78300C7B471 /* GameViewController.swift in Sources */,
+				EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */,
+				EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EED53ED51BDEF78300C7B471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED53ED61BDEF78300C7B471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EED53EDA1BDEF78300C7B471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED53EDB1BDEF78300C7B471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED53EDE1BDEF78300C7B471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EED53EDF1BDEF78300C7B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED53EE11BDEF78300C7B471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9823A3CAC571023FCC0D6D6 /* Pods-CubeRunner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CubeRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.CubeRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EED53EE21BDEF78300C7B471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8B89D6A11FCD1616EDFB4D /* Pods-CubeRunner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CubeRunner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.CubeRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED53EC71BDEF78300C7B471 /* Build configuration list for PBXProject "CubeRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED53EDE1BDEF78300C7B471 /* Debug */,
+				EED53EDF1BDEF78300C7B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED53EE01BDEF78300C7B471 /* Build configuration list for PBXNativeTarget "CubeRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED53EE11BDEF78300C7B471 /* Debug */,
+				EED53EE21BDEF78300C7B471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED53EC41BDEF78300C7B471 /* Project object */;
+}
