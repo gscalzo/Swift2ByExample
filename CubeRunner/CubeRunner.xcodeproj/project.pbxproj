@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		9FED02319A61D65D369D02FB /* Pods_CubeRunner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */; };
 		EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */; };
+		EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600C1BE02F26005E1D67 /* GameViewController.swift */; };
 		EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */; };
 		EED53ED21BDEF78300C7B471 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED11BDEF78300C7B471 /* art.scnassets */; };
-		EED53ED41BDEF78300C7B471 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED53ED31BDEF78300C7B471 /* GameViewController.swift */; };
 		EED53ED71BDEF78300C7B471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED51BDEF78300C7B471 /* Main.storyboard */; };
 		EED53ED91BDEF78300C7B471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED53ED81BDEF78300C7B471 /* Assets.xcassets */; };
 		EED53EDC1BDEF78300C7B471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED53EDA1BDEF78300C7B471 /* LaunchScreen.storyboard */; };
@@ -22,10 +22,10 @@
 		AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9823A3CAC571023FCC0D6D6 /* Pods-CubeRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeRunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner.debug.xcconfig"; sourceTree = "<group>"; };
 		EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		EEBE600C1BE02F26005E1D67 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EED53ECC1BDEF78300C7B471 /* CubeRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EED53ED11BDEF78300C7B471 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		EED53ED31BDEF78300C7B471 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EED53ED61BDEF78300C7B471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EED53ED81BDEF78300C7B471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED53EDB1BDEF78300C7B471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 			children = (
 				EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */,
 				EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */,
+				EEBE600C1BE02F26005E1D67 /* GameViewController.swift */,
 				EED53ED11BDEF78300C7B471 /* art.scnassets */,
-				EED53ED31BDEF78300C7B471 /* GameViewController.swift */,
 				EED53ED51BDEF78300C7B471 /* Main.storyboard */,
 				EED53ED81BDEF78300C7B471 /* Assets.xcassets */,
 				EED53EDA1BDEF78300C7B471 /* LaunchScreen.storyboard */,
@@ -217,8 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EED53ED41BDEF78300C7B471 /* GameViewController.swift in Sources */,
 				EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */,
+				EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */,
 				EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

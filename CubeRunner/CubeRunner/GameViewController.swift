@@ -2,124 +2,105 @@
 //  GameViewController.swift
 //  CubeRunner
 //
-//  Created by Giordano Scalzo on 27/10/2015.
-//  Copyright (c) 2015 Giordano Scalzo. All rights reserved.
+//  Created by Giordano Scalzo on 25/03/2015.
+//  Copyright (c) 2015 Effective Code. All rights reserved.
 //
 
 import UIKit
 import QuartzCore
 import SceneKit
+import CoreMotion
 
 class GameViewController: UIViewController {
-
+    private let scnView = SCNView()
+    private var scene: SCNScene!
+    private var cameraNode: SCNNode!
+    //...
+    private var motionManager : CMMotionManager?
+    //...
     override func viewDidLoad() {
         super.viewDidLoad()
+        scnView.frame = view.bounds
+        view.addSubview(scnView)
         
-        // create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
-        // create and add a camera to the scene
-        let cameraNode = SCNNode()
-        cameraNode.camera = SCNCamera()
-        scene.rootNode.addChildNode(cameraNode)
-        
-        // place the camera
-        cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
-        
-        // create and add a light to the scene
-        let lightNode = SCNNode()
-        lightNode.light = SCNLight()
-        lightNode.light!.type = SCNLightTypeOmni
-        lightNode.position = SCNVector3(x: 0, y: 10, z: 10)
-        scene.rootNode.addChildNode(lightNode)
-        
-        // create and add an ambient light to the scene
-        let ambientLightNode = SCNNode()
-        ambientLightNode.light = SCNLight()
-        ambientLightNode.light!.type = SCNLightTypeAmbient
-        ambientLightNode.light!.color = UIColor.darkGrayColor()
-        scene.rootNode.addChildNode(ambientLightNode)
-        
-        // retrieve the ship node
-        let ship = scene.rootNode.childNodeWithName("ship", recursively: true)!
-        
-        // animate the 3d object
-        ship.runAction(SCNAction.repeatActionForever(SCNAction.rotateByX(0, y: 2, z: 0, duration: 1)))
-        
-        // retrieve the SCNView
-        let scnView = self.view as! SCNView
-        
-        // set the scene to the view
-        scnView.scene = scene
-        
-        // allows the user to manipulate the camera
-        scnView.allowsCameraControl = true
-        
-        // show statistics such as fps and timing information
-        scnView.showsStatistics = true
-        
-        // configure the view
-        scnView.backgroundColor = UIColor.blackColor()
-        
-        // add a tap gesture recognizer
-        let tapGesture = UITapGestureRecognizer(target: self, action: "handleTap:")
-        scnView.addGestureRecognizer(tapGesture)
+        createContents()
     }
-    
-    func handleTap(gestureRecognize: UIGestureRecognizer) {
-        // retrieve the SCNView
-        let scnView = self.view as! SCNView
-        
-        // check what nodes are tapped
-        let p = gestureRecognize.locationInView(scnView)
-        let hitResults = scnView.hitTest(p, options: nil)
-        // check that we clicked on at least one object
-        if hitResults.count > 0 {
-            // retrieved the first clicked object
-            let result: AnyObject! = hitResults[0]
-            
-            // get its material
-            let material = result.node!.geometry!.firstMaterial!
-            
-            // highlight it
-            SCNTransaction.begin()
-            SCNTransaction.setAnimationDuration(0.5)
-            
-            // on completion - unhighlight
-            SCNTransaction.setCompletionBlock {
-                SCNTransaction.begin()
-                SCNTransaction.setAnimationDuration(0.5)
-                
-                material.emission.contents = UIColor.blackColor()
-                
-                SCNTransaction.commit()
-            }
-            
-            material.emission.contents = UIColor.redColor()
-            
-            SCNTransaction.commit()
-        }
-    }
-    
-    override func shouldAutorotate() -> Bool {
-        return true
-    }
-    
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
-    
-    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-        if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
-            return .AllButUpsideDown
-        } else {
-            return .All
-        }
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
+}
 
+// MARK: content builder
+private extension GameViewController {
+    func createContents() {
+        scene = SCNScene(named: "art.scnassets/eurofighter.dae")
+        scene.background.contents = UIImage(named: "sky")
+        scnView.showsStatistics = true
+
+        cameraNode = createCamera()
+        scene.rootNode.addChildNode(cameraNode)
+        
+        let jetfighterNode = createJetfighter()
+        scene.rootNode.addChildNode(createFloor())
+        
+        let moveForwardAction = SCNAction.repeatActionForever(
+            SCNAction.moveByX(0, y: 0, z: -100, duration: 7))
+        cameraNode.runAction(moveForwardAction)
+        jetfighterNode.runAction(moveForwardAction)
+
+        motionManager = CMMotionManager()
+        motionManager?.deviceMotionUpdateInterval = 1.0 / 60.0
+        motionManager?.startDeviceMotionUpdatesUsingReferenceFrame(
+            CMAttitudeReferenceFrame.XArbitraryZVertical,
+            toQueue: NSOperationQueue.mainQueue(),
+            withHandler: { (motion: CMDeviceMotion?, error: NSError?) -> Void in
+                guard let motion = motion else {return}
+                
+                let roll = CGFloat(motion.attitude.roll)
+                
+                let rotateCamera =
+                SCNAction.rotateByAngle(roll/20.0,
+                                        aroundAxis: SCNVector3(x: 0, y: 0, z: 1),
+                                        duration: 0.1)
+                self.cameraNode.runAction(rotateCamera)
+                
+                let rotateJetfighter =
+                SCNAction.rotateByAngle(roll/10.0,
+                                        aroundAxis: SCNVector3(x: 0, y: 0, z: 1),
+                                        duration: 0.1)
+                jetfighterNode.runAction(rotateJetfighter)
+                
+                let actionMove = SCNAction.moveByX(roll, y: 0, z: 0, duration: 0.1)
+                self.cameraNode.runAction(actionMove)
+                jetfighterNode.runAction(actionMove)
+        })
+        //...
+        
+        scnView.scene = scene
+    }
+    
+    func createJetfighter() -> SCNNode{
+        let jetfighterNode = scene!.rootNode.childNodeWithName("jetfighter", recursively: true)!
+        
+        jetfighterNode.scale = SCNVector3(x: 0.03, y: 0.03, z: 0.03)
+        jetfighterNode.position = SCNVector3(x: 0, y: 1.0, z: 13)
+        jetfighterNode.rotation = SCNVector4(x: 0, y: 1, z: 0, w: Float(M_PI))
+        return jetfighterNode
+    }
+    
+    func createCamera() -> SCNNode{
+        let cameraNode = SCNNode()
+        cameraNode.camera = SCNCamera()
+        cameraNode.position = SCNVector3Make(0, 7, 20)
+        cameraNode.rotation = SCNVector4Make(1, 0, 0, -atan2f(7, 20.0))
+        return cameraNode
+    }
+    
+    func createFloor() -> SCNNode {
+        let floor = SCNFloor()
+        floor.firstMaterial!.diffuse.contents = UIImage(named: "moon")
+        floor.firstMaterial!.diffuse.contentsTransform = SCNMatrix4MakeScale(2, 2, 1)
+        floor.reflectivity = 0
+        return SCNNode(geometry: floor)
+    }
 }
