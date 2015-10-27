@@ -7,75 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03F8FAB86FC31D2F4D3C5FD0B5846BCD /* Bitwise.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43FC6BB9FD02830CEC0DC232614D0364 /* Bitwise.ttf */; };
-		07A3AD4A2E9B4C79B66F6078A7212678 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8565F1B093C7D68ED4732EDC29C595E9 /* Constrain.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0A6741A5C137D40614EC689D16C93F6F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A5CBE80E5B7597C1B4E1F54D5FD21 /* Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1458D7AD1A3F93930F89A8F4363CDE4C /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75471929B4D368507F8C43496945D6AC /* Edge.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1EFED9DB0F470A72D989FBE9BEC51762 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9152C02EC2439AE5323951BDE6869F /* Constraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		22B88A9A67FBF811D702CBD039336823 /* BitwiseFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 77474748305A7E5716989F4AC0B61956 /* BitwiseFont.bundle */; };
-		231F524F71AFC5604B0D969A4DF7593E /* UIColor+HTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDA941420D38BFC6094355DC794886A /* UIColor+HTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32E0424A22426C26222FD41DC732DC4F /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CA42E32FE458AED96860E06562DD4A /* Align.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		50C88B95BE9D90657D27CEA4954C829A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B589F48FB5860349A9B107F064DDDDD /* Edges.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		53141BB1230985F07793C1EB3F201DE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEF5B76729B657F9078C5EF4D44AE92 /* UIKit.framework */; };
-		568311479197016A4AF5194DB7C11D6D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9EF7C5D6C5B700147E17F7BEB5F0D79 /* Point.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		57FCF2003171B8EFE4AEAE5820ADFBE0 /* HTPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F09AE941F4FE0CA084C662FAF60B05 /* HTPressableButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		58231F42F0B2E0BA4E1F47931E459761 /* UIImage+HTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C0D5BC5A83951F5D67F2653A518BBE /* UIImage+HTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		69EC3FDA3F7EF8C8B9CF99EE6AE843F1 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EE9AD4DF3BE25D84EEB09244F2525B /* Expression.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		70DC3A432095C1638864D1A71E0994EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90320DC5E09E6DE9BE79DC0C4C9DD97 /* View.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		77BA2D35B4E692991642B8A168CE7630 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FEA7448F83BD6208A7D18299F403EA /* Context.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		7965459743D0A795D3F21CFDAB64FA20 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13959809435B5B923389D9AD979C72AC /* Compound.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8029B0AAF7180842CEAF557D457CD79C /* UIColor+HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A6D907D59CE8F9AA28B5A1F978273 /* UIColor+HTColor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8867CE63C7E4029D8D6520D2D553CA95 /* UIImage+HTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD36A826364BE58F23BB3AA0EFDB0FAC /* UIImage+HTButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8AC6537A12658A773FB08D4C9C56D42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5F169CE6D063164705B1C1595F267A /* Foundation.framework */; };
-		916F46BB97C5209C56F4227F6B8D197D /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D6EFFD76A5921C9550CCD607059497 /* ConstraintGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		94FA81E5AAD99FC80DC4123F16239B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5F169CE6D063164705B1C1595F267A /* Foundation.framework */; };
-		9BD9D1F1DF91141C9450065FBFBF5F56 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BFF54EB088EDE4D39097FE30016923 /* Distribute.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A2CD76F30A26D61507DB9A4C81A74D03 /* HTPressableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 853F318EB5E0BE74167534C1C4CB77DB /* HTPressableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A60E28925C0DA0C0C240E4CEDE40CFE2 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129FA15E27A0DFEC88A0D16B57F5B09F /* LayoutProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A95169C8B77E8D2B43B41367ABAEEE0B /* BitwiseFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76AE57CDD02EA0C5326397782AAEB75D /* BitwiseFont-dummy.m */; };
-		AA0E218C1B036D8ED880758323EE36B5 /* HTPressableButtonPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FA61E2EF75EBC5D7B59A57584DE4B9E /* HTPressableButtonPrefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC0ACFB8904C068966EB1A84D4FFB65D /* HTPressableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = AF82998A2DAFA9897DB95BAC7C234D1B /* HTPressableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1BB912D3AFE66F51E6449FDAF95C3CA /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA29CA270E2F84BFB520CD0350BD7464 /* BitwiseFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D1EF163A345D05CDE04CB54AF92EA65 /* BitwiseFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDE583F8F322E4EC106C7D577126DAA8 /* Pods-CubeRunner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A9BD962A5BC44835A50EE9BF66A10F /* Pods-CubeRunner-dummy.m */; };
-		CF413057059128502FDD1A7F67B93D28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5F169CE6D063164705B1C1595F267A /* Foundation.framework */; };
-		D9DA4DBD145D7A4DB67F2491BC9525ED /* Pods-CubeRunner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BE5C017F50545C27696C4D866C243A /* Pods-CubeRunner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB1C049C6C66544A0C8766A92A429C5F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2708C17C213031B4FF2F636263E7AD4 /* Size.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DD4DCD3B3C9B3FCD4A84360344E24D7D /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDDEA6FDAFA03E80ECBD0EB19530B23 /* Cartography-dummy.m */; };
-		DD993AF689ABEB3753FD97C58D96147C /* HTPressableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B5562987265313B2FDB0F7B4B1E3E /* HTPressableButton-dummy.m */; };
-		DEDCF7C856391A971429A7D22A16C141 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62CF62A993E16EB501D1C01C321E29 /* Dimension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E2BC5D385B122DCECB6F8F302096706A /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A87AA4E3641C7ED928471F6E42C94B5 /* Priority.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E6B14B337C81B1061DB4ED97ABED983D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5F169CE6D063164705B1C1595F267A /* Foundation.framework */; };
-		E7D2764025C159F0A06FDE51660DDAB0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C610325130F047186CFFB1601FB9F5D /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E98C7A1F5AEB818239DABA8B260E1F53 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE00FAE23F2E6F13F60B0AE8A99DAD06 /* Coefficients.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EA526FC603C6661538DB9B58EDF76392 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D1781147E3FA58EFF49AADB9F7800D /* ViewUtils.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F458E9E312B35E2935D58F6679ECCF85 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B33BFF7B46CF2E26766B880B4EA1F8 /* CoreText.framework */; };
-		FA25EB484E5D8442167C0218998D76C2 /* UIFont+Bitwise.h in Headers */ = {isa = PBXBuildFile; fileRef = 549DFC0647F3D2A5BBFA4466AB800C8C /* UIFont+Bitwise.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FEE1B422A0BCBD1E50E824276C6101D9 /* UIFont+Bitwise.m in Sources */ = {isa = PBXBuildFile; fileRef = B49604168513B04D5686F1E4E39AF5EA /* UIFont+Bitwise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		FFB3A44779D3AC5F0D415850BBB03F9A /* HTPressableButtonPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B05A2D39969976D9230125D3B7B0267 /* HTPressableButtonPrefs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		02370DE140BE4C1AD842EF4D21603EB2 /* SAMCubicSpline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B8AF0C9E92A7FFA49667BE0C8ACE9E /* SAMCubicSpline-dummy.m */; };
+		03F8FAB86FC31D2F4D3C5FD0B5846BCD /* Bitwise.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73AC80B98200C22DCD04ADCF9BD9736E /* Bitwise.ttf */; };
+		07A3AD4A2E9B4C79B66F6078A7212678 /* Constrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BFC78BEC3B695F203829387843C42C /* Constrain.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0A6741A5C137D40614EC689D16C93F6F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A180ED38BE804F08F4E942AEC0789104 /* Extensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0E57FA50018DA644CAF3F299C2DB9439 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */; };
+		1458D7AD1A3F93930F89A8F4363CDE4C /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82174640A22230A5082CA8A3B4F4F4EA /* Edge.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1BE1093287D0EAF94AEA0F25A51738BA /* SAMCubicSpline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D13035E1962946EBF293F373A1BAFB0B /* SAMCubicSpline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EFED9DB0F470A72D989FBE9BEC51762 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63651DD02400D61E63076267D00D5250 /* Constraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		22B88A9A67FBF811D702CBD039336823 /* BitwiseFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 356244200AF0F3B87C4AEA1AD8D93D15 /* BitwiseFont.bundle */; };
+		231F524F71AFC5604B0D969A4DF7593E /* UIColor+HTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FA95D9347FC95EDFFC1AD0676D1393 /* UIColor+HTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2526A5A69B2D21885E8E64980DE411B3 /* CubicSpline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39E1BB486B3B4F9397C64D610EDD82E /* CubicSpline.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		300ECA45C36967E72DE01900DEDCAA05 /* SwiftCubicSpline-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A78C0B4996188928922C4B6CCBDD2E /* SwiftCubicSpline-dummy.m */; };
+		32E0424A22426C26222FD41DC732DC4F /* Align.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C371C41C21FAD3ABB0A1DBC089ABC /* Align.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		50C88B95BE9D90657D27CEA4954C829A /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E07C47DC67E682289928C94DB6F67D /* Edges.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		53141BB1230985F07793C1EB3F201DE8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0A7A1BE66109C012DF6E5951004D04 /* UIKit.framework */; };
+		54308B84D19AA1670198B71F71C5C501 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACDF1BCFFA47ADD78DDD3976517364 /* CoreGraphics.framework */; };
+		54EA869E258BE4F1446643AF3ECDAA77 /* Pods-CubeRunner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A9BD962A5BC44835A50EE9BF66A10F /* Pods-CubeRunner-dummy.m */; };
+		568311479197016A4AF5194DB7C11D6D /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9255E54DCAB0E703BC4C23516DFCB2F7 /* Point.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		57FCF2003171B8EFE4AEAE5820ADFBE0 /* HTPressableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C6449D93C1B146CCB5D724F70E0E45 /* HTPressableButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		58231F42F0B2E0BA4E1F47931E459761 /* UIImage+HTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EE5E2691AA564DBF51E8DBBEB69F69B3 /* UIImage+HTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D3FE598995859AB65045C3724D8856D /* SwiftCubicSpline-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B632B94EEA41FC028BE3ECECF3DD86E /* SwiftCubicSpline-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69EC3FDA3F7EF8C8B9CF99EE6AE843F1 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376C2FBA712AC2C385A3378C8CFD69D /* Expression.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		70DC3A432095C1638864D1A71E0994EC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38F8DE4198D18620D2207C3BBF86177 /* View.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		754E342B9FDA0357E7BAF9A1B001E57C /* SAMCubicSpline.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C4BC221280963DADADC9096E4D6FD9 /* SAMCubicSpline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77BA2D35B4E692991642B8A168CE7630 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65DF1429E4D664F24A501E820967BA /* Context.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7965459743D0A795D3F21CFDAB64FA20 /* Compound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390E9F7FF81C502ADBE8CDD571C664FC /* Compound.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7D48A17F209E98C9A4521DA639A4CEA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BACDF1BCFFA47ADD78DDD3976517364 /* CoreGraphics.framework */; };
+		8029B0AAF7180842CEAF557D457CD79C /* UIColor+HTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E792174998CC8C4F83DD5D890C1A110 /* UIColor+HTColor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8867CE63C7E4029D8D6520D2D553CA95 /* UIImage+HTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3012078957F7C29E5AFA86F8D0C3A100 /* UIImage+HTButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8AC6537A12658A773FB08D4C9C56D42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */; };
+		916F46BB97C5209C56F4227F6B8D197D /* ConstraintGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68182D60C8F21A567B8322D626822ADA /* ConstraintGroup.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		94FA81E5AAD99FC80DC4123F16239B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */; };
+		9BD9D1F1DF91141C9450065FBFBF5F56 /* Distribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEB36E30AB7687F533A01E1AB60C74B /* Distribute.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9BF9CECF651A8E99AFB8E76CDD1BC47E /* SAMCubicSpline.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089E8B01FAF6B4B4524CFC5D8CB6D958 /* SAMCubicSpline.framework */; };
+		9F71E9A9E22D25FBC06481634AC3DFF1 /* SAMCubicSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC61F894FCA4BCA20292D89F9750A07 /* SAMCubicSpline.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A149F3DAC95BC8ACDCE68A186FEF388F /* SwiftCubicSpline.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABCBF557C6626CE889E8F9593DFC01D3 /* SwiftCubicSpline.bundle */; };
+		A2CD76F30A26D61507DB9A4C81A74D03 /* HTPressableButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9EB2C9C1CB2C5EAD431FA2F942FAE1A /* HTPressableButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60E28925C0DA0C0C240E4CEDE40CFE2 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948A6E0463E9ECBDCCD1F9531B73509A /* LayoutProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A95169C8B77E8D2B43B41367ABAEEE0B /* BitwiseFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1FA2E8DB1932951DD930BEDEEE66BC /* BitwiseFont-dummy.m */; };
+		AA0E218C1B036D8ED880758323EE36B5 /* HTPressableButtonPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = B6B8706B94AC75E430D8796D2B18CA20 /* HTPressableButtonPrefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC0ACFB8904C068966EB1A84D4FFB65D /* HTPressableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F62EF7E8FED2C63FBA73D45370D5B4C8 /* HTPressableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE067DB385C656F03BEA96FFAF7B4182 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */; };
+		B90891688A088BC37455234028C2E993 /* Cartography-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FAEC048A7E08D6201D489208010EBCA /* Cartography-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA29CA270E2F84BFB520CD0350BD7464 /* BitwiseFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0BED2DFEB593576A61241970CC0666 /* BitwiseFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C303A9F20E793437E109E41A0651C888 /* Pods-CubeRunner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BE5C017F50545C27696C4D866C243A /* Pods-CubeRunner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1C049C6C66544A0C8766A92A429C5F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE63F7A8FC219E8F0366EC9EA67D02E /* Size.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD4DCD3B3C9B3FCD4A84360344E24D7D /* Cartography-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CDC5F2BDE3559837546324D6D080B57 /* Cartography-dummy.m */; };
+		DD993AF689ABEB3753FD97C58D96147C /* HTPressableButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97334A78B96B54A6222B47C5CCEBE10 /* HTPressableButton-dummy.m */; };
+		DEDCF7C856391A971429A7D22A16C141 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB95FB4F25D3A3E6F52600C1913EBE0 /* Dimension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E2BC5D385B122DCECB6F8F302096706A /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B17F36C7BBA8BB4D27EB0EDC9F5D26 /* Priority.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6B14B337C81B1061DB4ED97ABED983D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */; };
+		E7D2764025C159F0A06FDE51660DDAB0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755ED10F978776E729E22A209EFE03BF /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E98C7A1F5AEB818239DABA8B260E1F53 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940908BBA0DC4A12C50E8094C0C8C547 /* Coefficients.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EA526FC603C6661538DB9B58EDF76392 /* ViewUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29A41776A9FB81BDD6781E68F016348 /* ViewUtils.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F458E9E312B35E2935D58F6679ECCF85 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDED122B8F69DF53F37E60AD65403D5E /* CoreText.framework */; };
+		FA25EB484E5D8442167C0218998D76C2 /* UIFont+Bitwise.h in Headers */ = {isa = PBXBuildFile; fileRef = D2778B9CD7F79F23372B52B74CB8095D /* UIFont+Bitwise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCB759F45A544A98ED41804D631BFDFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */; };
+		FEE1B422A0BCBD1E50E824276C6101D9 /* UIFont+Bitwise.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9B0041512895234E1B9FB15484DD32 /* UIFont+Bitwise.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FFB3A44779D3AC5F0D415850BBB03F9A /* HTPressableButtonPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC7CF1C992043BDEA77F1C4B98AEA79 /* HTPressableButtonPrefs.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17CE3EFFCB3DF2EFAADFAB0813637F1B /* PBXContainerItemProxy */ = {
+		1F1BAA151871FAA7F5405D5BBF4294B7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FEF77C304F58B4306F448A2D383D419;
-			remoteInfo = HTPressableButton;
+			remoteGlobalIDString = A35CEA389C448347FC5D4EF020F9AEAB;
+			remoteInfo = SAMCubicSpline;
 		};
-		6B15A0002E3D7C3C8066061ECB60E2E2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDD2D97462311188B8F4DBD3DFDE8DC6;
-			remoteInfo = BitwiseFont;
-		};
-		894F0A04E9D1FD9039F1106C26044EF1 /* PBXContainerItemProxy */ = {
+		300AFC801839127079002B7451FD3893 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C3A04698AAE4D6124C20602D622956E5;
 			remoteInfo = Cartography;
+		};
+		35CF4CCE36786558CD65DA543820693E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FAD636649C9596B66847351E69C9333;
+			remoteInfo = SwiftCubicSpline;
+		};
+		7267E07C08BEB03C9452FA149194E4B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A35CEA389C448347FC5D4EF020F9AEAB;
+			remoteInfo = SAMCubicSpline;
+		};
+		89F4F531F9CEA5588BCEA63569B29204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42494299C8F70E02094528854366C707;
+			remoteInfo = "SwiftCubicSpline-SwiftCubicSpline";
 		};
 		94B08AFA681DF47902D5065DBC45D276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -84,85 +111,118 @@
 			remoteGlobalIDString = EF61D98D15BBAEAD3E8A49B535D55DFA;
 			remoteInfo = "BitwiseFont-BitwiseFont";
 		};
+		B6D09349ECFECBEA51220FEB4BF09D7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FEF77C304F58B4306F448A2D383D419;
+			remoteInfo = HTPressableButton;
+		};
+		E4960C3CDBC43E00010546F318716490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDD2D97462311188B8F4DBD3DFDE8DC6;
+			remoteInfo = BitwiseFont;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0418EA042DC48818CE00BAD0491D6E88 /* HTPressableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTPressableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		05F09AE941F4FE0CA084C662FAF60B05 /* HTPressableButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButton.m; path = Classes/HTPressableButton.m; sourceTree = "<group>"; };
+		089E8B01FAF6B4B4524CFC5D8CB6D958 /* SAMCubicSpline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMCubicSpline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		089F4E2653E1419A6BC1C6B0C0CE1380 /* Pods-CubeRunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeRunner.release.xcconfig"; sourceTree = "<group>"; };
-		08BFF54EB088EDE4D39097FE30016923 /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
-		0B05A2D39969976D9230125D3B7B0267 /* HTPressableButtonPrefs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButtonPrefs.m; path = Classes/HTPressableButtonPrefs.m; sourceTree = "<group>"; };
-		0B7A5CBE80E5B7597C1B4E1F54D5FD21 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
-		0E8305275C064AD4517FD14A86A57EAD /* HTPressableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTPressableButton.xcconfig; sourceTree = "<group>"; };
-		129FA15E27A0DFEC88A0D16B57F5B09F /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
-		13959809435B5B923389D9AD979C72AC /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
-		19FF70BCB2B1133A1D9C37390CED61EE /* Pods_CubeRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BC4483D2AD3B60EFB8D7B59EAE50DAA /* BitwiseFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitwiseFont.xcconfig; sourceTree = "<group>"; };
-		1BF53EDD74FAD2F70B97A7B25937EBD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A1FA2E8DB1932951DD930BEDEEE66BC /* BitwiseFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BitwiseFont-dummy.m"; sourceTree = "<group>"; };
+		0F1B5C40AEC9FFFEE43DD3A9E65DA413 /* SAMCubicSpline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAMCubicSpline.modulemap; sourceTree = "<group>"; };
+		16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1B632B94EEA41FC028BE3ECECF3DD86E /* SwiftCubicSpline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCubicSpline-umbrella.h"; sourceTree = "<group>"; };
+		1CB95FB4F25D3A3E6F52600C1913EBE0 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
+		1E3F397E08D892F43E21B4444E6F1113 /* Pods_CubeRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E838DC1E25D2FDBE3D9040A6D9C6745 /* HTPressableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTPressableButton.modulemap; sourceTree = "<group>"; };
+		1E85A2477BF9E3BDBAE47FDB28ABF1F4 /* HTPressableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTPressableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2561C0E2A37AA448B51A2D3C7A48EDF9 /* Pods-CubeRunner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CubeRunner.modulemap"; sourceTree = "<group>"; };
+		2B65DF1429E4D664F24A501E820967BA /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
+		3012078957F7C29E5AFA86F8D0C3A100 /* UIImage+HTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTButton.m"; path = "Classes/UIImage+HTButton.m"; sourceTree = "<group>"; };
+		30C4BC221280963DADADC9096E4D6FD9 /* SAMCubicSpline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMCubicSpline.h; path = SAMCubicSpline/SAMCubicSpline.h; sourceTree = "<group>"; };
 		31A9BD962A5BC44835A50EE9BF66A10F /* Pods-CubeRunner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeRunner-dummy.m"; sourceTree = "<group>"; };
+		31C6449D93C1B146CCB5D724F70E0E45 /* HTPressableButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButton.m; path = Classes/HTPressableButton.m; sourceTree = "<group>"; };
+		356244200AF0F3B87C4AEA1AD8D93D15 /* BitwiseFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitwiseFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		368649890C1B9BCB8FC1575194ADB4E8 /* BitwiseFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitwiseFont-prefix.pch"; sourceTree = "<group>"; };
 		380CC6D79BDCBEEB7C1B7FAC7FB1F519 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39D1781147E3FA58EFF49AADB9F7800D /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
-		3A87AA4E3641C7ED928471F6E42C94B5 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
-		3C8B5562987265313B2FDB0F7B4B1E3E /* HTPressableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTPressableButton-dummy.m"; sourceTree = "<group>"; };
-		3FA61E2EF75EBC5D7B59A57584DE4B9E /* HTPressableButtonPrefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButtonPrefs.h; path = Classes/HTPressableButtonPrefs.h; sourceTree = "<group>"; };
-		43FC6BB9FD02830CEC0DC232614D0364 /* Bitwise.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Bitwise.ttf; path = Pod/Assets/Bitwise.ttf; sourceTree = "<group>"; };
-		450067EF75838EEEEB868554BDBC75C3 /* BitwiseFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitwiseFont-prefix.pch"; sourceTree = "<group>"; };
+		390E9F7FF81C502ADBE8CDD571C664FC /* Compound.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compound.swift; path = Cartography/Compound.swift; sourceTree = "<group>"; };
+		3CDC5F2BDE3559837546324D6D080B57 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
+		443D5BFF11B178BE9242B6D8E6F7CF5C /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C6CD0DCE1EE67F039ED1800016C699 /* SAMCubicSpline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMCubicSpline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD0554BE64E457DB12E19CAAADA9C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BE5C017F50545C27696C4D866C243A /* Pods-CubeRunner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeRunner-umbrella.h"; sourceTree = "<group>"; };
-		4B589F48FB5860349A9B107F064DDDDD /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		4BACDF1BCFFA47ADD78DDD3976517364 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		4DE308722C3B1C8E75C3BFAA87A48AA8 /* Pods-CubeRunner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeRunner-acknowledgements.plist"; sourceTree = "<group>"; };
-		549DFC0647F3D2A5BBFA4466AB800C8C /* UIFont+Bitwise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Bitwise.h"; path = "Pod/Classes/UIFont+Bitwise.h"; sourceTree = "<group>"; };
+		524DED915A7B8594F48ECECB64C0CAC4 /* HTPressableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-prefix.pch"; sourceTree = "<group>"; };
+		52FA95D9347FC95EDFFC1AD0676D1393 /* UIColor+HTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTColor.h"; path = "Classes/UIColor+HTColor.h"; sourceTree = "<group>"; };
 		565DE71A66C7CA3C0C208215A30293B6 /* Pods-CubeRunner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeRunner-frameworks.sh"; sourceTree = "<group>"; };
-		5D1EF163A345D05CDE04CB54AF92EA65 /* BitwiseFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitwiseFont-umbrella.h"; sourceTree = "<group>"; };
-		6EDA941420D38BFC6094355DC794886A /* UIColor+HTColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+HTColor.h"; path = "Classes/UIColor+HTColor.h"; sourceTree = "<group>"; };
-		75471929B4D368507F8C43496945D6AC /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
-		76AE57CDD02EA0C5326397782AAEB75D /* BitwiseFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BitwiseFont-dummy.m"; sourceTree = "<group>"; };
-		77474748305A7E5716989F4AC0B61956 /* BitwiseFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitwiseFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEF5B76729B657F9078C5EF4D44AE92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		842A6D907D59CE8F9AA28B5A1F978273 /* UIColor+HTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTColor.m"; path = "Classes/UIColor+HTColor.m"; sourceTree = "<group>"; };
-		853F318EB5E0BE74167534C1C4CB77DB /* HTPressableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-umbrella.h"; sourceTree = "<group>"; };
-		8565F1B093C7D68ED4732EDC29C595E9 /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
-		86622BF69711A060381A534C8EF2E0EF /* BitwiseFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitwiseFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B9152C02EC2439AE5323951BDE6869F /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
-		8C610325130F047186CFFB1601FB9F5D /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
-		8CDDEA6FDAFA03E80ECBD0EB19530B23 /* Cartography-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cartography-dummy.m"; sourceTree = "<group>"; };
-		8D5F169CE6D063164705B1C1595F267A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		58ED7733B22BE31D11202C9D1D9E88B3 /* BitwiseFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BitwiseFont.xcconfig; sourceTree = "<group>"; };
+		59C86D4F56814BA310E5E83A77C305B0 /* SwiftCubicSpline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCubicSpline-prefix.pch"; sourceTree = "<group>"; };
+		5AEB36E30AB7687F533A01E1AB60C74B /* Distribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Distribute.swift; path = Cartography/Distribute.swift; sourceTree = "<group>"; };
+		63651DD02400D61E63076267D00D5250 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Cartography/Constraint.swift; sourceTree = "<group>"; };
+		6376C2FBA712AC2C385A3378C8CFD69D /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
+		668EB8C53F17E9C7578B2666199C22F0 /* SwiftCubicSpline.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftCubicSpline.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68182D60C8F21A567B8322D626822ADA /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
+		6CC7CF1C992043BDEA77F1C4B98AEA79 /* HTPressableButtonPrefs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTPressableButtonPrefs.m; path = Classes/HTPressableButtonPrefs.m; sourceTree = "<group>"; };
+		7081DD063719DF7BD701AE82F1A366C2 /* BitwiseFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BitwiseFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AC80B98200C22DCD04ADCF9BD9736E /* Bitwise.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = Bitwise.ttf; path = Pod/Assets/Bitwise.ttf; sourceTree = "<group>"; };
+		755ED10F978776E729E22A209EFE03BF /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = Cartography/Property.swift; sourceTree = "<group>"; };
+		7E792174998CC8C4F83DD5D890C1A110 /* UIColor+HTColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HTColor.m"; path = "Classes/UIColor+HTColor.m"; sourceTree = "<group>"; };
+		7FC61F894FCA4BCA20292D89F9750A07 /* SAMCubicSpline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMCubicSpline.m; path = SAMCubicSpline/SAMCubicSpline.m; sourceTree = "<group>"; };
+		82174640A22230A5082CA8A3B4F4F4EA /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = Cartography/Edge.swift; sourceTree = "<group>"; };
+		88E07C47DC67E682289928C94DB6F67D /* Edges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edges.swift; path = Cartography/Edges.swift; sourceTree = "<group>"; };
+		8A0BED2DFEB593576A61241970CC0666 /* BitwiseFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BitwiseFont-umbrella.h"; sourceTree = "<group>"; };
 		8F8E53C942973F13505DBEAA83BE0735 /* Pods-CubeRunner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeRunner-resources.sh"; sourceTree = "<group>"; };
-		91EE9AD4DF3BE25D84EEB09244F2525B /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Cartography/Expression.swift; sourceTree = "<group>"; };
-		92AD19DF6B3E7C905BF7E19D80DB2D2E /* Cartography.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cartography.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B0FEFD1F1422DB474DACE3FDF3D6AC /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
-		A5C0D5BC5A83951F5D67F2653A518BBE /* UIImage+HTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTButton.h"; path = "Classes/UIImage+HTButton.h"; sourceTree = "<group>"; };
-		AF6636D103004E5E56D7FD18EF3630C9 /* BitwiseFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BitwiseFont.modulemap; sourceTree = "<group>"; };
-		AF82998A2DAFA9897DB95BAC7C234D1B /* HTPressableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButton.h; path = Classes/HTPressableButton.h; sourceTree = "<group>"; };
-		B2708C17C213031B4FF2F636263E7AD4 /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
-		B49604168513B04D5686F1E4E39AF5EA /* UIFont+Bitwise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Bitwise.m"; path = "Pod/Classes/UIFont+Bitwise.m"; sourceTree = "<group>"; };
+		8FAEC048A7E08D6201D489208010EBCA /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
+		9255E54DCAB0E703BC4C23516DFCB2F7 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
+		940908BBA0DC4A12C50E8094C0C8C547 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		948A6E0463E9ECBDCCD1F9531B73509A /* LayoutProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutProxy.swift; path = Cartography/LayoutProxy.swift; sourceTree = "<group>"; };
+		97B8AF0C9E92A7FFA49667BE0C8ACE9E /* SAMCubicSpline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMCubicSpline-dummy.m"; sourceTree = "<group>"; };
+		9E9B0041512895234E1B9FB15484DD32 /* UIFont+Bitwise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Bitwise.m"; path = "Pod/Classes/UIFont+Bitwise.m"; sourceTree = "<group>"; };
+		9FD859B63BCCD3606250EE87577D5F4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FE9AE9BDCAB52744474FDFAB404496A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A180ED38BE804F08F4E942AEC0789104 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Cartography/Extensions.swift; sourceTree = "<group>"; };
+		A29A41776A9FB81BDD6781E68F016348 /* ViewUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewUtils.swift; path = Cartography/ViewUtils.swift; sourceTree = "<group>"; };
+		A9EB2C9C1CB2C5EAD431FA2F942FAE1A /* HTPressableButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-umbrella.h"; sourceTree = "<group>"; };
+		ABCBF557C6626CE889E8F9593DFC01D3 /* SwiftCubicSpline.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCubicSpline.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFA82F0207BF9A007A131BF1D27A2C2 /* SAMCubicSpline-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMCubicSpline-prefix.pch"; sourceTree = "<group>"; };
+		B00C06097F20134ABB7349CAD256CE46 /* HTPressableButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HTPressableButton.xcconfig; sourceTree = "<group>"; };
+		B6290B92C3CB998FC86C3F5A29DD2939 /* SwiftCubicSpline.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftCubicSpline.modulemap; sourceTree = "<group>"; };
+		B6B8706B94AC75E430D8796D2B18CA20 /* HTPressableButtonPrefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButtonPrefs.h; path = Classes/HTPressableButtonPrefs.h; sourceTree = "<group>"; };
+		B97334A78B96B54A6222B47C5CCEBE10 /* HTPressableButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTPressableButton-dummy.m"; sourceTree = "<group>"; };
+		B9993D81B331BC12AD8E227A62059025 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CD36A826364BE58F23BB3AA0EFDB0FAC /* UIImage+HTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HTButton.m"; path = "Classes/UIImage+HTButton.m"; sourceTree = "<group>"; };
+		C67B3D77486798AA6F05FEBCE868D9B0 /* SwiftCubicSpline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCubicSpline.xcconfig; sourceTree = "<group>"; };
+		CA679DC453AA6DD9C2E7EAAE416AAEF2 /* Cartography.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Cartography.modulemap; sourceTree = "<group>"; };
+		CDED122B8F69DF53F37E60AD65403D5E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		CE3AAF808BB0716C8BD7FBCD6F19B1A3 /* Pods-CubeRunner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeRunner-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF62CF62A993E16EB501D1C01C321E29 /* Dimension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dimension.swift; path = Cartography/Dimension.swift; sourceTree = "<group>"; };
-		D1BB912D3AFE66F51E6449FDAF95C3CA /* Cartography-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-umbrella.h"; sourceTree = "<group>"; };
-		D2A795DD3EF8EF7441C07092A26177EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2FEA7448F83BD6208A7D18299F403EA /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Cartography/Context.swift; sourceTree = "<group>"; };
-		D6B33BFF7B46CF2E26766B880B4EA1F8 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		D13035E1962946EBF293F373A1BAFB0B /* SAMCubicSpline-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMCubicSpline-umbrella.h"; sourceTree = "<group>"; };
+		D2778B9CD7F79F23372B52B74CB8095D /* UIFont+Bitwise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Bitwise.h"; path = "Pod/Classes/UIFont+Bitwise.h"; sourceTree = "<group>"; };
+		D39E1BB486B3B4F9397C64D610EDD82E /* CubicSpline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubicSpline.swift; path = Pod/Classes/CubicSpline.swift; sourceTree = "<group>"; };
+		D4B17F36C7BBA8BB4D27EB0EDC9F5D26 /* Priority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Priority.swift; path = Cartography/Priority.swift; sourceTree = "<group>"; };
 		D6FDE9988256AE4118C6C7DDE0A7A383 /* Pods-CubeRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeRunner.debug.xcconfig"; sourceTree = "<group>"; };
-		D7D6EFFD76A5921C9550CCD607059497 /* ConstraintGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintGroup.swift; path = Cartography/ConstraintGroup.swift; sourceTree = "<group>"; };
-		D9EF7C5D6C5B700147E17F7BEB5F0D79 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = Cartography/Point.swift; sourceTree = "<group>"; };
-		DCE9A652CBE9B6BB5BC7D7E22995D400 /* HTPressableButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HTPressableButton.modulemap; sourceTree = "<group>"; };
-		DDC974F39E4DC050B4F0764B79C991AF /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
-		E21282BE5CBE826A2240D38ADDBFC853 /* Cartography-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Cartography-prefix.pch"; sourceTree = "<group>"; };
-		E51B8698B976EFA22C47FD8DCF50890D /* HTPressableButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTPressableButton-prefix.pch"; sourceTree = "<group>"; };
-		E8CA42E32FE458AED96860E06562DD4A /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
-		EA5E47EE8996DB1E2B5F7F0C8A97C933 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F90320DC5E09E6DE9BE79DC0C4C9DD97 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
-		FE00FAE23F2E6F13F60B0AE8A99DAD06 /* Coefficients.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coefficients.swift; path = Cartography/Coefficients.swift; sourceTree = "<group>"; };
+		DA931FE4B0766D015E6858E5144316A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB0A7A1BE66109C012DF6E5951004D04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E15C371C41C21FAD3ABB0A1DBC089ABC /* Align.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Align.swift; path = Cartography/Align.swift; sourceTree = "<group>"; };
+		E2EBE05BEFCAEFE4B878A15DBD9AF542 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E30416A9A4F75B6ED3E49E0E12C57A10 /* Cartography.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cartography.xcconfig; sourceTree = "<group>"; };
+		E38F8DE4198D18620D2207C3BBF86177 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = View.swift; path = Cartography/View.swift; sourceTree = "<group>"; };
+		E7A78C0B4996188928922C4B6CCBDD2E /* SwiftCubicSpline-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCubicSpline-dummy.m"; sourceTree = "<group>"; };
+		E7BFC78BEC3B695F203829387843C42C /* Constrain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrain.swift; path = Cartography/Constrain.swift; sourceTree = "<group>"; };
+		EE5E2691AA564DBF51E8DBBEB69F69B3 /* UIImage+HTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HTButton.h"; path = "Classes/UIImage+HTButton.h"; sourceTree = "<group>"; };
+		F61E4985C47F816AD06FE43F3890E5F6 /* SAMCubicSpline.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMCubicSpline.xcconfig; sourceTree = "<group>"; };
+		F62EF7E8FED2C63FBA73D45370D5B4C8 /* HTPressableButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTPressableButton.h; path = Classes/HTPressableButton.h; sourceTree = "<group>"; };
+		F747A7354B579399CE5CA17465F69267 /* BitwiseFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BitwiseFont.modulemap; sourceTree = "<group>"; };
+		FFE63F7A8FC219E8F0366EC9EA67D02E /* Size.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Size.swift; path = Cartography/Size.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C2E46D1CDE0284CF81A467721BCA4FA /* Frameworks */ = {
+		291FEB444CDF4FF60C988AA81CE5D239 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF413057059128502FDD1A7F67B93D28 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +242,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		86929A44B9124C519ECA5A0D43EFFC18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54308B84D19AA1670198B71F71C5C501 /* CoreGraphics.framework in Frameworks */,
+				0E57FA50018DA644CAF3F299C2DB9439 /* Foundation.framework in Frameworks */,
+				9BF9CECF651A8E99AFB8E76CDD1BC47E /* SAMCubicSpline.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		87F77F727614B52616B320531B429B49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +262,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8D4FBBE0172DF3648DFC0A32972D8C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D48A17F209E98C9A4521DA639A4CEA3 /* CoreGraphics.framework in Frameworks */,
+				AE067DB385C656F03BEA96FFAF7B4182 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DC7B22172FFAA2CABB480EF4AF15638A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,71 +278,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7B5F3BB5939460B0E64B09A044DDE73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCB759F45A544A98ED41804D631BFDFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0011CF76CBFD0727EF7D638B385217A2 /* HTPressableButton */ = {
+		040BA000896A27C25ACAC78AC3F8CA49 /* All */ = {
 			isa = PBXGroup;
 			children = (
-				5B68806BA055D4EB45025DAB5858E154 /* All */,
-				56AF495106222BEF7521C4034DCCEBB8 /* Support Files */,
+				F62EF7E8FED2C63FBA73D45370D5B4C8 /* HTPressableButton.h */,
+				31C6449D93C1B146CCB5D724F70E0E45 /* HTPressableButton.m */,
+				B6B8706B94AC75E430D8796D2B18CA20 /* HTPressableButtonPrefs.h */,
+				6CC7CF1C992043BDEA77F1C4B98AEA79 /* HTPressableButtonPrefs.m */,
+				52FA95D9347FC95EDFFC1AD0676D1393 /* UIColor+HTColor.h */,
+				7E792174998CC8C4F83DD5D890C1A110 /* UIColor+HTColor.m */,
+				EE5E2691AA564DBF51E8DBBEB69F69B3 /* UIImage+HTButton.h */,
+				3012078957F7C29E5AFA86F8D0C3A100 /* UIImage+HTButton.m */,
 			);
-			path = HTPressableButton;
+			name = All;
 			sourceTree = "<group>";
 		};
-		0BFD353F398F4232D6E85E957CD293AE /* Resources */ = {
+		0E69FE03E9C098BD5A260FE7D20F2289 /* SwiftCubicSpline */ = {
 			isa = PBXGroup;
 			children = (
-				43FC6BB9FD02830CEC0DC232614D0364 /* Bitwise.ttf */,
+				D39E1BB486B3B4F9397C64D610EDD82E /* CubicSpline.swift */,
+				822A0C7A725B92D953FFD866A705420D /* Support Files */,
 			);
-			name = Resources;
+			path = SwiftCubicSpline;
 			sourceTree = "<group>";
 		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+		14B192C8B9257C64ADD43F224CC3E6FD /* BitwiseFont */ = {
 			isa = PBXGroup;
 			children = (
-				9F8F54DD2A6D66232C96B2AF7E0E9215 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1A3D60D55353E1A5119774FDEB21443D /* Cartography */ = {
-			isa = PBXGroup;
-			children = (
-				E8CA42E32FE458AED96860E06562DD4A /* Align.swift */,
-				FE00FAE23F2E6F13F60B0AE8A99DAD06 /* Coefficients.swift */,
-				13959809435B5B923389D9AD979C72AC /* Compound.swift */,
-				8565F1B093C7D68ED4732EDC29C595E9 /* Constrain.swift */,
-				8B9152C02EC2439AE5323951BDE6869F /* Constraint.swift */,
-				D7D6EFFD76A5921C9550CCD607059497 /* ConstraintGroup.swift */,
-				D2FEA7448F83BD6208A7D18299F403EA /* Context.swift */,
-				CF62CF62A993E16EB501D1C01C321E29 /* Dimension.swift */,
-				08BFF54EB088EDE4D39097FE30016923 /* Distribute.swift */,
-				75471929B4D368507F8C43496945D6AC /* Edge.swift */,
-				4B589F48FB5860349A9B107F064DDDDD /* Edges.swift */,
-				91EE9AD4DF3BE25D84EEB09244F2525B /* Expression.swift */,
-				0B7A5CBE80E5B7597C1B4E1F54D5FD21 /* Extensions.swift */,
-				129FA15E27A0DFEC88A0D16B57F5B09F /* LayoutProxy.swift */,
-				D9EF7C5D6C5B700147E17F7BEB5F0D79 /* Point.swift */,
-				3A87AA4E3641C7ED928471F6E42C94B5 /* Priority.swift */,
-				8C610325130F047186CFFB1601FB9F5D /* Property.swift */,
-				B2708C17C213031B4FF2F636263E7AD4 /* Size.swift */,
-				F90320DC5E09E6DE9BE79DC0C4C9DD97 /* View.swift */,
-				39D1781147E3FA58EFF49AADB9F7800D /* ViewUtils.swift */,
-				A3C472FC0B153C40364BD59DC2A73031 /* Support Files */,
-			);
-			path = Cartography;
-			sourceTree = "<group>";
-		};
-		374A43CC2005E61E95BE5B848B61B177 /* BitwiseFont */ = {
-			isa = PBXGroup;
-			children = (
-				549DFC0647F3D2A5BBFA4466AB800C8C /* UIFont+Bitwise.h */,
-				B49604168513B04D5686F1E4E39AF5EA /* UIFont+Bitwise.m */,
-				0BFD353F398F4232D6E85E957CD293AE /* Resources */,
-				E98FFE1E566BACD16CAD743EEB1BE311 /* Support Files */,
+				D2778B9CD7F79F23372B52B74CB8095D /* UIFont+Bitwise.h */,
+				9E9B0041512895234E1B9FB15484DD32 /* UIFont+Bitwise.m */,
+				A888EF3E8D7C46FC2EB80E004D0478F2 /* Resources */,
+				9A20E9824C2BDE7B403F8944DDA052FB /* Support Files */,
 			);
 			path = BitwiseFont;
+			sourceTree = "<group>";
+		};
+		4C488FA810021D952781937FD397C797 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E838DC1E25D2FDBE3D9040A6D9C6745 /* HTPressableButton.modulemap */,
+				B00C06097F20134ABB7349CAD256CE46 /* HTPressableButton.xcconfig */,
+				B97334A78B96B54A6222B47C5CCEBE10 /* HTPressableButton-dummy.m */,
+				524DED915A7B8594F48ECECB64C0CAC4 /* HTPressableButton-prefix.pch */,
+				A9EB2C9C1CB2C5EAD431FA2F942FAE1A /* HTPressableButton-umbrella.h */,
+				45FD0554BE64E457DB12E19CAAADA9C5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HTPressableButton";
+			sourceTree = "<group>";
+		};
+		52147AD250C73FA8D54BFB680E277D9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14B192C8B9257C64ADD43F224CC3E6FD /* BitwiseFont */,
+				62A73C608DCBF1A04582BE622B31348F /* Cartography */,
+				63A9AD9D36D69D791944199960CB61CC /* HTPressableButton */,
+				6207B4A07DAF21C41C059B5545C2491E /* SAMCubicSpline */,
+				0E69FE03E9C098BD5A260FE7D20F2289 /* SwiftCubicSpline */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		55F61CF5D88ACAC41DC08E309B78F153 /* Pods-CubeRunner */ = {
@@ -284,43 +368,18 @@
 			path = "Target Support Files/Pods-CubeRunner";
 			sourceTree = "<group>";
 		};
-		56AF495106222BEF7521C4034DCCEBB8 /* Support Files */ = {
+		570EB513177AD0D08AB04CC6E39697EB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DCE9A652CBE9B6BB5BC7D7E22995D400 /* HTPressableButton.modulemap */,
-				0E8305275C064AD4517FD14A86A57EAD /* HTPressableButton.xcconfig */,
-				3C8B5562987265313B2FDB0F7B4B1E3E /* HTPressableButton-dummy.m */,
-				E51B8698B976EFA22C47FD8DCF50890D /* HTPressableButton-prefix.pch */,
-				853F318EB5E0BE74167534C1C4CB77DB /* HTPressableButton-umbrella.h */,
-				EA5E47EE8996DB1E2B5F7F0C8A97C933 /* Info.plist */,
+				CA679DC453AA6DD9C2E7EAAE416AAEF2 /* Cartography.modulemap */,
+				E30416A9A4F75B6ED3E49E0E12C57A10 /* Cartography.xcconfig */,
+				3CDC5F2BDE3559837546324D6D080B57 /* Cartography-dummy.m */,
+				B9993D81B331BC12AD8E227A62059025 /* Cartography-prefix.pch */,
+				8FAEC048A7E08D6201D489208010EBCA /* Cartography-umbrella.h */,
+				9FE9AE9BDCAB52744474FDFAB404496A /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/HTPressableButton";
-			sourceTree = "<group>";
-		};
-		5B68806BA055D4EB45025DAB5858E154 /* All */ = {
-			isa = PBXGroup;
-			children = (
-				AF82998A2DAFA9897DB95BAC7C234D1B /* HTPressableButton.h */,
-				05F09AE941F4FE0CA084C662FAF60B05 /* HTPressableButton.m */,
-				3FA61E2EF75EBC5D7B59A57584DE4B9E /* HTPressableButtonPrefs.h */,
-				0B05A2D39969976D9230125D3B7B0267 /* HTPressableButtonPrefs.m */,
-				6EDA941420D38BFC6094355DC794886A /* UIColor+HTColor.h */,
-				842A6D907D59CE8F9AA28B5A1F978273 /* UIColor+HTColor.m */,
-				A5C0D5BC5A83951F5D67F2653A518BBE /* UIImage+HTButton.h */,
-				CD36A826364BE58F23BB3AA0EFDB0FAC /* UIImage+HTButton.m */,
-			);
-			name = All;
-			sourceTree = "<group>";
-		};
-		5D1D30F5D606274653B4F37CBB55A6A2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				374A43CC2005E61E95BE5B848B61B177 /* BitwiseFont */,
-				1A3D60D55353E1A5119774FDEB21443D /* Cartography */,
-				0011CF76CBFD0727EF7D638B385217A2 /* HTPressableButton */,
-			);
-			name = Pods;
+			path = "../Target Support Files/Cartography";
 			sourceTree = "<group>";
 		};
 		5F8D2E3C56AAFD97DF2F9A7995AB6A49 /* Targets Support Files */ = {
@@ -331,65 +390,147 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		6207B4A07DAF21C41C059B5545C2491E /* SAMCubicSpline */ = {
+			isa = PBXGroup;
+			children = (
+				30C4BC221280963DADADC9096E4D6FD9 /* SAMCubicSpline.h */,
+				7FC61F894FCA4BCA20292D89F9750A07 /* SAMCubicSpline.m */,
+				FE376C89291315B575CFFEE23A768E62 /* Support Files */,
+			);
+			path = SAMCubicSpline;
+			sourceTree = "<group>";
+		};
+		62A73C608DCBF1A04582BE622B31348F /* Cartography */ = {
+			isa = PBXGroup;
+			children = (
+				E15C371C41C21FAD3ABB0A1DBC089ABC /* Align.swift */,
+				940908BBA0DC4A12C50E8094C0C8C547 /* Coefficients.swift */,
+				390E9F7FF81C502ADBE8CDD571C664FC /* Compound.swift */,
+				E7BFC78BEC3B695F203829387843C42C /* Constrain.swift */,
+				63651DD02400D61E63076267D00D5250 /* Constraint.swift */,
+				68182D60C8F21A567B8322D626822ADA /* ConstraintGroup.swift */,
+				2B65DF1429E4D664F24A501E820967BA /* Context.swift */,
+				1CB95FB4F25D3A3E6F52600C1913EBE0 /* Dimension.swift */,
+				5AEB36E30AB7687F533A01E1AB60C74B /* Distribute.swift */,
+				82174640A22230A5082CA8A3B4F4F4EA /* Edge.swift */,
+				88E07C47DC67E682289928C94DB6F67D /* Edges.swift */,
+				6376C2FBA712AC2C385A3378C8CFD69D /* Expression.swift */,
+				A180ED38BE804F08F4E942AEC0789104 /* Extensions.swift */,
+				948A6E0463E9ECBDCCD1F9531B73509A /* LayoutProxy.swift */,
+				9255E54DCAB0E703BC4C23516DFCB2F7 /* Point.swift */,
+				D4B17F36C7BBA8BB4D27EB0EDC9F5D26 /* Priority.swift */,
+				755ED10F978776E729E22A209EFE03BF /* Property.swift */,
+				FFE63F7A8FC219E8F0366EC9EA67D02E /* Size.swift */,
+				E38F8DE4198D18620D2207C3BBF86177 /* View.swift */,
+				A29A41776A9FB81BDD6781E68F016348 /* ViewUtils.swift */,
+				570EB513177AD0D08AB04CC6E39697EB /* Support Files */,
+			);
+			path = Cartography;
+			sourceTree = "<group>";
+		};
+		63A9AD9D36D69D791944199960CB61CC /* HTPressableButton */ = {
+			isa = PBXGroup;
+			children = (
+				040BA000896A27C25ACAC78AC3F8CA49 /* All */,
+				4C488FA810021D952781937FD397C797 /* Support Files */,
+			);
+			path = HTPressableButton;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				5D1D30F5D606274653B4F37CBB55A6A2 /* Pods */,
-				A4755143540DAB11AAEC9105FDACDEA8 /* Products */,
+				A5D7B971EC1FFF952192EF61956E9AE4 /* Frameworks */,
+				52147AD250C73FA8D54BFB680E277D9E /* Pods */,
+				FE67734D05BFAD875615F2DAE2E7BA71 /* Products */,
 				5F8D2E3C56AAFD97DF2F9A7995AB6A49 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9F8F54DD2A6D66232C96B2AF7E0E9215 /* iOS */ = {
+		822A0C7A725B92D953FFD866A705420D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6B33BFF7B46CF2E26766B880B4EA1F8 /* CoreText.framework */,
-				8D5F169CE6D063164705B1C1595F267A /* Foundation.framework */,
-				7FEF5B76729B657F9078C5EF4D44AE92 /* UIKit.framework */,
+				DA931FE4B0766D015E6858E5144316A0 /* Info.plist */,
+				B6290B92C3CB998FC86C3F5A29DD2939 /* SwiftCubicSpline.modulemap */,
+				C67B3D77486798AA6F05FEBCE868D9B0 /* SwiftCubicSpline.xcconfig */,
+				E7A78C0B4996188928922C4B6CCBDD2E /* SwiftCubicSpline-dummy.m */,
+				59C86D4F56814BA310E5E83A77C305B0 /* SwiftCubicSpline-prefix.pch */,
+				1B632B94EEA41FC028BE3ECECF3DD86E /* SwiftCubicSpline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCubicSpline";
+			sourceTree = "<group>";
+		};
+		8EFFDB69CE973BAD9D9032B52483162F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4BACDF1BCFFA47ADD78DDD3976517364 /* CoreGraphics.framework */,
+				CDED122B8F69DF53F37E60AD65403D5E /* CoreText.framework */,
+				16899EB73DF0E989C7E4FC564533A20C /* Foundation.framework */,
+				DB0A7A1BE66109C012DF6E5951004D04 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		A3C472FC0B153C40364BD59DC2A73031 /* Support Files */ = {
+		9A20E9824C2BDE7B403F8944DDA052FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				92B0FEFD1F1422DB474DACE3FDF3D6AC /* Cartography.modulemap */,
-				DDC974F39E4DC050B4F0764B79C991AF /* Cartography.xcconfig */,
-				8CDDEA6FDAFA03E80ECBD0EB19530B23 /* Cartography-dummy.m */,
-				E21282BE5CBE826A2240D38ADDBFC853 /* Cartography-prefix.pch */,
-				D1BB912D3AFE66F51E6449FDAF95C3CA /* Cartography-umbrella.h */,
-				1BF53EDD74FAD2F70B97A7B25937EBD5 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Cartography";
-			sourceTree = "<group>";
-		};
-		A4755143540DAB11AAEC9105FDACDEA8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				77474748305A7E5716989F4AC0B61956 /* BitwiseFont.bundle */,
-				86622BF69711A060381A534C8EF2E0EF /* BitwiseFont.framework */,
-				92AD19DF6B3E7C905BF7E19D80DB2D2E /* Cartography.framework */,
-				0418EA042DC48818CE00BAD0491D6E88 /* HTPressableButton.framework */,
-				19FF70BCB2B1133A1D9C37390CED61EE /* Pods_CubeRunner.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E98FFE1E566BACD16CAD743EEB1BE311 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AF6636D103004E5E56D7FD18EF3630C9 /* BitwiseFont.modulemap */,
-				1BC4483D2AD3B60EFB8D7B59EAE50DAA /* BitwiseFont.xcconfig */,
-				76AE57CDD02EA0C5326397782AAEB75D /* BitwiseFont-dummy.m */,
-				450067EF75838EEEEB868554BDBC75C3 /* BitwiseFont-prefix.pch */,
-				5D1EF163A345D05CDE04CB54AF92EA65 /* BitwiseFont-umbrella.h */,
-				D2A795DD3EF8EF7441C07092A26177EB /* Info.plist */,
+				F747A7354B579399CE5CA17465F69267 /* BitwiseFont.modulemap */,
+				58ED7733B22BE31D11202C9D1D9E88B3 /* BitwiseFont.xcconfig */,
+				0A1FA2E8DB1932951DD930BEDEEE66BC /* BitwiseFont-dummy.m */,
+				368649890C1B9BCB8FC1575194ADB4E8 /* BitwiseFont-prefix.pch */,
+				8A0BED2DFEB593576A61241970CC0666 /* BitwiseFont-umbrella.h */,
+				9FD859B63BCCD3606250EE87577D5F4D /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BitwiseFont";
+			sourceTree = "<group>";
+		};
+		A5D7B971EC1FFF952192EF61956E9AE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089E8B01FAF6B4B4524CFC5D8CB6D958 /* SAMCubicSpline.framework */,
+				8EFFDB69CE973BAD9D9032B52483162F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A888EF3E8D7C46FC2EB80E004D0478F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				73AC80B98200C22DCD04ADCF9BD9736E /* Bitwise.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FE376C89291315B575CFFEE23A768E62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2EBE05BEFCAEFE4B878A15DBD9AF542 /* Info.plist */,
+				0F1B5C40AEC9FFFEE43DD3A9E65DA413 /* SAMCubicSpline.modulemap */,
+				F61E4985C47F816AD06FE43F3890E5F6 /* SAMCubicSpline.xcconfig */,
+				97B8AF0C9E92A7FFA49667BE0C8ACE9E /* SAMCubicSpline-dummy.m */,
+				ADFA82F0207BF9A007A131BF1D27A2C2 /* SAMCubicSpline-prefix.pch */,
+				D13035E1962946EBF293F373A1BAFB0B /* SAMCubicSpline-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMCubicSpline";
+			sourceTree = "<group>";
+		};
+		FE67734D05BFAD875615F2DAE2E7BA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				356244200AF0F3B87C4AEA1AD8D93D15 /* BitwiseFont.bundle */,
+				7081DD063719DF7BD701AE82F1A366C2 /* BitwiseFont.framework */,
+				443D5BFF11B178BE9242B6D8E6F7CF5C /* Cartography.framework */,
+				1E85A2477BF9E3BDBAE47FDB28ABF1F4 /* HTPressableButton.framework */,
+				1E3F397E08D892F43E21B4444E6F1113 /* Pods_CubeRunner.framework */,
+				45C6CD0DCE1EE67F039ED1800016C699 /* SAMCubicSpline.framework */,
+				ABCBF557C6626CE889E8F9593DFC01D3 /* SwiftCubicSpline.bundle */,
+				668EB8C53F17E9C7578B2666199C22F0 /* SwiftCubicSpline.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -407,6 +548,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		447FCA930A1B95939469224F075594AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE1093287D0EAF94AEA0F25A51738BA /* SAMCubicSpline-umbrella.h in Headers */,
+				754E342B9FDA0357E7BAF9A1B001E57C /* SAMCubicSpline.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		514705BF944036B79FA99816C564643C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -415,11 +565,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C5B8B85F2C0A17851FA5F4CCBE21F98 /* Headers */ = {
+		7868340670C8AFF611317BB07C328E54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DA4DBD145D7A4DB67F2491BC9525ED /* Pods-CubeRunner-umbrella.h in Headers */,
+				C303A9F20E793437E109E41A0651C888 /* Pods-CubeRunner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99F80C6D6A867B8772739C34E3681C18 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3FE598995859AB65045C3724D8856D /* SwiftCubicSpline-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,24 +593,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7B9E2E99E598CDEC86555A352CB8F8E8 /* Pods-CubeRunner */ = {
+		02AFEB6743D7EF16EF7914D446513B2F /* Pods-CubeRunner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 491A56CE538737C907A04C1BAAF1E56F /* Build configuration list for PBXNativeTarget "Pods-CubeRunner" */;
+			buildConfigurationList = 0F058006A61EF90040A4CDAAEC5E6C5C /* Build configuration list for PBXNativeTarget "Pods-CubeRunner" */;
 			buildPhases = (
-				74925CC3388706D6ED4B56400B00103D /* Sources */,
-				2C2E46D1CDE0284CF81A467721BCA4FA /* Frameworks */,
-				9C5B8B85F2C0A17851FA5F4CCBE21F98 /* Headers */,
+				477CA13E37760C5F0EA7FB589260D385 /* Sources */,
+				E7B5F3BB5939460B0E64B09A044DDE73 /* Frameworks */,
+				7868340670C8AFF611317BB07C328E54 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BCE540312595B1A29473377E0DFDE4EB /* PBXTargetDependency */,
-				4B2D19D97BFC7E5DEA5EB932A1D4E3F0 /* PBXTargetDependency */,
-				B005B843F05110414AC4E172E570E855 /* PBXTargetDependency */,
+				D55E0A626D84E271CD52DBBD367B7089 /* PBXTargetDependency */,
+				DC7D1260DE81233850830A1AA7718CAA /* PBXTargetDependency */,
+				B8F8E3556E309D4BF3C67E2067D37980 /* PBXTargetDependency */,
+				A24FF29FC3F62971022F7A8E014E46D0 /* PBXTargetDependency */,
+				0826962B40B380B09461817CC8BD896B /* PBXTargetDependency */,
 			);
 			name = "Pods-CubeRunner";
 			productName = "Pods-CubeRunner";
-			productReference = 19FF70BCB2B1133A1D9C37390CED61EE /* Pods_CubeRunner.framework */;
+			productReference = 1E3F397E08D892F43E21B4444E6F1113 /* Pods_CubeRunner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42494299C8F70E02094528854366C707 /* SwiftCubicSpline-SwiftCubicSpline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D0A78F8CBF2A85ABC67A5EA913376A /* Build configuration list for PBXNativeTarget "SwiftCubicSpline-SwiftCubicSpline" */;
+			buildPhases = (
+				87A7DA4BB21FC77FC1DCE772D0094114 /* Sources */,
+				291FEB444CDF4FF60C988AA81CE5D239 /* Frameworks */,
+				6ACB7984069F684095A5176D456C4AE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftCubicSpline-SwiftCubicSpline";
+			productName = "SwiftCubicSpline-SwiftCubicSpline";
+			productReference = ABCBF557C6626CE889E8F9593DFC01D3 /* SwiftCubicSpline.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6FAD636649C9596B66847351E69C9333 /* SwiftCubicSpline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25712C1483C42C3A5C0D6BE07D6D9881 /* Build configuration list for PBXNativeTarget "SwiftCubicSpline" */;
+			buildPhases = (
+				FDAC84C73AD7CBEC2665C807038BE44E /* Sources */,
+				86929A44B9124C519ECA5A0D43EFFC18 /* Frameworks */,
+				5DFE87D282FE94B1D45901F14D941008 /* Resources */,
+				99F80C6D6A867B8772739C34E3681C18 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB7C46ADAB1DB4FA9F813D6F066EDCBA /* PBXTargetDependency */,
+				6C10B7C9C05569F9758ED20E7533FD40 /* PBXTargetDependency */,
+			);
+			name = SwiftCubicSpline;
+			productName = SwiftCubicSpline;
+			productReference = 668EB8C53F17E9C7578B2666199C22F0 /* SwiftCubicSpline.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7FEF77C304F58B4306F448A2D383D419 /* HTPressableButton */ = {
@@ -469,7 +666,24 @@
 			);
 			name = HTPressableButton;
 			productName = HTPressableButton;
-			productReference = 0418EA042DC48818CE00BAD0491D6E88 /* HTPressableButton.framework */;
+			productReference = 1E85A2477BF9E3BDBAE47FDB28ABF1F4 /* HTPressableButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A35CEA389C448347FC5D4EF020F9AEAB /* SAMCubicSpline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F82AA6A2E34E6D02D27B4E0809661274 /* Build configuration list for PBXNativeTarget "SAMCubicSpline" */;
+			buildPhases = (
+				6A219416CCE628976D37FB6F7AB1E835 /* Sources */,
+				8D4FBBE0172DF3648DFC0A32972D8C2F /* Frameworks */,
+				447FCA930A1B95939469224F075594AE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAMCubicSpline;
+			productName = SAMCubicSpline;
+			productReference = 45C6CD0DCE1EE67F039ED1800016C699 /* SAMCubicSpline.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C3A04698AAE4D6124C20602D622956E5 /* Cartography */ = {
@@ -486,7 +700,7 @@
 			);
 			name = Cartography;
 			productName = Cartography;
-			productReference = 92AD19DF6B3E7C905BF7E19D80DB2D2E /* Cartography.framework */;
+			productReference = 443D5BFF11B178BE9242B6D8E6F7CF5C /* Cartography.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CDD2D97462311188B8F4DBD3DFDE8DC6 /* BitwiseFont */ = {
@@ -505,7 +719,7 @@
 			);
 			name = BitwiseFont;
 			productName = BitwiseFont;
-			productReference = 86622BF69711A060381A534C8EF2E0EF /* BitwiseFont.framework */;
+			productReference = 7081DD063719DF7BD701AE82F1A366C2 /* BitwiseFont.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EF61D98D15BBAEAD3E8A49B535D55DFA /* BitwiseFont-BitwiseFont */ = {
@@ -522,7 +736,7 @@
 			);
 			name = "BitwiseFont-BitwiseFont";
 			productName = "BitwiseFont-BitwiseFont";
-			productReference = 77474748305A7E5716989F4AC0B61956 /* BitwiseFont.bundle */;
+			productReference = 356244200AF0F3B87C4AEA1AD8D93D15 /* BitwiseFont.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -542,7 +756,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A4755143540DAB11AAEC9105FDACDEA8 /* Products */;
+			productRefGroup = FE67734D05BFAD875615F2DAE2E7BA71 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -550,12 +764,30 @@
 				EF61D98D15BBAEAD3E8A49B535D55DFA /* BitwiseFont-BitwiseFont */,
 				C3A04698AAE4D6124C20602D622956E5 /* Cartography */,
 				7FEF77C304F58B4306F448A2D383D419 /* HTPressableButton */,
-				7B9E2E99E598CDEC86555A352CB8F8E8 /* Pods-CubeRunner */,
+				02AFEB6743D7EF16EF7914D446513B2F /* Pods-CubeRunner */,
+				A35CEA389C448347FC5D4EF020F9AEAB /* SAMCubicSpline */,
+				6FAD636649C9596B66847351E69C9333 /* SwiftCubicSpline */,
+				42494299C8F70E02094528854366C707 /* SwiftCubicSpline-SwiftCubicSpline */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5DFE87D282FE94B1D45901F14D941008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A149F3DAC95BC8ACDCE68A186FEF388F /* SwiftCubicSpline.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACB7984069F684095A5176D456C4AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8EE21B7F752C7D3C7B8F2CC4B3AF19A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,10 +807,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		477CA13E37760C5F0EA7FB589260D385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54EA869E258BE4F1446643AF3ECDAA77 /* Pods-CubeRunner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		606EF3E9A4A008D58FE1C2F76B1DACDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A219416CCE628976D37FB6F7AB1E835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02370DE140BE4C1AD842EF4D21603EB2 /* SAMCubicSpline-dummy.m in Sources */,
+				9F71E9A9E22D25FBC06481634AC3DFF1 /* SAMCubicSpline.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,11 +840,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74925CC3388706D6ED4B56400B00103D /* Sources */ = {
+		87A7DA4BB21FC77FC1DCE772D0094114 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE583F8F322E4EC106C7D577126DAA8 /* Pods-CubeRunner-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,14 +887,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDAC84C73AD7CBEC2665C807038BE44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2526A5A69B2D21885E8E64980DE411B3 /* CubicSpline.swift in Sources */,
+				300ECA45C36967E72DE01900DEDCAA05 /* SwiftCubicSpline-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4B2D19D97BFC7E5DEA5EB932A1D4E3F0 /* PBXTargetDependency */ = {
+		0826962B40B380B09461817CC8BD896B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Cartography;
-			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
-			targetProxy = 894F0A04E9D1FD9039F1106C26044EF1 /* PBXContainerItemProxy */;
+			name = SwiftCubicSpline;
+			target = 6FAD636649C9596B66847351E69C9333 /* SwiftCubicSpline */;
+			targetProxy = 35CF4CCE36786558CD65DA543820693E /* PBXContainerItemProxy */;
 		};
 		52C051DF1A9B214A0F1F1A1623AF600C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -654,24 +911,48 @@
 			target = EF61D98D15BBAEAD3E8A49B535D55DFA /* BitwiseFont-BitwiseFont */;
 			targetProxy = 94B08AFA681DF47902D5065DBC45D276 /* PBXContainerItemProxy */;
 		};
-		B005B843F05110414AC4E172E570E855 /* PBXTargetDependency */ = {
+		6C10B7C9C05569F9758ED20E7533FD40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftCubicSpline-SwiftCubicSpline";
+			target = 42494299C8F70E02094528854366C707 /* SwiftCubicSpline-SwiftCubicSpline */;
+			targetProxy = 89F4F531F9CEA5588BCEA63569B29204 /* PBXContainerItemProxy */;
+		};
+		A24FF29FC3F62971022F7A8E014E46D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMCubicSpline;
+			target = A35CEA389C448347FC5D4EF020F9AEAB /* SAMCubicSpline */;
+			targetProxy = 7267E07C08BEB03C9452FA149194E4B3 /* PBXContainerItemProxy */;
+		};
+		B8F8E3556E309D4BF3C67E2067D37980 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTPressableButton;
 			target = 7FEF77C304F58B4306F448A2D383D419 /* HTPressableButton */;
-			targetProxy = 17CE3EFFCB3DF2EFAADFAB0813637F1B /* PBXContainerItemProxy */;
+			targetProxy = B6D09349ECFECBEA51220FEB4BF09D7E /* PBXContainerItemProxy */;
 		};
-		BCE540312595B1A29473377E0DFDE4EB /* PBXTargetDependency */ = {
+		D55E0A626D84E271CD52DBBD367B7089 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BitwiseFont;
 			target = CDD2D97462311188B8F4DBD3DFDE8DC6 /* BitwiseFont */;
-			targetProxy = 6B15A0002E3D7C3C8066061ECB60E2E2 /* PBXContainerItemProxy */;
+			targetProxy = E4960C3CDBC43E00010546F318716490 /* PBXContainerItemProxy */;
+		};
+		DB7C46ADAB1DB4FA9F813D6F066EDCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMCubicSpline;
+			target = A35CEA389C448347FC5D4EF020F9AEAB /* SAMCubicSpline */;
+			targetProxy = 1F1BAA151871FAA7F5405D5BBF4294B7 /* PBXContainerItemProxy */;
+		};
+		DC7D1260DE81233850830A1AA7718CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Cartography;
+			target = C3A04698AAE4D6124C20602D622956E5 /* Cartography */;
+			targetProxy = 300AFC801839127079002B7451FD3893 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		061B798A53F626E74317810C3F3C3EAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BC4483D2AD3B60EFB8D7B59EAE50DAA /* BitwiseFont.xcconfig */;
+			baseConfigurationReference = 58ED7733B22BE31D11202C9D1D9E88B3 /* BitwiseFont.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = BitwiseFont;
@@ -683,7 +964,7 @@
 		};
 		09F940B4763FEF0A6F793592747A244B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BC4483D2AD3B60EFB8D7B59EAE50DAA /* BitwiseFont.xcconfig */;
+			baseConfigurationReference = 58ED7733B22BE31D11202C9D1D9E88B3 /* BitwiseFont.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -708,7 +989,183 @@
 			};
 			name = Release;
 		};
-		1E4B14686B31ADB7EA384DE69D3BC479 /* Debug */ = {
+		145E6B6D954C88704CB63D2DF9B84F20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61E4985C47F816AD06FE43F3890E5F6 /* SAMCubicSpline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMCubicSpline/SAMCubicSpline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMCubicSpline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMCubicSpline/SAMCubicSpline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SAMCubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		146A67AD18018072A98A84F56A640404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61E4985C47F816AD06FE43F3890E5F6 /* SAMCubicSpline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMCubicSpline/SAMCubicSpline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMCubicSpline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMCubicSpline/SAMCubicSpline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SAMCubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EF406F4C2CCFBE0300108C2C287B4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00C06097F20134ABB7349CAD256CE46 /* HTPressableButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTPressableButton/HTPressableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTPressableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTPressableButton/HTPressableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HTPressableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A4875CCC15711F355328D4D36BB210F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E30416A9A4F75B6ED3E49E0E12C57A10 /* Cartography.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Cartography;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3037655EB55B6821E725D965DDA93415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67B3D77486798AA6F05FEBCE868D9B0 /* SwiftCubicSpline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCubicSpline/SwiftCubicSpline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCubicSpline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCubicSpline/SwiftCubicSpline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftCubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CE2C5CC0BDD3ABC3FB46BB5B89777CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B00C06097F20134ABB7349CAD256CE46 /* HTPressableButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HTPressableButton/HTPressableButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HTPressableButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HTPressableButton/HTPressableButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HTPressableButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7219E959033EC6A3C7FA130A8B8D5049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58ED7733B22BE31D11202C9D1D9E88B3 /* BitwiseFont.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = BitwiseFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7688A1FFE231B587CB54397A32A92571 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D6FDE9988256AE4118C6C7DDE0A7A383 /* Pods-CubeRunner.debug.xcconfig */;
 			buildSettings = {
@@ -739,62 +1196,19 @@
 			};
 			name = Debug;
 		};
-		1EF406F4C2CCFBE0300108C2C287B4A3 /* Release */ = {
+		7E8A2BE5293BA08A24BCBDE838525D76 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8305275C064AD4517FD14A86A57EAD /* HTPressableButton.xcconfig */;
+			baseConfigurationReference = C67B3D77486798AA6F05FEBCE868D9B0 /* SwiftCubicSpline.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HTPressableButton/HTPressableButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTPressableButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HTPressableButton/HTPressableButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = HTPressableButton;
+				PRODUCT_NAME = SwiftCubicSpline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2A4875CCC15711F355328D4D36BB210F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC974F39E4DC050B4F0764B79C991AF /* Cartography.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Cartography/Cartography-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Cartography/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Cartography/Cartography.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Cartography;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		35B348D2B656101DA276F28F428A4012 /* Release */ = {
+		8414CC029C721EA0B8BB9A8D52638591 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 089F4E2653E1419A6BC1C6B0C0CE1380 /* Pods-CubeRunner.release.xcconfig */;
 			buildSettings = {
@@ -824,48 +1238,9 @@
 			};
 			name = Release;
 		};
-		4CE2C5CC0BDD3ABC3FB46BB5B89777CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E8305275C064AD4517FD14A86A57EAD /* HTPressableButton.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HTPressableButton/HTPressableButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HTPressableButton/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HTPressableButton/HTPressableButton.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HTPressableButton;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7219E959033EC6A3C7FA130A8B8D5049 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BC4483D2AD3B60EFB8D7B59EAE50DAA /* BitwiseFont.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = BitwiseFont;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		9768FD27A4E2D1352ED646F0C41F0C60 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC974F39E4DC050B4F0764B79C991AF /* Cartography.xcconfig */;
+			baseConfigurationReference = E30416A9A4F75B6ED3E49E0E12C57A10 /* Cartography.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -892,7 +1267,7 @@
 		};
 		A6AC1C505EDC492E23579546FA9B8F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BC4483D2AD3B60EFB8D7B59EAE50DAA /* BitwiseFont.xcconfig */;
+			baseConfigurationReference = 58ED7733B22BE31D11202C9D1D9E88B3 /* BitwiseFont.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -916,6 +1291,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		A9354B44308A69222CCAEA5895AC5A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67B3D77486798AA6F05FEBCE868D9B0 /* SwiftCubicSpline.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SwiftCubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AC9B149DE6A2723B2480925E28B7F25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67B3D77486798AA6F05FEBCE868D9B0 /* SwiftCubicSpline.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCubicSpline/SwiftCubicSpline-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCubicSpline/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftCubicSpline/SwiftCubicSpline.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftCubicSpline;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -993,20 +1407,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F058006A61EF90040A4CDAAEC5E6C5C /* Build configuration list for PBXNativeTarget "Pods-CubeRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7688A1FFE231B587CB54397A32A92571 /* Debug */,
+				8414CC029C721EA0B8BB9A8D52638591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25712C1483C42C3A5C0D6BE07D6D9881 /* Build configuration list for PBXNativeTarget "SwiftCubicSpline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3037655EB55B6821E725D965DDA93415 /* Debug */,
+				AC9B149DE6A2723B2480925E28B7F25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
 				E43846B588E1892F3093F3B7082B6DFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		491A56CE538737C907A04C1BAAF1E56F /* Build configuration list for PBXNativeTarget "Pods-CubeRunner" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1E4B14686B31ADB7EA384DE69D3BC479 /* Debug */,
-				35B348D2B656101DA276F28F428A4012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1038,11 +1461,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		C1D0A78F8CBF2A85ABC67A5EA913376A /* Build configuration list for PBXNativeTarget "SwiftCubicSpline-SwiftCubicSpline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8A2BE5293BA08A24BCBDE838525D76 /* Debug */,
+				A9354B44308A69222CCAEA5895AC5A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F52FFE4A22FFB2452BC661326BCCB950 /* Build configuration list for PBXNativeTarget "HTPressableButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4CE2C5CC0BDD3ABC3FB46BB5B89777CF /* Debug */,
 				1EF406F4C2CCFBE0300108C2C287B4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F82AA6A2E34E6D02D27B4E0809661274 /* Build configuration list for PBXNativeTarget "SAMCubicSpline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145E6B6D954C88704CB63D2DF9B84F20 /* Debug */,
+				146A67AD18018072A98A84F56A640404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

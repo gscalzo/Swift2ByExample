@@ -4,11 +4,15 @@ PODS:
   - HTPressableButton (1.3.2):
     - HTPressableButton/All (= 1.3.2)
   - HTPressableButton/All (1.3.2)
+  - SAMCubicSpline (0.1.1)
+  - SwiftCubicSpline (0.1.0):
+    - SAMCubicSpline (~> 0.1.1)
 
 DEPENDENCIES:
   - BitwiseFont (~> 0.1.0)
   - Cartography (from `https://github.com/robb/Cartography.git`, tag `0.6.0`)
   - HTPressableButton (~> 1.3.2)
+  - SwiftCubicSpline (~> 0.1.0)
 
 EXTERNAL SOURCES:
   Cartography:
@@ -24,5 +28,7 @@ SPEC CHECKSUMS:
   BitwiseFont: 9c4d887ea79f084465b02526e70a1735fa8fb086
   Cartography: 314f5ed1495995760487161eeb7a8a0940d88ad3
   HTPressableButton: 8e0108962e6e4620378dcfccdaaf363a10e98fa2
+  SAMCubicSpline: 1886f6a6a32ddafde138d1c6affdadb69d995306
+  SwiftCubicSpline: b80669b8322c1d5554e60656e3fe232bc4677bde
 
 COCOAPODS: 0.39.0
