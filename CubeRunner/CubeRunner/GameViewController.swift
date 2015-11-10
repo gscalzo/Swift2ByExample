@@ -43,7 +43,8 @@ class GameViewController: UIViewController {
         ])
     //...
     private var gameOver: (SCNNode, SCNNode) -> Void = {_,_ in}
-
+    var gameCenter: GameCenter?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         do {
@@ -139,6 +140,9 @@ private extension GameViewController {
             self.explodeNode(nodeA)
             self.explodeNode(nodeB)
             self.motionManager?.stopDeviceMotionUpdates()
+            if let gameCenter = self.gameCenter{
+                gameCenter.reportScore(self.score)
+            }
             //...
             AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
             execAfter(1){

@@ -11,6 +11,7 @@
 		EE23B8281BF2ACD700174B1D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23B8271BF2ACD700174B1D /* Utilities.swift */; };
 		EE23B82C1BF2AE2C00174B1D /* FireParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = EE23B82A1BF2AE2C00174B1D /* FireParticles.scnp */; };
 		EE23B82D1BF2AE2C00174B1D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = EE23B82B1BF2AE2C00174B1D /* spark.png */; };
+		EE23B82F1BF2AF0300174B1D /* GameCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23B82E1BF2AF0300174B1D /* GameCenter.swift */; };
 		EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */; };
 		EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600C1BE02F26005E1D67 /* GameViewController.swift */; };
 		EEBE600F1BE03576005E1D67 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */; };
@@ -29,6 +30,7 @@
 		EE23B8271BF2ACD700174B1D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EE23B82A1BF2AE2C00174B1D /* FireParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = FireParticles.scnp; sourceTree = "<group>"; };
 		EE23B82B1BF2AE2C00174B1D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		EE23B82E1BF2AF0300174B1D /* GameCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameCenter.swift; sourceTree = "<group>"; };
 		EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EEBE600C1BE02F26005E1D67 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				EE23B8291BF2AE1900174B1D /* Supporting Files */,
 				EEBE60101BE035C3005E1D67 /* Space 1990-B.mp3 */,
+				EE23B82E1BF2AF0300174B1D /* GameCenter.swift */,
 				EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */,
 				EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */,
 				EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */,
@@ -246,6 +249,7 @@
 			files = (
 				EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */,
 				EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */,
+				EE23B82F1BF2AF0300174B1D /* GameCenter.swift in Sources */,
 				EEBE600F1BE03576005E1D67 /* MusicPlayer.swift in Sources */,
 				EE23B8281BF2ACD700174B1D /* Utilities.swift in Sources */,
 				EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */,
