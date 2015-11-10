@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9FED02319A61D65D369D02FB /* Pods_CubeRunner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */; };
+		EE23B8281BF2ACD700174B1D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE23B8271BF2ACD700174B1D /* Utilities.swift */; };
+		EE23B82C1BF2AE2C00174B1D /* FireParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = EE23B82A1BF2AE2C00174B1D /* FireParticles.scnp */; };
+		EE23B82D1BF2AE2C00174B1D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = EE23B82B1BF2AE2C00174B1D /* spark.png */; };
 		EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */; };
 		EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600C1BE02F26005E1D67 /* GameViewController.swift */; };
 		EEBE600F1BE03576005E1D67 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */; };
@@ -23,6 +26,9 @@
 		8E8B89D6A11FCD1616EDFB4D /* Pods-CubeRunner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeRunner.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner.release.xcconfig"; sourceTree = "<group>"; };
 		AAA9426ACBFBB52ABFBA0AB4 /* Pods_CubeRunner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeRunner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9823A3CAC571023FCC0D6D6 /* Pods-CubeRunner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeRunner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeRunner/Pods-CubeRunner.debug.xcconfig"; sourceTree = "<group>"; };
+		EE23B8271BF2ACD700174B1D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EE23B82A1BF2AE2C00174B1D /* FireParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = FireParticles.scnp; sourceTree = "<group>"; };
+		EE23B82B1BF2AE2C00174B1D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		EEBE600C1BE02F26005E1D67 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
@@ -56,6 +62,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE23B8291BF2AE1900174B1D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE23B82A1BF2AE2C00174B1D /* FireParticles.scnp */,
+				EE23B82B1BF2AE2C00174B1D /* spark.png */,
+			);
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		EED53EC31BDEF78300C7B471 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +93,13 @@
 		EED53ECE1BDEF78300C7B471 /* CubeRunner */ = {
 			isa = PBXGroup;
 			children = (
+				EE23B8291BF2AE1900174B1D /* Supporting Files */,
 				EEBE60101BE035C3005E1D67 /* Space 1990-B.mp3 */,
 				EED53ECF1BDEF78300C7B471 /* AppDelegate.swift */,
 				EEBE600A1BE02E24005E1D67 /* MenuViewController.swift */,
 				EEBE600E1BE03576005E1D67 /* MusicPlayer.swift */,
 				EEBE600C1BE02F26005E1D67 /* GameViewController.swift */,
+				EE23B8271BF2ACD700174B1D /* Utilities.swift */,
 				EED53ED11BDEF78300C7B471 /* art.scnassets */,
 				EED53ED51BDEF78300C7B471 /* Main.storyboard */,
 				EED53ED81BDEF78300C7B471 /* Assets.xcassets */,
@@ -162,7 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED53ED21BDEF78300C7B471 /* art.scnassets in Resources */,
+				EE23B82C1BF2AE2C00174B1D /* FireParticles.scnp in Resources */,
 				EEBE60111BE035C3005E1D67 /* Space 1990-B.mp3 in Resources */,
+				EE23B82D1BF2AE2C00174B1D /* spark.png in Resources */,
 				EED53EDC1BDEF78300C7B471 /* LaunchScreen.storyboard in Resources */,
 				EED53ED91BDEF78300C7B471 /* Assets.xcassets in Resources */,
 				EED53ED71BDEF78300C7B471 /* Main.storyboard in Resources */,
@@ -227,6 +247,7 @@
 				EEBE600B1BE02E24005E1D67 /* MenuViewController.swift in Sources */,
 				EEBE600D1BE02F26005E1D67 /* GameViewController.swift in Sources */,
 				EEBE600F1BE03576005E1D67 /* MusicPlayer.swift in Sources */,
+				EE23B8281BF2ACD700174B1D /* Utilities.swift in Sources */,
 				EED53ED01BDEF78300C7B471 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

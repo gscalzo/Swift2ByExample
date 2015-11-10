@@ -11,6 +11,8 @@ import QuartzCore
 import SceneKit
 import CoreMotion
 import SwiftCubicSpline
+import SIAlertView
+import AudioToolbox.AudioServices
 
 enum BodyType : Int {
     case jetfighter   = 1  // (1 << 0)
@@ -40,6 +42,8 @@ class GameViewController: UIViewController {
         CGPoint(x: 1.0, y: 0.5)
         ])
     //...
+    private var gameOver: (SCNNode, SCNNode) -> Void = {_,_ in}
+
     override func viewDidLoad() {
         super.viewDidLoad()
         do {
@@ -125,6 +129,28 @@ private extension GameViewController {
         //...
         
         scnView.scene = scene
+        gameOver = { [unowned self] nodeA, nodeB in
+            self.laneTimer.invalidate()
+            self.scoreTimer.invalidate()
+            self.scene.physicsWorld.contactDelegate = nil
+            //...
+            self.cameraNode.removeAllActions()
+            jetfighterNode.removeAllActions()
+            self.explodeNode(nodeA)
+            self.explodeNode(nodeB)
+            self.motionManager?.stopDeviceMotionUpdates()
+            //...
+            AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
+            execAfter(1){
+                self.askToPlayAgain(onPlayAgainPressed: {
+                    self.createContents()
+                    },
+                    onCancelPressed: {
+                        self.dismissViewControllerAnimated(true, completion: nil)
+                    }
+                )
+            }
+        }
     }
     
     func createJetfighter() -> SCNNode{
@@ -242,9 +268,31 @@ extension GameViewController: SCNPhysicsContactDelegate{
             switch (contactMask) {
             case BodyType.jetfighter.rawValue |  BodyType.cube.rawValue:
                 print("Contact!")
+                gameOver(contact.nodeA, contact.nodeB)
             default:
                 return
             }
             
     }
+}
+
+extension GameViewController {
+    func askToPlayAgain(onPlayAgainPressed onPlayAgainPressed: () -> Void,
+        onCancelPressed: () -> Void) {
+            let alertView = SIAlertView(title: "Ouch!!", andMessage: "Congratulations! Your score is \(score). Play again?")
+            
+            alertView.addButtonWithTitle("OK", type: .Default) { _ in onPlayAgainPressed() }
+            alertView.addButtonWithTitle("Cancel", type: .Default) { _ in onCancelPressed() }
+            alertView.show()
+    }
+    
+    func explodeNode(node: SCNNode){
+        guard let fire = SCNParticleSystem(named: "FireParticles", inDirectory: nil)
+            else {
+                return
+        }
+        fire.emitterShape = node.geometry
+        node.addParticleSystem(fire)
+    }
+    
 }

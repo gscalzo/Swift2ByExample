@@ -88,6 +88,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-CubeRunner/Cartography.framework"
   install_framework "Pods-CubeRunner/HTPressableButton.framework"
   install_framework "Pods-CubeRunner/SAMCubicSpline.framework"
+  install_framework "Pods-CubeRunner/SIAlertView.framework"
   install_framework "Pods-CubeRunner/SwiftCubicSpline.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -95,5 +96,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CubeRunner/Cartography.framework"
   install_framework "Pods-CubeRunner/HTPressableButton.framework"
   install_framework "Pods-CubeRunner/SAMCubicSpline.framework"
+  install_framework "Pods-CubeRunner/SIAlertView.framework"
   install_framework "Pods-CubeRunner/SwiftCubicSpline.framework"
 fi
