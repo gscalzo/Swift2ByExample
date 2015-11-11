@@ -139,6 +139,7 @@ extension TodoTableViewController {
         
         destinationViewController.todosDatastore = todosDatastore
         destinationViewController.todoToEdit = selectedTodo
+        selectedTodo = nil
 
         switch identifier {
         case "addTodo":
