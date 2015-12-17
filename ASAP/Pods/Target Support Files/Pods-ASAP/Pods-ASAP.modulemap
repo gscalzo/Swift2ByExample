@@ -1,0 +1,6 @@
+framework module Pods_ASAP {
+  umbrella header "Pods-ASAP-umbrella.h"
+
+  export *
+  module * { export * }
+}

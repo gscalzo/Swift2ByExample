@@ -1,0 +1,1559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0190F7CE766B84AF16C3AC0CCBEEF843 /* LatoFont.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5C60D65FA8132338A1746D07F4FD3DA7 /* LatoFont.bundle */; };
+		0202300C67616A99140C985E2198224D /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7992FB9CE309D237F02098EED065CF05 /* FAKFontAwesome.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0308B2902DB5695DBD6AD4564FCBD4F2 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = D127414FADA4AF12CC82B467FE201E48 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091ED3116CCAD16F5179F3444780953C /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F3495AC453C7A20785721DDD34A78B /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0965FAD7F73C5639EA6805144E54A7CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0EF1331F73980A648EA65C1680CABD /* UIKit.framework */; };
+		098B35C6E64C6AEBB70F1BA5071E580D /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7EF58158F6F878A858DAEA931630756D /* Lato-BlackItalic.ttf */; };
+		11AADD5E327B9F7DBC4446DCBC5D8A23 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E323E0043A2F02DD5A72717CEB8D37A9 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1279953DA87A424A7A965180A1C364B1 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A7749181D7A0C447ABAE21063C1D99 /* Lato-Bold.ttf */; };
+		190A01C8AC190B4AB3F0107BF1D8AEFF /* Pods-ASAP-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 666054D660B9CE66790F78088A6DCE2A /* Pods-ASAP-dummy.m */; };
+		196378E1679D87D4AC2AD211EE2EE0E0 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A15B91DA858D31829DA9D7BB1552238C /* SDWebImageDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A2135F7437B453923CBA5F3EA64B864 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */; };
+		1C135C7E6C67742B61553E584E42DD9C /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 057D741BED4E80058D26515EC1445D51 /* FAKIcon.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		337166F44CD41FBD5074A886981DE532 /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61DB585A287E9840522105DB2F9CDF6E /* zocial-regular-webfont.ttf */; };
+		33EACCC4CD2CC7A5B4965326105CD270 /* BBBadgeBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A01D890D307D2EC85B88F033003ABD3 /* BBBadgeBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37654DC89D515A4249B794D940488F29 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEEF2ACB2BBF330B82DDF87C31182FA /* UIImage+GIF.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		37C3588507E545557A305F198B4AFE27 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C09F7E48641483488FC38AAB8CE4FAB8 /* Lato-LightItalic.ttf */; };
+		3F898E2A095F37E7ED16482D60884CD1 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = A623DDE1A589B7989C936DAECE2AACEC /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45AF22406DDF747C76F3C4370ACD1170 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25459A0C72D37DA68406031D7746BE39 /* SwiftyJSON-dummy.m */; };
+		4616BEEC17301B844F5740CBE81907BD /* UIFont+Lato.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB3BE4AA1C57D36DAC157463A326D62 /* UIFont+Lato.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4BE445A27E62407BDD151CE29C2C13D3 /* BBBadgeBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C611A220C0D10BB85A9CC5783145BA0B /* BBBadgeBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50225A234E8D4473041C9A8584F7B9DF /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 760D170BD0F70FF7BEA3CF95BA54E3E0 /* UIView+WebCacheOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		52C89FF973F534D900DB332C3E3484C1 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 322327CAF23819EC90F3931E7F854D49 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DDE404634EFC3EC47C2A0465E75558A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */; };
+		60FD66A0C4A398F6DF3E89C15E01EB64 /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 94B4458D58B712560B819F9046A759B6 /* foundation-icons.ttf */; };
+		650E9C1297EAE9A8E153D5F4FD3FFF51 /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2233FDD725748D0125FB437AF68CB24 /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6742EB70CEA4EFA69A0D323FF095CACD /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5AC36F0949172FD2CD0ECEB0B71C7B /* UIImage+MultiFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		69FF0CFBCBC82DC80D6135D76A845AD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0EF1331F73980A648EA65C1680CABD /* UIKit.framework */; };
+		6AC8477DB3A59C54F6F2AA4065082E9A /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC438E885F2D4CE854BCF2536C25816 /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BDD33E25ECE83EBA467FCD6ABEEE936 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B2D17B6A702A3BE7E5FC79C41A375E1 /* Lato-BoldItalic.ttf */; };
+		6D7CCE9A88695C53F65A6709D5EB649C /* Pods-ASAP-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FA1F0782EFDF2DE9FBEA446EE8F791B /* Pods-ASAP-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBE05A539DBEAAA55A33989D5D16C48 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793950F650438E504F9F9432CCF8A560 /* SwiftyJSON.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		71B0D814F4E4ADA635E8143998D31A26 /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B8CB681E986C4B933773502CDB49F8 /* FAKFoundationIcons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72E46ABE7108599EDECB53A461D6D681 /* BBBadgeBarButtonItem-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAAF298BD1EA2BEB937B6BB693CE9347 /* BBBadgeBarButtonItem-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AC162A5D4430403FB8C3DDD433CA8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */; };
+		75B3D9D9BEC06B92A8E085C5C1BC3784 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D5CEC09B438EDC6F204A67EC89CBC5 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C5EE1ADCB554D9CC3B30F8A119A4FC /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F45E3D83F95D10BE49E645D5DE472 /* SDWebImageDownloader.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7684852F540BB5B520A48E7FDDD20D8B /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 617FB7BA2038ED3079432353956A64F7 /* ionicons.ttf */; };
+		7AFF8980D1DC783C387DDB0E26064826 /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 568D485F2A2871BD0887B9C7EAC47E3A /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BBDC05CB4EA2F9E1E3DEC61E8E2DDB4 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53B7743C5783AB34066D2C64941D80A7 /* Lato-Regular.ttf */; };
+		7D79070DFFDAC316C7B1671078720146 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 783984A6BED82A3244133D583D8C38A8 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		839DBC4185A3AE00A0BB609F4A3C24A0 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40EEA11FF3AEC1090E9DD41D6DEB1026 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843159A671AD8B353D1F6D65E8D9B56C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB80ED614C16A46BE633A1A1794B4CC /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		846F1C81304141D3A3DB1FAB0ACEDAC8 /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0EA878355970FEE326D2891D064F9D /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FB9DA5B98D30F516F1BDC1AA6AB437 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 377D37D975D08A82F56829B124478588 /* SDWebImageCompat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		86E0BC26B8086BD65B6BB1A32E2C80C9 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E4161DAB4B9DA103227B925EA1B1760 /* Lato-HairlineItalic.ttf */; };
+		8A1868E4B5525CC5023EB1F03D6FE660 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F5CDC6B3C561A3111B6874575D6F1526 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8ABBAEDDF0502B76ADC36EA3515D6412 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A100460AAD3AE76231BD5734B203B5A /* UIImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F647E88568E237DDD9100E0B121990D /* LatoFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6458B8681DB704CAEE21A519261079 /* LatoFont-dummy.m */; };
+		8FF68AEC20BF30072F4AD866513FE44E /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8FFEEEAEF306A81698541BC375C021 /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92F549F793242F86DFCCB04D03899D57 /* BBBadgeBarButtonItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44449D508E05A2D6903FAED27686DEE2 /* BBBadgeBarButtonItem-dummy.m */; };
+		953AE545451D497FDAD72E247E5887BC /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5414C555D9B4B589211A51B4EA8B46AD /* UIImageView+HighlightedWebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		95B7AF1C67DF34FEA433AB18ED4B4E68 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C764A59BB0203AB680572E1D8E36D51 /* Lato-Black.ttf */; };
+		980F4B697FB8A13FEA359A19D54DB467 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B3FA48D82D0226C9B3868BA5D87BD0 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A33FC35D8C3DDA65304513946B0A56C /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B365848EB8208DABFA20E8962737E77 /* FontAwesomeKit-dummy.m */; };
+		9DD1A41B5935E308A464AE56547D1F60 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF9C6397F6D3538065805E7DD4C79A0 /* SDWebImageDownloaderOperation.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E7BAC28D5073F16EF44720EDB129E49 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC63F472CBE23B42763DB77E4E678E6 /* NSData+ImageContentType.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A37E4933BC6CB5D541B5AC4521631878 /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 297958E9A8D79829FD375F051E661A33 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4AE3E59C01DA2C4731B57F249516092 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 077B44D80EF2BB66619D73D7BBE4EA77 /* SDWebImageManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AE782BD57119219957436B2FFAB77F1C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C632A20AF82F6298307A1C2F014A7C0 /* ImageIO.framework */; };
+		BADAC7A5A6D5566B4460B13415F3A107 /* LatoFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92AAF7B12CB94072B8B5C8EB0BFC27AD /* LatoFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC47CBF7863253CAA8859A59B5B702A /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 989D9EF88C8F86D08CA5EC38A14DB830 /* Lato-Light.ttf */; };
+		BC96108EBCE6F29BACA0662BC5B15254 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3966BE7C7C5DA7C899D51E64834C7A22 /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD0425F55B4A01C3D49172049D1BF7A6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE0171D9434522BD7EB58A2A89B6B97 /* CoreText.framework */; };
+		BD5664EFB020B54AA232EFFC9926522D /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D3F5C4A27C57AFA83D5DB639FB5927 /* SDWebImagePrefetcher.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BFCC60F46F2C72E3C25D2922C85C22C7 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 005E16F087A7CC43D4E58C745F3D4FC8 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4B3B392F13C39D9CEF6CEBDB4DC2387 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 52042CAE621D6B7E991665A585AFAB0D /* FAKZocial.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C59A78C9247621B660AE7AAD46E82446 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9B28ACB3790E7AFC99A34FEF5FC35A80 /* FontAwesome.otf */; };
+		CAD11C897D7BE160BFC949D54021C15A /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6042BC314CD291B6127765E560342903 /* Lato-Italic.ttf */; };
+		CC70D48C0568B9D91325F52CCA24C743 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FF761DDB46A0B79FFA73B513443730 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC8A0A0392F865CB0708D0F4A629C7FE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE0171D9434522BD7EB58A2A89B6B97 /* CoreText.framework */; };
+		CEED98F51B49B74DCD6B6501D0094EC3 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF72D5C5BFA1185774E067A6076510 /* SDImageCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D2ACBB07F45E21BFF87C5807B7A24943 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5BE47C736A42B24188DAC0C29916725 /* Lato-Hairline.ttf */; };
+		D336DF549D2E0C6D762DB356219A2FE8 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F93929E011011C42EEF347C465FF9E /* SDWebImage-dummy.m */; };
+		DE62ABBF2FFED9172422FF1E6189E961 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = D27F99A84ECB9340D70EAE2A750CE388 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE67FAAE5CD4C26261DA696A0B34D921 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = DC87B3D920A8CE5021443C5CE66A3897 /* FAKIonIcons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DFDAB04F787BC7FB9EA75BDB0E773937 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 3049A87C57408F06023B963AEF65F292 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E00DA162597875234CA6B1F2F961964E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */; };
+		E1D48AD5F42E846902F457C60F79E49E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */; };
+		EE995DD5AD93BDB051D9BD7D58DDB68E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */; };
+		EF4A278BCFF954349F8C90CED2CCE232 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D939D419F47A53AF7B3B44ED4D2ED44A /* UIButton+WebCache.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EF7F9BAD792ABEE0B5CFF88075032EE8 /* UIFont+Lato.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB847AFF5CAA4EFBBC1DB002115A98D /* UIFont+Lato.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F41CB5FFBB71B707F5CE8F5C23F3F895 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B29712CB2C53739D559660126579BD8 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8301388165D0122FF2563E899A0BBD2 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 309F2937EF635E57D00E666828003407 /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57D3903541C19693F43E59A4DDF4F017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BE9D4B6FF6D92923152CB0534F2BB94;
+			remoteInfo = FontAwesomeKit;
+		};
+		CC8CC189F3668CE90CA38DFA134DEE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717DDA77490B112C0DD3CE05F53E253B;
+			remoteInfo = LatoFont;
+		};
+		D8C4A802C6D1318A98AD40E9183E7DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1C82117572F0D0E2216005744DFDB0;
+			remoteInfo = "LatoFont-LatoFont";
+		};
+		E351A274545AA86E7D0ED584533E29E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 996C4CEDBD819845E4AE075097DBD57D;
+			remoteInfo = BBBadgeBarButtonItem;
+		};
+		E8B1778CA7691EF1BC4DF9A1A6777C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B90F5BEFBB04DD3316C99E33C8F3DF;
+			remoteInfo = SDWebImage;
+		};
+		F4F30954860D121BD7C01E259D74DF55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47E61924C60624896B45B1D3E7111F3C;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005E16F087A7CC43D4E58C745F3D4FC8 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		057D741BED4E80058D26515EC1445D51 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		077B44D80EF2BB66619D73D7BBE4EA77 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		0B2D17B6A702A3BE7E5FC79C41A375E1 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BoldItalic.ttf"; path = "Source/Fonts/Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		0B365848EB8208DABFA20E8962737E77 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		0F8FFEEEAEF306A81698541BC375C021 /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		0FED7D9D4F9A5274D22C4800C9112BE0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1216B4513EC4DE699DB7141E5DEB2EBB /* Pods_ASAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		177710F8D05449A6BFD0953A04CFC2CA /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDCBB762F9A5A937658AFEC56F4ECC /* BBBadgeBarButtonItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBBadgeBarButtonItem-prefix.pch"; sourceTree = "<group>"; };
+		18FF761DDB46A0B79FFA73B513443730 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		1B29712CB2C53739D559660126579BD8 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		1DB3BE4AA1C57D36DAC157463A326D62 /* UIFont+Lato.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+Lato.m"; path = "Source/UIFont+Lato.m"; sourceTree = "<group>"; };
+		20B8CB681E986C4B933773502CDB49F8 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		22F3495AC453C7A20785721DDD34A78B /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		25459A0C72D37DA68406031D7746BE39 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		286F4D4137E11FC405680C6DD2DE48AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		297958E9A8D79829FD375F051E661A33 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		2C57EEF0B0F150C5E9600885CAC5396A /* Pods-ASAP-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASAP-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D2F45E3D83F95D10BE49E645D5DE472 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		2D9511640FE089A2C02C2D13D1AB2E91 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3049A87C57408F06023B963AEF65F292 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		309F2937EF635E57D00E666828003407 /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		322327CAF23819EC90F3931E7F854D49 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		377D37D975D08A82F56829B124478588 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		3966BE7C7C5DA7C899D51E64834C7A22 /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		3A0EA878355970FEE326D2891D064F9D /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		3A32407A7ACE60317002CD91B2E7AAA2 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		40EEA11FF3AEC1090E9DD41D6DEB1026 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		42E2E24184D5B655C91BDFB3CC187469 /* LatoFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LatoFont.xcconfig; sourceTree = "<group>"; };
+		442CBB007BB6901F9AC73C173544CC51 /* LatoFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LatoFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44449D508E05A2D6903FAED27686DEE2 /* BBBadgeBarButtonItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBBadgeBarButtonItem-dummy.m"; sourceTree = "<group>"; };
+		44B3FA48D82D0226C9B3868BA5D87BD0 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		4896ED0589D889A2D3185639BEE6DBCE /* LatoFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LatoFont-prefix.pch"; sourceTree = "<group>"; };
+		4C632A20AF82F6298307A1C2F014A7C0 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		52042CAE621D6B7E991665A585AFAB0D /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		53B7743C5783AB34066D2C64941D80A7 /* Lato-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Regular.ttf"; path = "Source/Fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
+		5414C555D9B4B589211A51B4EA8B46AD /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		568D485F2A2871BD0887B9C7EAC47E3A /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		591CAF893505C7A652EBBFF47F2F2009 /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A100460AAD3AE76231BD5734B203B5A /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		5C60D65FA8132338A1746D07F4FD3DA7 /* LatoFont.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LatoFont.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DCF72D5C5BFA1185774E067A6076510 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		6042BC314CD291B6127765E560342903 /* Lato-Italic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Italic.ttf"; path = "Source/Fonts/Lato-Italic.ttf"; sourceTree = "<group>"; };
+		617FB7BA2038ED3079432353956A64F7 /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		61DB585A287E9840522105DB2F9CDF6E /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		6233434951FEA2BA20E95F19894B4749 /* Pods-ASAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASAP.release.xcconfig"; sourceTree = "<group>"; };
+		65AB4B736CA517C7E9FB5DA0839A2513 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		666054D660B9CE66790F78088A6DCE2A /* Pods-ASAP-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASAP-dummy.m"; sourceTree = "<group>"; };
+		69E7C41CF9ED89EFABE7E84F177AF484 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		70B381460D5A3283B9311DFD57301AEB /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		74D5CEC09B438EDC6F204A67EC89CBC5 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		760D170BD0F70FF7BEA3CF95BA54E3E0 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		783984A6BED82A3244133D583D8C38A8 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		793950F650438E504F9F9432CCF8A560 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		7992FB9CE309D237F02098EED065CF05 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		7EF58158F6F878A858DAEA931630756D /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-BlackItalic.ttf"; path = "Source/Fonts/Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7FA1F0782EFDF2DE9FBEA446EE8F791B /* Pods-ASAP-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASAP-umbrella.h"; sourceTree = "<group>"; };
+		81AE645AA98AF0B30DAF582BE6B9FE36 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		838117537A05CD37CB7BCD522E7B091B /* BBBadgeBarButtonItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBBadgeBarButtonItem.xcconfig; sourceTree = "<group>"; };
+		8473109E6B8200A4CB06E5D255190236 /* Pods-ASAP-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASAP-resources.sh"; sourceTree = "<group>"; };
+		89715B7936B6196C2A4C0EDDBF052D7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E6458B8681DB704CAEE21A519261079 /* LatoFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LatoFont-dummy.m"; sourceTree = "<group>"; };
+		92AAF7B12CB94072B8B5C8EB0BFC27AD /* LatoFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LatoFont-umbrella.h"; sourceTree = "<group>"; };
+		92D3F5C4A27C57AFA83D5DB639FB5927 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		94B4458D58B712560B819F9046A759B6 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		95D8C5983FE7B22654E00185D39621CF /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		989D9EF88C8F86D08CA5EC38A14DB830 /* Lato-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Light.ttf"; path = "Source/Fonts/Lato-Light.ttf"; sourceTree = "<group>"; };
+		9A01D890D307D2EC85B88F033003ABD3 /* BBBadgeBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBBadgeBarButtonItem.m; path = BBBadgeBarButtonItem/BBBadgeBarButtonItem.m; sourceTree = "<group>"; };
+		9B28ACB3790E7AFC99A34FEF5FC35A80 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		9C764A59BB0203AB680572E1D8E36D51 /* Lato-Black.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Source/Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		9DA5D138220BB16820D510D73A378440 /* LatoFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LatoFont.modulemap; sourceTree = "<group>"; };
+		9E4161DAB4B9DA103227B925EA1B1760 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-HairlineItalic.ttf"; path = "Source/Fonts/Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		A0DE8FF72E3A31346AB45E0EE8B823D5 /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		A15B91DA858D31829DA9D7BB1552238C /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		A5BE47C736A42B24188DAC0C29916725 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Hairline.ttf"; path = "Source/Fonts/Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		A623DDE1A589B7989C936DAECE2AACEC /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		AB8A332AAA50F63B5864332D07BB3144 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		ABC438E885F2D4CE854BCF2536C25816 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		ACB80ED614C16A46BE633A1A1794B4CC /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		B0D8A7AEDEDFA218F3F9DDF1E839438B /* BBBadgeBarButtonItem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBBadgeBarButtonItem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B102E3128A405BA529152C7BFDBA72A3 /* BBBadgeBarButtonItem.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BBBadgeBarButtonItem.modulemap; sourceTree = "<group>"; };
+		B29DA381F781F5FCF045B75020CDED74 /* Pods-ASAP.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ASAP.modulemap"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAAF298BD1EA2BEB937B6BB693CE9347 /* BBBadgeBarButtonItem-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBBadgeBarButtonItem-umbrella.h"; sourceTree = "<group>"; };
+		BC3152ABDE6AD65D604D1AB803BA9868 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		C09F7E48641483488FC38AAB8CE4FAB8 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-LightItalic.ttf"; path = "Source/Fonts/Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		C611A220C0D10BB85A9CC5783145BA0B /* BBBadgeBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBBadgeBarButtonItem.h; path = BBBadgeBarButtonItem/BBBadgeBarButtonItem.h; sourceTree = "<group>"; };
+		CA0EF1331F73980A648EA65C1680CABD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CC6889A43B3DE9A0EA95C5773DEF519D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D127414FADA4AF12CC82B467FE201E48 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		D2233FDD725748D0125FB437AF68CB24 /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		D27F99A84ECB9340D70EAE2A750CE388 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		D939D419F47A53AF7B3B44ED4D2ED44A /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		DB5AC36F0949172FD2CD0ECEB0B71C7B /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		DC87B3D920A8CE5021443C5CE66A3897 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		DEEEF2ACB2BBF330B82DDF87C31182FA /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		E16025AF02012785A279C2C0C42B1425 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A7749181D7A0C447ABAE21063C1D99 /* Lato-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "Source/Fonts/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		E323E0043A2F02DD5A72717CEB8D37A9 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		E493BA8813CCA226DD70BDB6789B45C7 /* Pods-ASAP-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASAP-frameworks.sh"; sourceTree = "<group>"; };
+		E4F93929E011011C42EEF347C465FF9E /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		E74C729B70CD174C1C36CD8217939861 /* Pods-ASAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASAP.debug.xcconfig"; sourceTree = "<group>"; };
+		EEA429A846CE94C80B84C715E9801B3A /* Pods-ASAP-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASAP-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFC63F472CBE23B42763DB77E4E678E6 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F55851D87A7EAA491CD7DBA3FB8A6157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CDC6B3C561A3111B6874575D6F1526 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		FAF9C6397F6D3538065805E7DD4C79A0 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		FBB847AFF5CAA4EFBBC1DB002115A98D /* UIFont+Lato.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+Lato.h"; path = "Source/UIFont+Lato.h"; sourceTree = "<group>"; };
+		FBE0171D9434522BD7EB58A2A89B6B97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054C927B94010A0A98E54006AC58F3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC8A0A0392F865CB0708D0F4A629C7FE /* CoreText.framework in Frameworks */,
+				1A2135F7437B453923CBA5F3EA64B864 /* Foundation.framework in Frameworks */,
+				0965FAD7F73C5639EA6805144E54A7CA /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		136124FA3C972C0728616B8A64985573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D48AD5F42E846902F457C60F79E49E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9550AB6D56A7830662A6D8B0C8B3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0425F55B4A01C3D49172049D1BF7A6 /* CoreText.framework in Frameworks */,
+				5DDE404634EFC3EC47C2A0465E75558A /* Foundation.framework in Frameworks */,
+				69FF0CFBCBC82DC80D6135D76A845AD8 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A0663F39BC73DF851FAB68CB70A2B64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE995DD5AD93BDB051D9BD7D58DDB68E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5320F96C1DF67E8FF4201F382CC05A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AC162A5D4430403FB8C3DDD433CA8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7E7CA0C286D7CE93423DFD2A1DBDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00DA162597875234CA6B1F2F961964E /* Foundation.framework in Frameworks */,
+				AE782BD57119219957436B2FFAB77F1C /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB49394738806AE4FBCAADDEC8B4C99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7662A27AD6F2C79D657005B5BF2047 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B102E3128A405BA529152C7BFDBA72A3 /* BBBadgeBarButtonItem.modulemap */,
+				838117537A05CD37CB7BCD522E7B091B /* BBBadgeBarButtonItem.xcconfig */,
+				44449D508E05A2D6903FAED27686DEE2 /* BBBadgeBarButtonItem-dummy.m */,
+				18CDCBB762F9A5A937658AFEC56F4ECC /* BBBadgeBarButtonItem-prefix.pch */,
+				BAAF298BD1EA2BEB937B6BB693CE9347 /* BBBadgeBarButtonItem-umbrella.h */,
+				CC6889A43B3DE9A0EA95C5773DEF519D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BBBadgeBarButtonItem";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAB4D33962910BF4E0DD1EE69C6E61C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A46A431B33541D22B58EB89FD7CB0D4 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				793950F650438E504F9F9432CCF8A560 /* SwiftyJSON.swift */,
+				A983EFDA194AFCD9669D7F6E63BCE72E /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		1DD48224FDF7424199E1F5D196F7D3CE /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				297958E9A8D79829FD375F051E661A33 /* FAKZocial.h */,
+				52042CAE621D6B7E991665A585AFAB0D /* FAKZocial.m */,
+				C62A04EBA0FC641DDEBF88A35FFA67C2 /* Resources */,
+			);
+			name = Zocial;
+			sourceTree = "<group>";
+		};
+		1FC8009651B9EDED342F1DE8F5DC53D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CDBD94E18423B03AFE1FC026A33BD09 /* BBBadgeBarButtonItem */,
+				F65D08CE48C6586A91B70FD6D0A99ABD /* FontAwesomeKit */,
+				F6EDBDBE2A7AEE08F1E07603991772F8 /* LatoFont */,
+				85D26B89718138A96C201BB70AF1A7B9 /* SDWebImage */,
+				1A46A431B33541D22B58EB89FD7CB0D4 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E9EC9F3965989CE580ECD7CE481DBD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B28ACB3790E7AFC99A34FEF5FC35A80 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		35EC2500318BA7053D78BE6C82544D87 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				286F4D4137E11FC405680C6DD2DE48AE /* Info.plist */,
+				AB8A332AAA50F63B5864332D07BB3144 /* SDWebImage.modulemap */,
+				65AB4B736CA517C7E9FB5DA0839A2513 /* SDWebImage.xcconfig */,
+				E4F93929E011011C42EEF347C465FF9E /* SDWebImage-dummy.m */,
+				70B381460D5A3283B9311DFD57301AEB /* SDWebImage-prefix.pch */,
+				40EEA11FF3AEC1090E9DD41D6DEB1026 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		5E2FDBC2F6CA80A1C24F7893A6747CF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D8A7AEDEDFA218F3F9DDF1E839438B /* BBBadgeBarButtonItem.framework */,
+				591CAF893505C7A652EBBFF47F2F2009 /* FontAwesomeKit.framework */,
+				5C60D65FA8132338A1746D07F4FD3DA7 /* LatoFont.bundle */,
+				442CBB007BB6901F9AC73C173544CC51 /* LatoFont.framework */,
+				1216B4513EC4DE699DB7141E5DEB2EBB /* Pods_ASAP.framework */,
+				177710F8D05449A6BFD0953A04CFC2CA /* SDWebImage.framework */,
+				0FED7D9D4F9A5274D22C4800C9112BE0 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6165D8E0623061EC64AF78958695A2B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				568D485F2A2871BD0887B9C7EAC47E3A /* NSData+ImageContentType.h */,
+				EFC63F472CBE23B42763DB77E4E678E6 /* NSData+ImageContentType.m */,
+				783984A6BED82A3244133D583D8C38A8 /* SDImageCache.h */,
+				5DCF72D5C5BFA1185774E067A6076510 /* SDImageCache.m */,
+				D27F99A84ECB9340D70EAE2A750CE388 /* SDWebImageCompat.h */,
+				377D37D975D08A82F56829B124478588 /* SDWebImageCompat.m */,
+				22F3495AC453C7A20785721DDD34A78B /* SDWebImageDecoder.h */,
+				A15B91DA858D31829DA9D7BB1552238C /* SDWebImageDecoder.m */,
+				005E16F087A7CC43D4E58C745F3D4FC8 /* SDWebImageDownloader.h */,
+				2D2F45E3D83F95D10BE49E645D5DE472 /* SDWebImageDownloader.m */,
+				ABC438E885F2D4CE854BCF2536C25816 /* SDWebImageDownloaderOperation.h */,
+				FAF9C6397F6D3538065805E7DD4C79A0 /* SDWebImageDownloaderOperation.m */,
+				322327CAF23819EC90F3931E7F854D49 /* SDWebImageManager.h */,
+				077B44D80EF2BB66619D73D7BBE4EA77 /* SDWebImageManager.m */,
+				309F2937EF635E57D00E666828003407 /* SDWebImageOperation.h */,
+				18FF761DDB46A0B79FFA73B513443730 /* SDWebImagePrefetcher.h */,
+				92D3F5C4A27C57AFA83D5DB639FB5927 /* SDWebImagePrefetcher.m */,
+				E323E0043A2F02DD5A72717CEB8D37A9 /* UIButton+WebCache.h */,
+				D939D419F47A53AF7B3B44ED4D2ED44A /* UIButton+WebCache.m */,
+				74D5CEC09B438EDC6F204A67EC89CBC5 /* UIImage+GIF.h */,
+				DEEEF2ACB2BBF330B82DDF87C31182FA /* UIImage+GIF.m */,
+				A623DDE1A589B7989C936DAECE2AACEC /* UIImage+MultiFormat.h */,
+				DB5AC36F0949172FD2CD0ECEB0B71C7B /* UIImage+MultiFormat.m */,
+				F5CDC6B3C561A3111B6874575D6F1526 /* UIImageView+HighlightedWebCache.h */,
+				5414C555D9B4B589211A51B4EA8B46AD /* UIImageView+HighlightedWebCache.m */,
+				44B3FA48D82D0226C9B3868BA5D87BD0 /* UIImageView+WebCache.h */,
+				5A100460AAD3AE76231BD5734B203B5A /* UIImageView+WebCache.m */,
+				3A0EA878355970FEE326D2891D064F9D /* UIView+WebCacheOperation.h */,
+				760D170BD0F70FF7BEA3CF95BA54E3E0 /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6CDBD94E18423B03AFE1FC026A33BD09 /* BBBadgeBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				C611A220C0D10BB85A9CC5783145BA0B /* BBBadgeBarButtonItem.h */,
+				9A01D890D307D2EC85B88F033003ABD3 /* BBBadgeBarButtonItem.m */,
+				0D7662A27AD6F2C79D657005B5BF2047 /* Support Files */,
+			);
+			path = BBBadgeBarButtonItem;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				1FC8009651B9EDED342F1DE8F5DC53D8 /* Pods */,
+				5E2FDBC2F6CA80A1C24F7893A6747CF9 /* Products */,
+				E3181901B8C3606CD9023E37345944B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85D26B89718138A96C201BB70AF1A7B9 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				6165D8E0623061EC64AF78958695A2B0 /* Core */,
+				35EC2500318BA7053D78BE6C82544D87 /* Support Files */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		8A1D02E1051D7E65A3050F636A31C851 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				617FB7BA2038ED3079432353956A64F7 /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A218C6B698FC141FCA543E80593E3569 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				D127414FADA4AF12CC82B467FE201E48 /* FAKIonIcons.h */,
+				DC87B3D920A8CE5021443C5CE66A3897 /* FAKIonIcons.m */,
+				8A1D02E1051D7E65A3050F636A31C851 /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		A983EFDA194AFCD9669D7F6E63BCE72E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55851D87A7EAA491CD7DBA3FB8A6157 /* Info.plist */,
+				69E7C41CF9ED89EFABE7E84F177AF484 /* SwiftyJSON.modulemap */,
+				95D8C5983FE7B22654E00185D39621CF /* SwiftyJSON.xcconfig */,
+				25459A0C72D37DA68406031D7746BE39 /* SwiftyJSON-dummy.m */,
+				81AE645AA98AF0B30DAF582BE6B9FE36 /* SwiftyJSON-prefix.pch */,
+				ACB80ED614C16A46BE633A1A1794B4CC /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B9EF1DDC4631BF893108C2DCEF49D6EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94B4458D58B712560B819F9046A759B6 /* foundation-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF5904092252D1E893F8CA99E4727879 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC3152ABDE6AD65D604D1AB803BA9868 /* FontAwesomeKit.modulemap */,
+				3A32407A7ACE60317002CD91B2E7AAA2 /* FontAwesomeKit.xcconfig */,
+				0B365848EB8208DABFA20E8962737E77 /* FontAwesomeKit-dummy.m */,
+				A0DE8FF72E3A31346AB45E0EE8B823D5 /* FontAwesomeKit-prefix.pch */,
+				D2233FDD725748D0125FB437AF68CB24 /* FontAwesomeKit-umbrella.h */,
+				E16025AF02012785A279C2C0C42B1425 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		C406A39A951325E657E579A4C175883E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1B29712CB2C53739D559660126579BD8 /* FAKIcon.h */,
+				057D741BED4E80058D26515EC1445D51 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C4B0E08827802465ACB4BD43984FEAF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C764A59BB0203AB680572E1D8E36D51 /* Lato-Black.ttf */,
+				7EF58158F6F878A858DAEA931630756D /* Lato-BlackItalic.ttf */,
+				E2A7749181D7A0C447ABAE21063C1D99 /* Lato-Bold.ttf */,
+				0B2D17B6A702A3BE7E5FC79C41A375E1 /* Lato-BoldItalic.ttf */,
+				A5BE47C736A42B24188DAC0C29916725 /* Lato-Hairline.ttf */,
+				9E4161DAB4B9DA103227B925EA1B1760 /* Lato-HairlineItalic.ttf */,
+				6042BC314CD291B6127765E560342903 /* Lato-Italic.ttf */,
+				989D9EF88C8F86D08CA5EC38A14DB830 /* Lato-Light.ttf */,
+				C09F7E48641483488FC38AAB8CE4FAB8 /* Lato-LightItalic.ttf */,
+				53B7743C5783AB34066D2C64941D80A7 /* Lato-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4F5A0A48F488969B930142821D192F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9511640FE089A2C02C2D13D1AB2E91 /* Info.plist */,
+				9DA5D138220BB16820D510D73A378440 /* LatoFont.modulemap */,
+				42E2E24184D5B655C91BDFB3CC187469 /* LatoFont.xcconfig */,
+				8E6458B8681DB704CAEE21A519261079 /* LatoFont-dummy.m */,
+				4896ED0589D889A2D3185639BEE6DBCE /* LatoFont-prefix.pch */,
+				92AAF7B12CB94072B8B5C8EB0BFC27AD /* LatoFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LatoFont";
+			sourceTree = "<group>";
+		};
+		C50A2F108CF6A870BBD7520CBB5EE9CC /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				3049A87C57408F06023B963AEF65F292 /* FAKFontAwesome.h */,
+				7992FB9CE309D237F02098EED065CF05 /* FAKFontAwesome.m */,
+				2E9EC9F3965989CE580ECD7CE481DBD7 /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		C62A04EBA0FC641DDEBF88A35FFA67C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61DB585A287E9840522105DB2F9CDF6E /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA8D2EC02719D4B6110F22177D21F685 /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				0F8FFEEEAEF306A81698541BC375C021 /* FAKFoundationIcons.h */,
+				20B8CB681E986C4B933773502CDB49F8 /* FAKFoundationIcons.m */,
+				B9EF1DDC4631BF893108C2DCEF49D6EF /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		CAB4D33962910BF4E0DD1EE69C6E61C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBE0171D9434522BD7EB58A2A89B6B97 /* CoreText.framework */,
+				F1DFFF1D60C7C90435380E82C1B26377 /* Foundation.framework */,
+				4C632A20AF82F6298307A1C2F014A7C0 /* ImageIO.framework */,
+				CA0EF1331F73980A648EA65C1680CABD /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E3181901B8C3606CD9023E37345944B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E666206E3F78D557D8074330020BBB1C /* Pods-ASAP */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E666206E3F78D557D8074330020BBB1C /* Pods-ASAP */ = {
+			isa = PBXGroup;
+			children = (
+				89715B7936B6196C2A4C0EDDBF052D7B /* Info.plist */,
+				B29DA381F781F5FCF045B75020CDED74 /* Pods-ASAP.modulemap */,
+				2C57EEF0B0F150C5E9600885CAC5396A /* Pods-ASAP-acknowledgements.markdown */,
+				EEA429A846CE94C80B84C715E9801B3A /* Pods-ASAP-acknowledgements.plist */,
+				666054D660B9CE66790F78088A6DCE2A /* Pods-ASAP-dummy.m */,
+				E493BA8813CCA226DD70BDB6789B45C7 /* Pods-ASAP-frameworks.sh */,
+				8473109E6B8200A4CB06E5D255190236 /* Pods-ASAP-resources.sh */,
+				7FA1F0782EFDF2DE9FBEA446EE8F791B /* Pods-ASAP-umbrella.h */,
+				E74C729B70CD174C1C36CD8217939861 /* Pods-ASAP.debug.xcconfig */,
+				6233434951FEA2BA20E95F19894B4749 /* Pods-ASAP.release.xcconfig */,
+			);
+			name = "Pods-ASAP";
+			path = "Target Support Files/Pods-ASAP";
+			sourceTree = "<group>";
+		};
+		F65D08CE48C6586A91B70FD6D0A99ABD /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				3966BE7C7C5DA7C899D51E64834C7A22 /* FontAwesomeKit.h */,
+				C406A39A951325E657E579A4C175883E /* Core */,
+				C50A2F108CF6A870BBD7520CBB5EE9CC /* FontAwesome */,
+				CA8D2EC02719D4B6110F22177D21F685 /* FoundationIcons */,
+				A218C6B698FC141FCA543E80593E3569 /* IonIcons */,
+				BF5904092252D1E893F8CA99E4727879 /* Support Files */,
+				1DD48224FDF7424199E1F5D196F7D3CE /* Zocial */,
+			);
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		F6EDBDBE2A7AEE08F1E07603991772F8 /* LatoFont */ = {
+			isa = PBXGroup;
+			children = (
+				FBB847AFF5CAA4EFBBC1DB002115A98D /* UIFont+Lato.h */,
+				1DB3BE4AA1C57D36DAC157463A326D62 /* UIFont+Lato.m */,
+				C4B0E08827802465ACB4BD43984FEAF2 /* Resources */,
+				C4F5A0A48F488969B930142821D192F8 /* Support Files */,
+			);
+			path = LatoFont;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B03C457D1764E17635C9D4AE4BFBD84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843159A671AD8B353D1F6D65E8D9B56C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E31B77F0CCA57F1851B11650223414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFF8980D1DC783C387DDB0E26064826 /* NSData+ImageContentType.h in Headers */,
+				7D79070DFFDAC316C7B1671078720146 /* SDImageCache.h in Headers */,
+				839DBC4185A3AE00A0BB609F4A3C24A0 /* SDWebImage-umbrella.h in Headers */,
+				DE62ABBF2FFED9172422FF1E6189E961 /* SDWebImageCompat.h in Headers */,
+				091ED3116CCAD16F5179F3444780953C /* SDWebImageDecoder.h in Headers */,
+				BFCC60F46F2C72E3C25D2922C85C22C7 /* SDWebImageDownloader.h in Headers */,
+				6AC8477DB3A59C54F6F2AA4065082E9A /* SDWebImageDownloaderOperation.h in Headers */,
+				52C89FF973F534D900DB332C3E3484C1 /* SDWebImageManager.h in Headers */,
+				F8301388165D0122FF2563E899A0BBD2 /* SDWebImageOperation.h in Headers */,
+				CC70D48C0568B9D91325F52CCA24C743 /* SDWebImagePrefetcher.h in Headers */,
+				11AADD5E327B9F7DBC4446DCBC5D8A23 /* UIButton+WebCache.h in Headers */,
+				75B3D9D9BEC06B92A8E085C5C1BC3784 /* UIImage+GIF.h in Headers */,
+				3F898E2A095F37E7ED16482D60884CD1 /* UIImage+MultiFormat.h in Headers */,
+				8A1868E4B5525CC5023EB1F03D6FE660 /* UIImageView+HighlightedWebCache.h in Headers */,
+				980F4B697FB8A13FEA359A19D54DB467 /* UIImageView+WebCache.h in Headers */,
+				846F1C81304141D3A3DB1FAB0ACEDAC8 /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932DF5F4FFFE04A258DE8BB16AC61130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADAC7A5A6D5566B4460B13415F3A107 /* LatoFont-umbrella.h in Headers */,
+				EF7F9BAD792ABEE0B5CFF88075032EE8 /* UIFont+Lato.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FD4C7BBA6628AECC611B6F02ADC782 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDAB04F787BC7FB9EA75BDB0E773937 /* FAKFontAwesome.h in Headers */,
+				8FF68AEC20BF30072F4AD866513FE44E /* FAKFoundationIcons.h in Headers */,
+				F41CB5FFBB71B707F5CE8F5C23F3F895 /* FAKIcon.h in Headers */,
+				0308B2902DB5695DBD6AD4564FCBD4F2 /* FAKIonIcons.h in Headers */,
+				A37E4933BC6CB5D541B5AC4521631878 /* FAKZocial.h in Headers */,
+				650E9C1297EAE9A8E153D5F4FD3FFF51 /* FontAwesomeKit-umbrella.h in Headers */,
+				BC96108EBCE6F29BACA0662BC5B15254 /* FontAwesomeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B74BD7FD85B495928BD92FF891D02CBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E46ABE7108599EDECB53A461D6D681 /* BBBadgeBarButtonItem-umbrella.h in Headers */,
+				4BE445A27E62407BDD151CE29C2C13D3 /* BBBadgeBarButtonItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28B39A51ACF30F6E0632384A70EA500 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D7CCE9A88695C53F65A6709D5EB649C /* Pods-ASAP-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A20E8FF74142FAFAD835B978D5684FB /* Pods-ASAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A926A64E220F731AA57FA902F951CB05 /* Build configuration list for PBXNativeTarget "Pods-ASAP" */;
+			buildPhases = (
+				82E6BFD7CBB0B69ABE63485DBBBF6EBE /* Sources */,
+				136124FA3C972C0728616B8A64985573 /* Frameworks */,
+				D28B39A51ACF30F6E0632384A70EA500 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E937C00A6A6E1E6A2E7184AE0F30DF /* PBXTargetDependency */,
+				8DABC2C6D61B01D99B66B1EEF9196BA2 /* PBXTargetDependency */,
+				31D77302A8B4BA354B9941548399A77F /* PBXTargetDependency */,
+				7CE10AFECB2B6CBBFB962A598A975AC0 /* PBXTargetDependency */,
+				4868D51550C0CCA99E5D2F1EB4180968 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASAP";
+			productName = "Pods-ASAP";
+			productReference = 1216B4513EC4DE699DB7141E5DEB2EBB /* Pods_ASAP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47E61924C60624896B45B1D3E7111F3C /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B14CFA98E342505D4C78DE8C13989B2E /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				2B3756F0E214A0C66E99EE48DCCF944A /* Sources */,
+				4A0663F39BC73DF851FAB68CB70A2B64 /* Frameworks */,
+				4B03C457D1764E17635C9D4AE4BFBD84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 0FED7D9D4F9A5274D22C4800C9112BE0 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		717DDA77490B112C0DD3CE05F53E253B /* LatoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8256847129F73A581CBFC325EE662D37 /* Build configuration list for PBXNativeTarget "LatoFont" */;
+			buildPhases = (
+				A44A0BA9853E070A5A544654DEF5358C /* Sources */,
+				054C927B94010A0A98E54006AC58F3CF /* Frameworks */,
+				932D4A2E277F873174CD3B4AD43B7570 /* Resources */,
+				932DF5F4FFFE04A258DE8BB16AC61130 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37DCE4949C43E496F4DBB56460DA8F0 /* PBXTargetDependency */,
+			);
+			name = LatoFont;
+			productName = LatoFont;
+			productReference = 442CBB007BB6901F9AC73C173544CC51 /* LatoFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BE9D4B6FF6D92923152CB0534F2BB94 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A213487B2CA59049C1D63AF426CD3E /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				30B1797FAA9D18171BE84D4B3238010C /* Sources */,
+				3C9550AB6D56A7830662A6D8B0C8B3DC /* Frameworks */,
+				A0FD4C7BBA6628AECC611B6F02ADC782 /* Headers */,
+				2D96547AC8E532341B6E6EC8C83E9257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 591CAF893505C7A652EBBFF47F2F2009 /* FontAwesomeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B90F5BEFBB04DD3316C99E33C8F3DF /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13AEEF5409570DE39ACA596E7487DFB4 /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				33610225B3C86B2F7291F926FD0FF9E6 /* Sources */,
+				DA7E7CA0C286D7CE93423DFD2A1DBDE6 /* Frameworks */,
+				92E31B77F0CCA57F1851B11650223414 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 177710F8D05449A6BFD0953A04CFC2CA /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		996C4CEDBD819845E4AE075097DBD57D /* BBBadgeBarButtonItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CAFFC08E91024686C6CC9761726F44 /* Build configuration list for PBXNativeTarget "BBBadgeBarButtonItem" */;
+			buildPhases = (
+				ADC65DFEF8EC45D0E91016941444893A /* Sources */,
+				B5320F96C1DF67E8FF4201F382CC05A4 /* Frameworks */,
+				B74BD7FD85B495928BD92FF891D02CBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBBadgeBarButtonItem;
+			productName = BBBadgeBarButtonItem;
+			productReference = B0D8A7AEDEDFA218F3F9DDF1E839438B /* BBBadgeBarButtonItem.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D1C82117572F0D0E2216005744DFDB0 /* LatoFont-LatoFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEC2510BC58C469C9A96D089A33596B /* Build configuration list for PBXNativeTarget "LatoFont-LatoFont" */;
+			buildPhases = (
+				B8AD9829D396CB874478605C7830F81A /* Sources */,
+				EB49394738806AE4FBCAADDEC8B4C99C /* Frameworks */,
+				825D3F5F4D4D7F413BFD2E7F361F2DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LatoFont-LatoFont";
+			productName = "LatoFont-LatoFont";
+			productReference = 5C60D65FA8132338A1746D07F4FD3DA7 /* LatoFont.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5E2FDBC2F6CA80A1C24F7893A6747CF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				996C4CEDBD819845E4AE075097DBD57D /* BBBadgeBarButtonItem */,
+				8BE9D4B6FF6D92923152CB0534F2BB94 /* FontAwesomeKit */,
+				717DDA77490B112C0DD3CE05F53E253B /* LatoFont */,
+				9D1C82117572F0D0E2216005744DFDB0 /* LatoFont-LatoFont */,
+				1A20E8FF74142FAFAD835B978D5684FB /* Pods-ASAP */,
+				94B90F5BEFBB04DD3316C99E33C8F3DF /* SDWebImage */,
+				47E61924C60624896B45B1D3E7111F3C /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D96547AC8E532341B6E6EC8C83E9257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59A78C9247621B660AE7AAD46E82446 /* FontAwesome.otf in Resources */,
+				60FD66A0C4A398F6DF3E89C15E01EB64 /* foundation-icons.ttf in Resources */,
+				7684852F540BB5B520A48E7FDDD20D8B /* ionicons.ttf in Resources */,
+				337166F44CD41FBD5074A886981DE532 /* zocial-regular-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		825D3F5F4D4D7F413BFD2E7F361F2DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B7AF1C67DF34FEA433AB18ED4B4E68 /* Lato-Black.ttf in Resources */,
+				098B35C6E64C6AEBB70F1BA5071E580D /* Lato-BlackItalic.ttf in Resources */,
+				1279953DA87A424A7A965180A1C364B1 /* Lato-Bold.ttf in Resources */,
+				6BDD33E25ECE83EBA467FCD6ABEEE936 /* Lato-BoldItalic.ttf in Resources */,
+				D2ACBB07F45E21BFF87C5807B7A24943 /* Lato-Hairline.ttf in Resources */,
+				86E0BC26B8086BD65B6BB1A32E2C80C9 /* Lato-HairlineItalic.ttf in Resources */,
+				CAD11C897D7BE160BFC949D54021C15A /* Lato-Italic.ttf in Resources */,
+				BBC47CBF7863253CAA8859A59B5B702A /* Lato-Light.ttf in Resources */,
+				37C3588507E545557A305F198B4AFE27 /* Lato-LightItalic.ttf in Resources */,
+				7BBDC05CB4EA2F9E1E3DEC61E8E2DDB4 /* Lato-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932D4A2E277F873174CD3B4AD43B7570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0190F7CE766B84AF16C3AC0CCBEEF843 /* LatoFont.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3756F0E214A0C66E99EE48DCCF944A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AF22406DDF747C76F3C4370ACD1170 /* SwiftyJSON-dummy.m in Sources */,
+				6DBE05A539DBEAAA55A33989D5D16C48 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30B1797FAA9D18171BE84D4B3238010C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0202300C67616A99140C985E2198224D /* FAKFontAwesome.m in Sources */,
+				71B0D814F4E4ADA635E8143998D31A26 /* FAKFoundationIcons.m in Sources */,
+				1C135C7E6C67742B61553E584E42DD9C /* FAKIcon.m in Sources */,
+				DE67FAAE5CD4C26261DA696A0B34D921 /* FAKIonIcons.m in Sources */,
+				C4B3B392F13C39D9CEF6CEBDB4DC2387 /* FAKZocial.m in Sources */,
+				9A33FC35D8C3DDA65304513946B0A56C /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33610225B3C86B2F7291F926FD0FF9E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E7BAC28D5073F16EF44720EDB129E49 /* NSData+ImageContentType.m in Sources */,
+				CEED98F51B49B74DCD6B6501D0094EC3 /* SDImageCache.m in Sources */,
+				D336DF549D2E0C6D762DB356219A2FE8 /* SDWebImage-dummy.m in Sources */,
+				85FB9DA5B98D30F516F1BDC1AA6AB437 /* SDWebImageCompat.m in Sources */,
+				196378E1679D87D4AC2AD211EE2EE0E0 /* SDWebImageDecoder.m in Sources */,
+				75C5EE1ADCB554D9CC3B30F8A119A4FC /* SDWebImageDownloader.m in Sources */,
+				9DD1A41B5935E308A464AE56547D1F60 /* SDWebImageDownloaderOperation.m in Sources */,
+				A4AE3E59C01DA2C4731B57F249516092 /* SDWebImageManager.m in Sources */,
+				BD5664EFB020B54AA232EFFC9926522D /* SDWebImagePrefetcher.m in Sources */,
+				EF4A278BCFF954349F8C90CED2CCE232 /* UIButton+WebCache.m in Sources */,
+				37654DC89D515A4249B794D940488F29 /* UIImage+GIF.m in Sources */,
+				6742EB70CEA4EFA69A0D323FF095CACD /* UIImage+MultiFormat.m in Sources */,
+				953AE545451D497FDAD72E247E5887BC /* UIImageView+HighlightedWebCache.m in Sources */,
+				8ABBAEDDF0502B76ADC36EA3515D6412 /* UIImageView+WebCache.m in Sources */,
+				50225A234E8D4473041C9A8584F7B9DF /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E6BFD7CBB0B69ABE63485DBBBF6EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190A01C8AC190B4AB3F0107BF1D8AEFF /* Pods-ASAP-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44A0BA9853E070A5A544654DEF5358C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F647E88568E237DDD9100E0B121990D /* LatoFont-dummy.m in Sources */,
+				4616BEEC17301B844F5740CBE81907BD /* UIFont+Lato.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC65DFEF8EC45D0E91016941444893A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F549F793242F86DFCCB04D03899D57 /* BBBadgeBarButtonItem-dummy.m in Sources */,
+				33EACCC4CD2CC7A5B4965326105CD270 /* BBBadgeBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8AD9829D396CB874478605C7830F81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31D77302A8B4BA354B9941548399A77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LatoFont;
+			target = 717DDA77490B112C0DD3CE05F53E253B /* LatoFont */;
+			targetProxy = CC8CC189F3668CE90CA38DFA134DEE48 /* PBXContainerItemProxy */;
+		};
+		4868D51550C0CCA99E5D2F1EB4180968 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 47E61924C60624896B45B1D3E7111F3C /* SwiftyJSON */;
+			targetProxy = F4F30954860D121BD7C01E259D74DF55 /* PBXContainerItemProxy */;
+		};
+		7CE10AFECB2B6CBBFB962A598A975AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 94B90F5BEFBB04DD3316C99E33C8F3DF /* SDWebImage */;
+			targetProxy = E8B1778CA7691EF1BC4DF9A1A6777C90 /* PBXContainerItemProxy */;
+		};
+		8DABC2C6D61B01D99B66B1EEF9196BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = 8BE9D4B6FF6D92923152CB0534F2BB94 /* FontAwesomeKit */;
+			targetProxy = 57D3903541C19693F43E59A4DDF4F017 /* PBXContainerItemProxy */;
+		};
+		A37DCE4949C43E496F4DBB56460DA8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "LatoFont-LatoFont";
+			target = 9D1C82117572F0D0E2216005744DFDB0 /* LatoFont-LatoFont */;
+			targetProxy = D8C4A802C6D1318A98AD40E9183E7DDA /* PBXContainerItemProxy */;
+		};
+		F1E937C00A6A6E1E6A2E7184AE0F30DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BBBadgeBarButtonItem;
+			target = 996C4CEDBD819845E4AE075097DBD57D /* BBBadgeBarButtonItem */;
+			targetProxy = E351A274545AA86E7D0ED584533E29E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23818A2FEF9A1BF05A31FB0EFA6B598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838117537A05CD37CB7BCD522E7B091B /* BBBadgeBarButtonItem.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BBBadgeBarButtonItem/BBBadgeBarButtonItem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBBadgeBarButtonItem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBBadgeBarButtonItem/BBBadgeBarButtonItem.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BBBadgeBarButtonItem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47023CE2A89B50587411A59E2D1DEF31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E74C729B70CD174C1C36CD8217939861 /* Pods-ASAP.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASAP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASAP/Pods-ASAP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASAP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E517C8ADAF2016A5EAF837573E01CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E2E24184D5B655C91BDFB3CC187469 /* LatoFont.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		88FBA8B42AFFE78A4DCB1CAC4427D3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AB4B736CA517C7E9FB5DA0839A2513 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BFD81C5B8447B3EE108EDA3657B5FE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E2E24184D5B655C91BDFB3CC187469 /* LatoFont.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LatoFont/LatoFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LatoFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LatoFont/LatoFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A701CB67D374591F540D92276237D08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D8C5983FE7B22654E00185D39621CF /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACA32F2539DBE043F644C685AB59F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A32407A7ACE60317002CD91B2E7AAA2 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAAED76E84CC4D0A124F875C63E6640F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6233434951FEA2BA20E95F19894B4749 /* Pods-ASAP.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASAP/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASAP/Pods-ASAP.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ASAP;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8901B412F655E5599B6BEDB0BB30D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E2E24184D5B655C91BDFB3CC187469 /* LatoFont.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LatoFont/LatoFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LatoFont/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LatoFont/LatoFont.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9B33EBDC9CE26EBB6CE18C16C4B830D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838117537A05CD37CB7BCD522E7B091B /* BBBadgeBarButtonItem.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BBBadgeBarButtonItem/BBBadgeBarButtonItem-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BBBadgeBarButtonItem/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BBBadgeBarButtonItem/BBBadgeBarButtonItem.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BBBadgeBarButtonItem;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E0D2F7E579A8166DC998AED345A0E258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AB4B736CA517C7E9FB5DA0839A2513 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2FEF4A958AA08886D8ABF6DB53FF6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A32407A7ACE60317002CD91B2E7AAA2 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9D59BD4A12784A50E5A981D9143D897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D8C5983FE7B22654E00185D39621CF /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1E2018C037F530CA5F394C3E456E89C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E2E24184D5B655C91BDFB3CC187469 /* LatoFont.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = LatoFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A213487B2CA59049C1D63AF426CD3E /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA32F2539DBE043F644C685AB59F2B1 /* Debug */,
+				E2FEF4A958AA08886D8ABF6DB53FF6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CAFFC08E91024686C6CC9761726F44 /* Build configuration list for PBXNativeTarget "BBBadgeBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23818A2FEF9A1BF05A31FB0EFA6B598D /* Debug */,
+				C9B33EBDC9CE26EBB6CE18C16C4B830D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13AEEF5409570DE39ACA596E7487DFB4 /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88FBA8B42AFFE78A4DCB1CAC4427D3FC /* Debug */,
+				E0D2F7E579A8166DC998AED345A0E258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8256847129F73A581CBFC325EE662D37 /* Build configuration list for PBXNativeTarget "LatoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8901B412F655E5599B6BEDB0BB30D2B /* Debug */,
+				8BFD81C5B8447B3EE108EDA3657B5FE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A926A64E220F731AA57FA902F951CB05 /* Build configuration list for PBXNativeTarget "Pods-ASAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47023CE2A89B50587411A59E2D1DEF31 /* Debug */,
+				BAAED76E84CC4D0A124F875C63E6640F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B14CFA98E342505D4C78DE8C13989B2E /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A701CB67D374591F540D92276237D08 /* Debug */,
+				E9D59BD4A12784A50E5A981D9143D897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEC2510BC58C469C9A96D089A33596B /* Build configuration list for PBXNativeTarget "LatoFont-LatoFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E517C8ADAF2016A5EAF837573E01CE4 /* Debug */,
+				F1E2018C037F530CA5F394C3E456E89C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
