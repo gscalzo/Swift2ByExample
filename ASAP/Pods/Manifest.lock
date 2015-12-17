@@ -1,0 +1,52 @@
+PODS:
+  - BBBadgeBarButtonItem (1.2)
+  - FontAwesomeKit (2.1.9):
+    - FontAwesomeKit/Core (= 2.1.9)
+    - FontAwesomeKit/FontAwesome (= 2.1.9)
+    - FontAwesomeKit/FoundationIcons (= 2.1.9)
+    - FontAwesomeKit/IonIcons (= 2.1.9)
+    - FontAwesomeKit/Zocial (= 2.1.9)
+  - FontAwesomeKit/Core (2.1.9)
+  - FontAwesomeKit/FontAwesome (2.1.9):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.9):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.9):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.9):
+    - FontAwesomeKit/Core
+  - LatoFont (1.0.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - BBBadgeBarButtonItem (~> 1.2)
+  - FontAwesomeKit (from `https://github.com/gscalzo/FontAwesomeKit`)
+  - LatoFont (from `https://github.com/gscalzo/LatoFont.git`)
+  - SDWebImage (~> 3.7.3)
+  - SwiftyJSON (~> 2.3.0)
+
+EXTERNAL SOURCES:
+  FontAwesomeKit:
+    :git: https://github.com/gscalzo/FontAwesomeKit
+  LatoFont:
+    :git: https://github.com/gscalzo/LatoFont.git
+
+CHECKOUT OPTIONS:
+  FontAwesomeKit:
+    :commit: fefd9e57aa77ce70dbb84b3be215b35b583f2cac
+    :git: https://github.com/gscalzo/FontAwesomeKit
+  LatoFont:
+    :commit: 2739e4c28c92c82ca2c7daf289a238d62af01c42
+    :git: https://github.com/gscalzo/LatoFont.git
+
+SPEC CHECKSUMS:
+  BBBadgeBarButtonItem: c2fbca0bff18e21b70defc9438a8a5048008e7ca
+  FontAwesomeKit: 0cd610453ce270f34ad17378c68de98aad0e05ef
+  LatoFont: 0bfeace154ee2da6080123d0e80560f6e22b187d
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE17EAC61C22231100017F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EAC51C22231100017F86 /* AppDelegate.swift */; };
+		EE17EAC81C22231100017F86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EAC71C22231100017F86 /* ViewController.swift */; };
+		EE17EACB1C22231100017F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EAC91C22231100017F86 /* Main.storyboard */; };
+		EE17EACD1C22231100017F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE17EACC1C22231100017F86 /* Assets.xcassets */; };
+		EE17EAD01C22231100017F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EACE1C22231100017F86 /* LaunchScreen.storyboard */; };
+		EE17EAD91C2223F000017F86 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EAD81C2223F000017F86 /* RegisterViewController.swift */; };
+		EE17EADB1C22240000017F86 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EADA1C22240000017F86 /* Register.storyboard */; };
+		EE17EADD1C2237C000017F86 /* String+Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EADC1C2237C000017F86 /* String+Email.swift */; };
+		EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EADF1C2238E100017F86 /* UserStore.swift */; };
+		EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */; };
+		EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */; };
+		F1FB645638B77CA3E6B69E94 /* Pods_ASAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0A9CBF5A5AF7BE38D7C21 /* Pods_ASAP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BC236D801956BE02C9A188D /* Pods-ASAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP/Pods-ASAP.release.xcconfig"; sourceTree = "<group>"; };
+		69C95F6C0A6AB4343F56C82C /* Pods-ASAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASAP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASAP/Pods-ASAP.debug.xcconfig"; sourceTree = "<group>"; };
+		99D0A9CBF5A5AF7BE38D7C21 /* Pods_ASAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE17EAC21C22231100017F86 /* ASAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE17EAC51C22231100017F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE17EAC71C22231100017F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE17EACA1C22231100017F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE17EACC1C22231100017F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE17EACF1C22231100017F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE17EAD11C22231100017F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE17EAD81C2223F000017F86 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EE17EADA1C22240000017F86 /* Register.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		EE17EADC1C2237C000017F86 /* String+Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Email.swift"; sourceTree = "<group>"; };
+		EE17EADF1C2238E100017F86 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommerceViewController.swift; sourceTree = "<group>"; };
+		EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ecommerce.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE17EABF1C22231100017F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FB645638B77CA3E6B69E94 /* Pods_ASAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5D198CA801745A65DC6F2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D0A9CBF5A5AF7BE38D7C21 /* Pods_ASAP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43B159CA83AD5C1A60A773ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69C95F6C0A6AB4343F56C82C /* Pods-ASAP.debug.xcconfig */,
+				4BC236D801956BE02C9A188D /* Pods-ASAP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE17EAB91C22231100017F86 = {
+			isa = PBXGroup;
+			children = (
+				EE17EAC41C22231100017F86 /* ASAP */,
+				EE17EAC31C22231100017F86 /* Products */,
+				43B159CA83AD5C1A60A773ED /* Pods */,
+				1F5D198CA801745A65DC6F2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE17EAC31C22231100017F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE17EAC21C22231100017F86 /* ASAP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE17EAC41C22231100017F86 /* ASAP */ = {
+			isa = PBXGroup;
+			children = (
+				EE17EAE11C223A9500017F86 /* Ecommerce */,
+				EE17EADE1C2238D400017F86 /* Store */,
+				EE17EAD71C22238C00017F86 /* Register */,
+				EE17EAC51C22231100017F86 /* AppDelegate.swift */,
+				EE17EAC71C22231100017F86 /* ViewController.swift */,
+				EE17EAC91C22231100017F86 /* Main.storyboard */,
+				EE17EACC1C22231100017F86 /* Assets.xcassets */,
+				EE17EACE1C22231100017F86 /* LaunchScreen.storyboard */,
+				EE17EAD11C22231100017F86 /* Info.plist */,
+				EE17EADC1C2237C000017F86 /* String+Email.swift */,
+			);
+			path = ASAP;
+			sourceTree = "<group>";
+		};
+		EE17EAD71C22238C00017F86 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				EE17EAD81C2223F000017F86 /* RegisterViewController.swift */,
+				EE17EADA1C22240000017F86 /* Register.storyboard */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		EE17EADE1C2238D400017F86 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EE17EADF1C2238E100017F86 /* UserStore.swift */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		EE17EAE11C223A9500017F86 /* Ecommerce */ = {
+			isa = PBXGroup;
+			children = (
+				EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */,
+				EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */,
+			);
+			name = Ecommerce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE17EAC11C22231100017F86 /* ASAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE17EAD41C22231100017F86 /* Build configuration list for PBXNativeTarget "ASAP" */;
+			buildPhases = (
+				0A5334DF1313260CCE091B64 /* Check Pods Manifest.lock */,
+				EE17EABE1C22231100017F86 /* Sources */,
+				EE17EABF1C22231100017F86 /* Frameworks */,
+				EE17EAC01C22231100017F86 /* Resources */,
+				C0BE0180E8FFC5375F0FB4A0 /* Embed Pods Frameworks */,
+				6EE32CAB2E64350B5DBA793D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASAP;
+			productName = ASAP;
+			productReference = EE17EAC21C22231100017F86 /* ASAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE17EABA1C22231100017F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Giordano Scalzo";
+				TargetAttributes = {
+					EE17EAC11C22231100017F86 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EE17EABD1C22231100017F86 /* Build configuration list for PBXProject "ASAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE17EAB91C22231100017F86;
+			productRefGroup = EE17EAC31C22231100017F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE17EAC11C22231100017F86 /* ASAP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE17EAC01C22231100017F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17EAD01C22231100017F86 /* LaunchScreen.storyboard in Resources */,
+				EE17EACD1C22231100017F86 /* Assets.xcassets in Resources */,
+				EE17EACB1C22231100017F86 /* Main.storyboard in Resources */,
+				EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */,
+				EE17EADB1C22240000017F86 /* Register.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A5334DF1313260CCE091B64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EE32CAB2E64350B5DBA793D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP/Pods-ASAP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0BE0180E8FFC5375F0FB4A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASAP/Pods-ASAP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE17EABE1C22231100017F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE17EAD91C2223F000017F86 /* RegisterViewController.swift in Sources */,
+				EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */,
+				EE17EAC81C22231100017F86 /* ViewController.swift in Sources */,
+				EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */,
+				EE17EAC61C22231100017F86 /* AppDelegate.swift in Sources */,
+				EE17EADD1C2237C000017F86 /* String+Email.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE17EAC91C22231100017F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE17EACA1C22231100017F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE17EACE1C22231100017F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE17EACF1C22231100017F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE17EAD21C22231100017F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE17EAD31C22231100017F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE17EAD51C22231100017F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C95F6C0A6AB4343F56C82C /* Pods-ASAP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE17EAD61C22231100017F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC236D801956BE02C9A188D /* Pods-ASAP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASAP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.ASAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE17EABD1C22231100017F86 /* Build configuration list for PBXProject "ASAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17EAD21C22231100017F86 /* Debug */,
+				EE17EAD31C22231100017F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE17EAD41C22231100017F86 /* Build configuration list for PBXNativeTarget "ASAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE17EAD51C22231100017F86 /* Debug */,
+				EE17EAD61C22231100017F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE17EABA1C22231100017F86 /* Project object */;
+}
