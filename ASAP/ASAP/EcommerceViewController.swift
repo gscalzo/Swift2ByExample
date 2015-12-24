@@ -63,7 +63,6 @@ extension EcommerceViewController {
         } else {
             cartStore.addProduct(product)
         }
-        //...
         refreshCartCount()
         collectionView.reloadData()
     }
@@ -84,7 +83,7 @@ extension EcommerceViewController {
     }
     
     func cartButtonTapped(sender: UIButton) {
-        print("showCheckoutScene()")
+        showCheckoutScene()
     }
     
     func refreshCartCount() {

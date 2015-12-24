@@ -28,6 +28,10 @@
 		EE6C2E641C2C7727000697CB /* CartGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E631C2C7727000697CB /* CartGateway.swift */; };
 		EE6C2E661C2C778C000697CB /* LocalCartGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E651C2C778C000697CB /* LocalCartGateway.swift */; };
 		EE6C2E691C2C7805000697CB /* CartStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E681C2C7805000697CB /* CartStore.swift */; };
+		EE6C2E6D1C2CA98E000697CB /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E6C1C2CA98E000697CB /* CheckoutViewController.swift */; };
+		EE6C2E6F1C2CAA15000697CB /* Checkout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6C2E6E1C2CAA15000697CB /* Checkout.storyboard */; };
+		EE6C2E711C2CAFFB000697CB /* SegueHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E701C2CAFFB000697CB /* SegueHandlerType.swift */; };
+		EE6C2E731C2CB20F000697CB /* EcommerceViewController+Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E721C2CB20F000697CB /* EcommerceViewController+Segue.swift */; };
 		F1FB645638B77CA3E6B69E94 /* Pods_ASAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0A9CBF5A5AF7BE38D7C21 /* Pods_ASAP.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,10 @@
 		EE6C2E631C2C7727000697CB /* CartGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartGateway.swift; sourceTree = "<group>"; };
 		EE6C2E651C2C778C000697CB /* LocalCartGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalCartGateway.swift; sourceTree = "<group>"; };
 		EE6C2E681C2C7805000697CB /* CartStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartStore.swift; sourceTree = "<group>"; };
+		EE6C2E6C1C2CA98E000697CB /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		EE6C2E6E1C2CAA15000697CB /* Checkout.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Checkout.storyboard; sourceTree = "<group>"; };
+		EE6C2E701C2CAFFB000697CB /* SegueHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerType.swift; sourceTree = "<group>"; };
+		EE6C2E721C2CB20F000697CB /* EcommerceViewController+Segue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EcommerceViewController+Segue.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				EE6C2E611C2C6E01000697CB /* products.json */,
+				EE6C2E701C2CAFFB000697CB /* SegueHandlerType.swift */,
+				EE6C2E6A1C2CA947000697CB /* Checkout */,
 				EE17EAE11C223A9500017F86 /* Ecommerce */,
 				EE17EADE1C2238D400017F86 /* Store */,
 				EE17EAD71C22238C00017F86 /* Register */,
@@ -151,6 +161,7 @@
 		EE17EAE11C223A9500017F86 /* Ecommerce */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C2E721C2CB20F000697CB /* EcommerceViewController+Segue.swift */,
 				EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */,
 				EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */,
 				EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */,
@@ -158,6 +169,15 @@
 				EE6C2E5F1C2C6D74000697CB /* LocalProductGateway.swift */,
 			);
 			name = Ecommerce;
+			sourceTree = "<group>";
+		};
+		EE6C2E6A1C2CA947000697CB /* Checkout */ = {
+			isa = PBXGroup;
+			children = (
+				EE6C2E6C1C2CA98E000697CB /* CheckoutViewController.swift */,
+				EE6C2E6E1C2CAA15000697CB /* Checkout.storyboard */,
+			);
+			name = Checkout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +244,7 @@
 				EE17EAD01C22231100017F86 /* LaunchScreen.storyboard in Resources */,
 				EE17EACD1C22231100017F86 /* Assets.xcassets in Resources */,
 				EE17EACB1C22231100017F86 /* Main.storyboard in Resources */,
+				EE6C2E6F1C2CAA15000697CB /* Checkout.storyboard in Resources */,
 				EE6C2E621C2C6E01000697CB /* products.json in Resources */,
 				EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */,
 				EE17EADB1C22240000017F86 /* Register.storyboard in Resources */,
@@ -286,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE6C2E661C2C778C000697CB /* LocalCartGateway.swift in Sources */,
+				EE6C2E731C2CB20F000697CB /* EcommerceViewController+Segue.swift in Sources */,
 				EE17EAD91C2223F000017F86 /* RegisterViewController.swift in Sources */,
 				EE6C2E641C2C7727000697CB /* CartGateway.swift in Sources */,
 				EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */,
@@ -297,8 +319,10 @@
 				EE6C2E5E1C2C6AC6000697CB /* ProductStore.swift in Sources */,
 				EE17EAC81C22231100017F86 /* ViewController.swift in Sources */,
 				EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */,
+				EE6C2E6D1C2CA98E000697CB /* CheckoutViewController.swift in Sources */,
 				EE17EAC61C22231100017F86 /* AppDelegate.swift in Sources */,
 				EE6C2E5C1C2C69EA000697CB /* ProductGateway.swift in Sources */,
+				EE6C2E711C2CAFFB000697CB /* SegueHandlerType.swift in Sources */,
 				EE17EADD1C2237C000017F86 /* String+Email.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
