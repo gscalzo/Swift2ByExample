@@ -20,6 +20,11 @@
 		EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */; };
 		EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */; };
 		EE6C2E581C2C40C2000697CB /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */; };
+		EE6C2E5A1C2C68A5000697CB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E591C2C68A5000697CB /* Product.swift */; };
+		EE6C2E5C1C2C69EA000697CB /* ProductGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E5B1C2C69EA000697CB /* ProductGateway.swift */; };
+		EE6C2E5E1C2C6AC6000697CB /* ProductStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E5D1C2C6AC6000697CB /* ProductStore.swift */; };
+		EE6C2E601C2C6D74000697CB /* LocalProductGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E5F1C2C6D74000697CB /* LocalProductGateway.swift */; };
+		EE6C2E621C2C6E01000697CB /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = EE6C2E611C2C6E01000697CB /* products.json */; };
 		F1FB645638B77CA3E6B69E94 /* Pods_ASAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0A9CBF5A5AF7BE38D7C21 /* Pods_ASAP.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +47,11 @@
 		EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ecommerce.storyboard; sourceTree = "<group>"; };
 		EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoColumnFlowLayout.swift; sourceTree = "<group>"; };
 		EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE6C2E591C2C68A5000697CB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EE6C2E5B1C2C69EA000697CB /* ProductGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductGateway.swift; sourceTree = "<group>"; };
+		EE6C2E5D1C2C6AC6000697CB /* ProductStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductStore.swift; sourceTree = "<group>"; };
+		EE6C2E5F1C2C6D74000697CB /* LocalProductGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalProductGateway.swift; sourceTree = "<group>"; };
+		EE6C2E611C2C6E01000697CB /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,7 @@
 		EE17EAC41C22231100017F86 /* ASAP */ = {
 			isa = PBXGroup;
 			children = (
+				EE6C2E611C2C6E01000697CB /* products.json */,
 				EE17EAE11C223A9500017F86 /* Ecommerce */,
 				EE17EADE1C2238D400017F86 /* Store */,
 				EE17EAD71C22238C00017F86 /* Register */,
@@ -121,6 +132,9 @@
 			isa = PBXGroup;
 			children = (
 				EE17EADF1C2238E100017F86 /* UserStore.swift */,
+				EE6C2E591C2C68A5000697CB /* Product.swift */,
+				EE6C2E5B1C2C69EA000697CB /* ProductGateway.swift */,
+				EE6C2E5D1C2C6AC6000697CB /* ProductStore.swift */,
 			);
 			name = Store;
 			sourceTree = "<group>";
@@ -132,6 +146,7 @@
 				EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */,
 				EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */,
 				EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */,
+				EE6C2E5F1C2C6D74000697CB /* LocalProductGateway.swift */,
 			);
 			name = Ecommerce;
 			sourceTree = "<group>";
@@ -200,6 +215,7 @@
 				EE17EAD01C22231100017F86 /* LaunchScreen.storyboard in Resources */,
 				EE17EACD1C22231100017F86 /* Assets.xcassets in Resources */,
 				EE17EACB1C22231100017F86 /* Main.storyboard in Resources */,
+				EE6C2E621C2C6E01000697CB /* products.json in Resources */,
 				EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */,
 				EE17EADB1C22240000017F86 /* Register.storyboard in Resources */,
 			);
@@ -262,11 +278,15 @@
 			files = (
 				EE17EAD91C2223F000017F86 /* RegisterViewController.swift in Sources */,
 				EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */,
+				EE6C2E601C2C6D74000697CB /* LocalProductGateway.swift in Sources */,
+				EE6C2E5A1C2C68A5000697CB /* Product.swift in Sources */,
 				EE6C2E581C2C40C2000697CB /* ProductCollectionViewCell.swift in Sources */,
 				EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */,
+				EE6C2E5E1C2C6AC6000697CB /* ProductStore.swift in Sources */,
 				EE17EAC81C22231100017F86 /* ViewController.swift in Sources */,
 				EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */,
 				EE17EAC61C22231100017F86 /* AppDelegate.swift in Sources */,
+				EE6C2E5C1C2C69EA000697CB /* ProductGateway.swift in Sources */,
 				EE17EADD1C2237C000017F86 /* String+Email.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
