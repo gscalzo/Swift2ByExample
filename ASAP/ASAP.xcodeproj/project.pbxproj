@@ -18,6 +18,8 @@
 		EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EADF1C2238E100017F86 /* UserStore.swift */; };
 		EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */; };
 		EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */; };
+		EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */; };
+		EE6C2E581C2C40C2000697CB /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */; };
 		F1FB645638B77CA3E6B69E94 /* Pods_ASAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D0A9CBF5A5AF7BE38D7C21 /* Pods_ASAP.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		EE17EADF1C2238E100017F86 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommerceViewController.swift; sourceTree = "<group>"; };
 		EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ecommerce.storyboard; sourceTree = "<group>"; };
+		EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoColumnFlowLayout.swift; sourceTree = "<group>"; };
+		EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 			children = (
 				EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */,
 				EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */,
+				EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */,
+				EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */,
 			);
 			name = Ecommerce;
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE17EAD91C2223F000017F86 /* RegisterViewController.swift in Sources */,
+				EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */,
+				EE6C2E581C2C40C2000697CB /* ProductCollectionViewCell.swift in Sources */,
 				EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */,
 				EE17EAC81C22231100017F86 /* ViewController.swift in Sources */,
 				EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */,
