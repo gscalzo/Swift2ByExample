@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--Ecommerce View Controller-->
@@ -26,8 +27,66 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="WA9-Xk-C7i">
+                                            <rect key="frame" x="2" y="5" width="196" height="193"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DescriptionLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M0x-2s-19c">
+                                                    <rect key="frame" x="33" y="0.0" width="129.5" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="dZL-j4-E3K"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5QG-wI-RGI">
+                                                    <rect key="frame" x="22" y="21" width="151" height="151"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="5QG-wI-RGI" secondAttribute="height" multiplier="1:1" id="xg0-dL-RWz"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ZL1-HO-rli">
+                                                    <rect key="frame" x="5" y="172" width="186" height="21"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ModelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuW-vc-JyV">
+                                                            <rect key="frame" x="0.0" y="0.0" width="93" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="21" id="ZgB-z0-Aau"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YtT-8P-fkx">
+                                                            <rect key="frame" x="101" y="0.0" width="85" height="20.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ZL1-HO-rli" firstAttribute="leading" secondItem="WA9-Xk-C7i" secondAttribute="leading" constant="5" id="fs2-HE-Gig"/>
+                                                <constraint firstAttribute="trailing" secondItem="ZL1-HO-rli" secondAttribute="trailing" constant="5" id="wPc-pt-E1K"/>
+                                            </constraints>
+                                        </stackView>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="WA9-Xk-C7i" secondAttribute="trailing" constant="2" id="Rfb-SI-ALX"/>
+                                    <constraint firstItem="WA9-Xk-C7i" firstAttribute="leading" secondItem="SiJ-US-yuY" secondAttribute="leading" constant="2" id="dmY-c3-WIl"/>
+                                    <constraint firstAttribute="bottom" secondItem="WA9-Xk-C7i" secondAttribute="bottom" constant="2" id="gCK-CE-AV7"/>
+                                    <constraint firstItem="WA9-Xk-C7i" firstAttribute="top" secondItem="SiJ-US-yuY" secondAttribute="top" constant="5" id="iL9-w6-fZc"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="M0x-2s-19c" id="nyY-lR-Jd2"/>
+                                    <outlet property="imageView" destination="5QG-wI-RGI" id="Sk7-pA-3az"/>
+                                    <outlet property="modelLabel" destination="wuW-vc-JyV" id="s2c-Et-Vre"/>
+                                    <outlet property="priceLabel" destination="YtT-8P-fkx" id="AOg-kR-jVa"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>

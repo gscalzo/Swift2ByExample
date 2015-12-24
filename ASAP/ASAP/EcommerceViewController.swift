@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class EcommerceViewController: UICollectionViewController {
     
@@ -28,16 +29,12 @@ extension EcommerceViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! ProductCollectionViewCell
         
-        switch arc4random_uniform(4) {
-        case 0:
-            cell.backgroundColor = UIColor.redColor()
-        case 1:
-            cell.backgroundColor = UIColor.greenColor()
-        case 2:
-            cell.backgroundColor = UIColor.blueColor()
-        default:
-            cell.backgroundColor = UIColor.orangeColor()
-        }
+        cell.modelLabel.text = "Ex Model"
+        cell.descriptionLabel.text = "Ex Description"
+        cell.imageView.sd_setImageWithURL(NSURL(string: "http://lorempixel.com/400/400/food/")!)
+        cell.priceLabel.text = "$123"
+        
+        cell.backgroundColor = UIColor.clearColor()
 
         return cell
     }
