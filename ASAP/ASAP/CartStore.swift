@@ -38,4 +38,16 @@ class CartStore {
     func count() -> Int {
         return products.count
     }
+    
+    var total: Double {
+        get {
+            return products.values.reduce(0) { partial, product in
+                return partial + product.price
+            }
+        }
+    }
+    
+    func allProducts() -> [Product] {
+        return [Product](products.values)
+    }
 }

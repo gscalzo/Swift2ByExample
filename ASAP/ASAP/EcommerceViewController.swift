@@ -30,6 +30,12 @@ class EcommerceViewController: UICollectionViewController {
             self?.collectionView?.reloadData()
         }
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        refreshCartCount()
+        collectionView?.reloadData()
+    }
 }
 
 extension EcommerceViewController {

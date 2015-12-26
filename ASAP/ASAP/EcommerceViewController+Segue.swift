@@ -24,9 +24,7 @@ extension EcommerceViewController {
         
         switch segueIdentifierForSegue(segue) {
         case .ShowCheckoutScene:
-            guard let navigationController = segue.destinationViewController as? UINavigationController,
-                
-                checkoutViewController = navigationController.viewControllers.first as? CheckoutViewController else {
+            guard let checkoutViewController = segue.destinationViewController as? CheckoutViewController else {
                     return
             }
             checkoutViewController.cartStore = cartStore
