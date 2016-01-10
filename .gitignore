@@ -67,3 +67,6 @@ crashlytics-build.properties
 
 # Build version
 .build/
+
+# Vagrant vm
+.vagrant/
