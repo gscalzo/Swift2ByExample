@@ -18,6 +18,8 @@
 		EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EADF1C2238E100017F86 /* UserStore.swift */; };
 		EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */; };
 		EE17EAE51C223ABA00017F86 /* Ecommerce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */; };
+		EE3B964A1C431FF700AC9557 /* ServerProductGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B96491C431FF700AC9557 /* ServerProductGateway.swift */; };
+		EE3B964C1C43226D00AC9557 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B964B1C43226D00AC9557 /* EndPoint.swift */; };
 		EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */; };
 		EE6C2E581C2C40C2000697CB /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */; };
 		EE6C2E5A1C2C68A5000697CB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6C2E591C2C68A5000697CB /* Product.swift */; };
@@ -52,6 +54,8 @@
 		EE17EADF1C2238E100017F86 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
 		EE17EAE21C223AAC00017F86 /* EcommerceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcommerceViewController.swift; sourceTree = "<group>"; };
 		EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ecommerce.storyboard; sourceTree = "<group>"; };
+		EE3B96491C431FF700AC9557 /* ServerProductGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerProductGateway.swift; sourceTree = "<group>"; };
+		EE3B964B1C43226D00AC9557 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoColumnFlowLayout.swift; sourceTree = "<group>"; };
 		EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 		EE6C2E591C2C68A5000697CB /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
@@ -147,9 +151,12 @@
 		EE17EADE1C2238D400017F86 /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				EE3B964B1C43226D00AC9557 /* EndPoint.swift */,
 				EE17EADF1C2238E100017F86 /* UserStore.swift */,
 				EE6C2E591C2C68A5000697CB /* Product.swift */,
 				EE6C2E5B1C2C69EA000697CB /* ProductGateway.swift */,
+				EE6C2E5F1C2C6D74000697CB /* LocalProductGateway.swift */,
+				EE3B96491C431FF700AC9557 /* ServerProductGateway.swift */,
 				EE6C2E5D1C2C6AC6000697CB /* ProductStore.swift */,
 				EE6C2E631C2C7727000697CB /* CartGateway.swift */,
 				EE6C2E651C2C778C000697CB /* LocalCartGateway.swift */,
@@ -166,7 +173,6 @@
 				EE17EAE41C223ABA00017F86 /* Ecommerce.storyboard */,
 				EE6C2E551C2C3F39000697CB /* TwoColumnFlowLayout.swift */,
 				EE6C2E571C2C40C2000697CB /* ProductCollectionViewCell.swift */,
-				EE6C2E5F1C2C6D74000697CB /* LocalProductGateway.swift */,
 			);
 			name = Ecommerce;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 			files = (
 				EE6C2E661C2C778C000697CB /* LocalCartGateway.swift in Sources */,
 				EE6C2E731C2CB20F000697CB /* EcommerceViewController+Segue.swift in Sources */,
+				EE3B964C1C43226D00AC9557 /* EndPoint.swift in Sources */,
 				EE17EAD91C2223F000017F86 /* RegisterViewController.swift in Sources */,
 				EE6C2E641C2C7727000697CB /* CartGateway.swift in Sources */,
 				EE6C2E561C2C3F39000697CB /* TwoColumnFlowLayout.swift in Sources */,
@@ -317,6 +324,7 @@
 				EE17EAE01C2238E100017F86 /* UserStore.swift in Sources */,
 				EE6C2E691C2C7805000697CB /* CartStore.swift in Sources */,
 				EE6C2E5E1C2C6AC6000697CB /* ProductStore.swift in Sources */,
+				EE3B964A1C431FF700AC9557 /* ServerProductGateway.swift in Sources */,
 				EE17EAC81C22231100017F86 /* ViewController.swift in Sources */,
 				EE17EAE31C223AAC00017F86 /* EcommerceViewController.swift in Sources */,
 				EE6C2E6D1C2CA98E000697CB /* CheckoutViewController.swift in Sources */,
