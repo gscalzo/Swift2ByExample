@@ -1,0 +1,22 @@
+Vagrant.configure(2) do |config|
+  config.vm.box = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
+  config.vm.network "forwarded_port", guest: 8888, host: 8888
+
+  config.vm.provision "shell", inline: <<-SHELL
+      export SWIFT_VERSION=2.2-SNAPSHOT-2016-01-06-a
+      export SWIFT_PLATFORM=ubuntu14.04
+
+
+      sudo apt-get --assume-yes install clang
+      sudo apt-get install -y build-essential wget clang libedit-dev python2.7 python2.7-dev libicu52 rsync libxml2 git
+
+      curl -O https://swift.org/builds/ubuntu1404/swift-${SWIFT_VERSION}/swift-${SWIFT_VERSION}-${SWIFT_PLATFORM}.tar.gz
+
+      tar zxf swift-${SWIFT_VERSION}-${SWIFT_PLATFORM}.tar.gz
+
+      sudo chown -R vagrant swift-${SWIFT_VERSION}-${SWIFT_PLATFORM}
+
+      echo "export PATH=/home/vagrant/swift-${SWIFT_VERSION}-${SWIFT_PLATFORM}/usr/bin:\"${PATH}\"" >> .profile
+      echo "Swift has successfully installed on Linux"
+    SHELL
+end
