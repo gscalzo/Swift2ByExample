@@ -12,7 +12,7 @@ import BBBadgeBarButtonItem
 import FontAwesomeKit
 
 class EcommerceViewController: UICollectionViewController {
-    let productStore = ProductStore(gateway: LocalProductGateway())
+    let productStore = ProductStore(gateway: ServerProductGateway())
     private var products: [Product] = []
     let cartStore = CartStore(gateway: LocalCartGateway())
 
