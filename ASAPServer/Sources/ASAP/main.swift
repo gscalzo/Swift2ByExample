@@ -6,26 +6,38 @@ import Foundation
     import Glibc
 #endif
 
-
-get("/hello/:name/:surname") { req in
-    let response = "Hello \(req.parameters["name"]) \(req.parameters["surname"])"
-    print(response)
-    return response
+struct ParamKeys {
+    static let ProductID = "productID"
+    static let UserEmail = "useremail"
 }
 
-post("/hello/:name/:surname") { req in
-    guard let name = req.parameters["name"],
-    let surname = req.parameters["surname"] else {
-        return Response(.BadRequest)
-    }
+get("/products") { req in
+    return dbRepository.allProducts()
+}
 
-    let responseJSON: JSON = [ 
-        "greeting": "Hello",
-        "name": .StringValue(name),
-        "surname": .StringValue(surname),
-    ]
-    print("Created object: \(responseJSON.debugDescription)")
-    return responseJSON.description
+post("/customer/:useremail/cart/:productID") { req in
+    guard let userEmail = req.parameters[ParamKeys.UserEmail],
+        let productID = req.parameters[ParamKeys.ProductID] else {
+            return Response(.BadRequest)
+        }
+    dbRepository.addToCartUser(userEmail, productID: productID)
+    return "OK"
+}
+
+delete("/customer/:useremail/cart/:productID") { req in
+    guard let userEmail = req.parameters[ParamKeys.UserEmail],
+        let productID = req.parameters[ParamKeys.ProductID] else {
+            return Response(.BadRequest)
+        }
+    dbRepository.removeFromCartUser(userEmail, productID: productID)
+    return "OK"
+}
+
+post("/customer/:useremail/orders") { req in
+    guard let userEmail = req.parameters[ParamKeys.UserEmail] else {
+            return Response(.BadRequest)
+        }
+    return dbRepository.orderCreatedFromCartUser(userEmail)
 }
 
 print("Starting...")
