@@ -14,7 +14,8 @@ import FontAwesomeKit
 class EcommerceViewController: UICollectionViewController {
     let productStore = ProductStore(gateway: ServerProductGateway())
     private var products: [Product] = []
-    let cartStore = CartStore(gateway: LocalCartGateway())
+    let cartStore = CartStore(gateway:
+        ServerCartGateway(userEmail: AppDelegate.appdelegate().userStore.userEmail()))
 
     static func instantiate() -> UIViewController {
         return UIStoryboard(name: "Ecommerce", bundle: nil).instantiateInitialViewController()!
