@@ -31,7 +31,7 @@ Apps
  * [TodoList](https://github.com/gscalzo/Swift2ByExample/tree/3_Todolist_3_Complete)
  * [PrettyWeatherApp](https://github.com/gscalzo/Swift2ByExample/tree/4_PrettyWeather_6_Complete)
  * [FlappySwift](https://github.com/gscalzo/Swift2ByExample/tree/5_FlappySwift_8_GameCenter)
- * [CubeRunner](https://github.com/gscalzo/Swift2ByExample/tree/6_CubeRunner)
+ * [CubeRunner](https://github.com/gscalzo/Swift2ByExample/tree/6_CubeRunner_7_GameCenter)
  * [EcommerceApp](https://github.com/gscalzo/Swift2ByExample/tree/7_ASAP_5_Checkout)
  * [EcommerceServer](https://github.com/gscalzo/Swift2ByExample/tree/7_ASAP_9_ASAPWithServer)
 
