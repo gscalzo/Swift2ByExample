@@ -12,9 +12,11 @@ import Alamofire
 import SwiftyJSON
 
 class WeatherDatastore {
+    let APIKey = "CREATE_API_KEY"
+    
     func retrieveCurrentWeatherAtLat(lat: CLLocationDegrees, lon: CLLocationDegrees,
         block: (weatherCondition: WeatherCondition) -> Void) {
-            let url = "http://api.openweathermap.org/data/2.5/weather"
+            let url = "http://api.openweathermap.org/data/2.5/weather?APPID=\(APIKey)"
             let params = ["lat":lat, "lon":lon]
             
             Alamofire.request(.GET, url, parameters: params)
@@ -32,7 +34,7 @@ class WeatherDatastore {
     func retrieveHourlyForecastAtLat(lat: CLLocationDegrees,
         lon: CLLocationDegrees,
         block: (weatherConditions: Array<WeatherCondition>) -> Void) {
-            let url = "http://api.openweathermap.org/data/2.5/forecast"
+            let url = "http://api.openweathermap.org/data/2.5/forecast?APPID=\(APIKey)"
             let params = ["lat":lat, "lon":lon]
             Alamofire.request(.GET, url, parameters: params)
                 .responseJSON { request, response, result in
@@ -55,7 +57,7 @@ class WeatherDatastore {
         lon: Double,
         dayCnt: Int,
         block: (weatherConditions: Array<WeatherCondition>) -> Void) {
-            let url = "http://api.openweathermap.org/data/2.5/forecast/daily"
+            let url = "http://api.openweathermap.org/data/2.5/forecast/daily?APPID=\(APIKey)"
             let params = ["lat":lat, "lon":lon, "cnt":Double(dayCnt+1)]
             Alamofire.request(.GET, url, parameters: params)
                 .responseJSON { request, response, result in
