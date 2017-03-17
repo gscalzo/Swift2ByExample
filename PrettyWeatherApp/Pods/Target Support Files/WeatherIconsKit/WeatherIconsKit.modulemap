@@ -1,0 +1,6 @@
+framework module WeatherIconsKit {
+  umbrella header "WeatherIconsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

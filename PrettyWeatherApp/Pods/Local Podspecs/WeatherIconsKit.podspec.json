@@ -1,0 +1,31 @@
+{
+  "name": "WeatherIconsKit",
+  "version": "1.0.0",
+  "summary": "WeatherIcons font library for iOS",
+  "homepage": "https://github.com/gscalzo/WeatherIconsKit",
+  "screenshots": "http://i3.minus.com/jCy98cCvrjLiP.png",
+  "license": "MIT",
+  "authors": {
+    "Giordano Scalzo": "giordano.scalzo@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gscalzo/WeatherIconsKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "CoreText"
+    ]
+  },
+  "source_files": [
+    "WeatherIconsKit/WeatherIconsKit.h",
+    "WeatherIconsKit/FAKIcon.{h,m}",
+    "WeatherIconsKit/WIKFontIcon.{h,m}"
+  ],
+  "resources": "WeatherIconsKit/WeatherIcons-Regular.otf",
+  "requires_arc": true
+}
